@@ -1,0 +1,25 @@
+{
+  "slug": "blog",
+  "type": "blog",
+  "title": "Gadget Blog: Viral Tech News, Explainers and Guides",
+  "description": "Plain-English posts on the gadgets everyone is talking about: new launches, viral TikTok finds, deal timing, gift ideas and how to spot fake reviews.",
+  "nav": "Blog",
+  "navOrder": 8,
+  "eyebrow": "The ViralGadgets blog",
+  "h1": "The gadget blog",
+  "intro": "What’s trending, what launched, and what the hype videos don’t tell you. Facts checked against official sources.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1491933382434-500287f9b54b",
+    "alt": "Apple Watch, MacBook Pro, iPhone and iMac with their boxes",
+    "credit": "Julian O'hayon",
+    "creditUrl": "https://unsplash.com/@anckor"
+  },
+  "cardText": "Viral tech news, explainers and buying guides.",
+  "listTitle": "Latest posts",
+  "keywords": [
+    "gadget blog",
+    "tech news",
+    "gadget news"
+  ],
+  "updated": "2026-10-14"
+}

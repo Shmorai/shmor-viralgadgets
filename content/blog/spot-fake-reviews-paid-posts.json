@@ -1,0 +1,61 @@
+{
+  "slug": "blog/spot-fake-reviews-paid-posts",
+  "type": "post",
+  "eyebrow": "Buying smart",
+  "updated": "2026-10-10",
+  "date": "2026-10-10",
+  "title": "How to Spot Fake Reviews and Paid Influencer Posts",
+  "description": "Spot fake gadget reviews and undisclosed influencer ads: the warning signs, the US, UK and EU rules, and what to do if a product or review seems fake.",
+  "h1": "How to spot fake reviews and paid influencer posts",
+  "intro": "Before you buy the gadget everyone is raving about, check who is raving and why. Here are the warning signs and the rules that are meant to protect you.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1595087873528-1fe582a3b302",
+    "alt": "A woman standing near a laptop on a wooden desk",
+    "credit": "I'M ZION",
+    "creditUrl": "https://unsplash.com/@ziontech"
+  },
+  "cardText": "Warning signs of fake reviews and undisclosed ads, and the rules in the US, UK and EU.",
+  "sections": [
+    {
+      "h2": "Warning signs of fake reviews",
+      "html": "<ul><li>Lots of short, five-star reviews posted within a few days.</li><li>Reviews that describe a different product, or mention free products “in exchange for an honest review”.</li><li>Very few mid-range (3-star) reviews: real products get mixed feedback.</li><li>Reviewer profiles that review dozens of unrelated products every week.</li></ul>"
+    },
+    {
+      "h2": "Warning signs of an undisclosed ad",
+      "html": "<ul><li>Discount codes and “link in bio” with no “ad”, “sponsored” or “paid partnership” label.</li><li>Lots of creators posting near-identical videos about the same product at the same time.</li><li>Only positives, no downsides, and no mention of how long they’ve used it.</li></ul>"
+    },
+    {
+      "h2": "The rules",
+      "html": "<p><strong>US:</strong> the FTC’s rule on consumer reviews and testimonials, in force since October 2024, bans fake reviews and buying positive reviews, and its Endorsement Guides require influencers to disclose material connections. <strong>UK:</strong> under the Digital Markets, Competition and Consumers Act, fake reviews are banned outright from April 2025, and the ASA requires ads by influencers to be labelled clearly up front. <strong>EU:</strong> consumer law bans fake reviews and requires traders to say whether and how they check that reviews come from real buyers.</p>"
+    },
+    {
+      "h2": "What to do",
+      "html": "<ul><li>Report suspicious reviews to the platform.</li><li>In the US, report to the FTC at ReportFraud.ftc.gov; in the UK, to Citizens Advice (which passes reports to Trading Standards) or the ASA for ads.</li><li>Use our <a href=\"/tech-reviewers/\">guide to tech reviewers</a> to find in-depth, long-term reviews.</li></ul>"
+    }
+  ],
+  "sources": [
+    {
+      "title": "FTC: Final rule banning fake reviews and testimonials",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2024/08/federal-trade-commission-announces-final-rule-banning-fake-reviews-testimonials"
+    },
+    {
+      "title": "FTC: Disclosures 101 for Social Media Influencers",
+      "url": "https://www.ftc.gov/business-guidance/resources/disclosures-101-social-media-influencers"
+    },
+    {
+      "title": "ASA/CAP: Influencers’ guide",
+      "url": "https://www.asa.org.uk/resource/influencers-guide.html"
+    },
+    {
+      "title": "CMA: Fake reviews guidance (DMCC Act)",
+      "url": "https://www.gov.uk/government/publications/fake-reviews-cma208"
+    }
+  ],
+  "keywords": [
+    "fake reviews",
+    "how to spot fake reviews",
+    "influencer ads",
+    "paid partnership",
+    "sponsored posts"
+  ]
+}

@@ -3,12 +3,16 @@
 <head>
 {{head}}
 </head>
-<!-- This site's own design. tools/build.js fills each double-brace placeholder: head, nav, main, footer_nav, site_name, year, body_class. -->
+<!-- ViralGadgets design: cream "sticker pop" theme. tools/build.js fills the double-brace placeholders. -->
 <body class="{{body_class}}">
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="wrap bar">
-    <a class="brand" href="/">{{site_name}}</a>
+    <a class="brand" href="/" aria-label="{{site_name}} home">
+      <svg class="logo" viewBox="0 0 40 40" width="40" height="40" aria-hidden="true"><rect x="2" y="2" width="36" height="36" rx="11" fill="#14101F"/><rect x="11" y="6.5" width="18" height="27" rx="4.5" fill="#FF2D55"/><path d="M21.6 10.5 15 21h4.6l-1.4 8.5L25 18.6h-4.7z" fill="#FFD60A"/><circle cx="33" cy="7" r="4.5" fill="#00C2FF" stroke="#14101F" stroke-width="2"/></svg>
+      <span class="wordmark">Viral<b>Gadgets</b></span>
+    </a>
+    <a class="by-shmor" href="https://shmor.ai/">by Shmor.ai</a>
     <nav class="nav" data-nav aria-label="Main">{{nav}}</nav>
     <button class="menu" data-menu aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
   </div>
@@ -19,8 +23,12 @@
 <footer class="site-footer">
   <div class="wrap">
     <div class="foot-cols">
-      <div><a class="brand" href="/">{{site_name}}</a><p>Part of the <a href="https://shmor.ai/">Shmor.ai</a> network. Search more. Do less.</p></div>
-      <div><h4>Guides</h4><ul>{{footer_nav}}</ul></div>
+      <div>
+        <a class="brand" href="/"><svg class="logo" viewBox="0 0 40 40" width="34" height="34" aria-hidden="true"><rect x="2" y="2" width="36" height="36" rx="11" fill="#FFF7EC"/><rect x="11" y="6.5" width="18" height="27" rx="4.5" fill="#FF2D55"/><path d="M21.6 10.5 15 21h4.6l-1.4 8.5L25 18.6h-4.7z" fill="#FFD60A"/></svg><span class="wordmark">Viral<b>Gadgets</b></span></a>
+        <p>The gadgets everyone's talking about, sorted by who they're for, with honest heads-ups before you buy.</p>
+        <p>Part of the <a href="https://shmor.ai/">Shmor.ai</a> network. Search more. Do less.</p>
+      </div>
+      <div><h4>Explore</h4><ul>{{footer_nav}}</ul></div>
       <div><h4>Shmor.ai</h4><ul>
         <li><a href="https://shmor.ai/">All Shmor marketplaces</a></li>
         <li><a href="https://shmor.ai/about/">About</a></li>
@@ -33,7 +41,7 @@
         <li><a href="https://shmor.ai/affiliate-disclosure/">How we make money</a></li>
       </ul></div>
     </div>
-    <p class="disclosure">{{site_name}} is free to use. Some links are affiliate links: if you book or buy through them we may earn a commission, at no extra cost to you. Prices and availability are set by providers and can change. © {{year}} Shmor.ai</p>
+    <p class="disclosure">{{site_name}} is free to use and independent: no brand pays to be listed. Some links are affiliate links: if you buy through them we may earn a commission, at no extra cost to you. Prices and availability are set by retailers and change often. Product names and trademarks belong to their owners. © {{year}} Shmor.ai</p>
   </div>
 </footer>
 <script src="/assets/site.js" defer></script>

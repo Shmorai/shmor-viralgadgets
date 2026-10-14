@@ -1,0 +1,48 @@
+{
+  "slug": "gaming-gadgets",
+  "title": "Trending Gaming Gadgets: Switch 2, Handhelds & VR",
+  "description": "The gaming gadgets everyone is talking about: Nintendo Switch 2, Steam Deck OLED, Quest 3S, PlayStation Portal, phone controllers and retro handhelds compared.",
+  "nav": "Gaming",
+  "navOrder": 4,
+  "eyebrow": "Gaming",
+  "h1": "Trending gaming gadgets",
+  "intro": "Handhelds, VR and controllers that gaming YouTube and TikTok can’t stop talking about, with what each one actually needs to work.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1749138149339-b744bb979317",
+    "alt": "A Nintendo Switch 2 console with a red screen",
+    "credit": "Kamil Switalski",
+    "creditUrl": "https://unsplash.com/@8bitspell"
+  },
+  "cardText": "Switch 2, Steam Deck, Quest 3S, PlayStation Portal and phone controllers explained.",
+  "blocks": [
+    {
+      "type": "gadgets",
+      "position": "top",
+      "title": "Gaming gadgets",
+      "intro": "Filter by age or price, or search for a console.",
+      "preset": {
+        "type": "gaming"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Which handheld is which?",
+      "html": "<table><thead><tr><th>Device</th><th>What it plays</th><th>What it needs</th></tr></thead><tbody><tr><td>Nintendo Switch 2</td><td>Nintendo games, most original Switch games</td><td>Nothing else: plays on the go or on the TV</td></tr><tr><td>Steam Deck OLED</td><td>Your Steam (PC) library</td><td>A Steam account; check “Deck Verified” games</td></tr><tr><td>PlayStation Portal</td><td>Streams games from a PS5 (and cloud streaming where offered)</td><td>A PS5 and strong Wi-Fi</td></tr><tr><td>Meta Quest 3S</td><td>VR and mixed-reality games and apps</td><td>A Meta account and a clear play space</td></tr><tr><td>Phone controllers</td><td>Mobile, cloud and remote-play games</td><td>The right connector for your phone</td></tr></tbody></table>"
+    }
+  ],
+  "related": [
+    "gift-ideas/for-teens",
+    "tech-reviewers",
+    "tech-deals"
+  ],
+  "keywords": [
+    "gaming gadgets",
+    "switch 2",
+    "steam deck",
+    "handheld gaming",
+    "vr headset",
+    "gaming gifts"
+  ],
+  "updated": "2026-10-14"
+}

@@ -1,0 +1,177 @@
+{
+  "slug": "tech-reviewers",
+  "title": "Top Tech YouTubers & Reviewers: Who to Watch",
+  "description": "The tech reviewers behind the gadgets that go viral: MKBHD, Mrwhosetheboss, Unbox Therapy, Linus Tech Tips and more, plus how to spot paid or gifted posts.",
+  "nav": "Reviewers",
+  "navOrder": 7,
+  "eyebrow": "Influencer reviews",
+  "h1": "The tech reviewers worth watching",
+  "intro": "The channels that make gadgets go viral, what each is best for, and how to tell an honest review from an ad. On every gadget card, tap “YouTube reviews” or “TikTok reviews” to see the latest videos.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1615655406736-b37c4fabf923",
+    "alt": "A desk with electronics and a microphone set up for recording",
+    "credit": "Onur Binay",
+    "creditUrl": "https://unsplash.com/@onurbinay"
+  },
+  "cardText": "MKBHD, Mrwhosetheboss, Unbox Therapy, Linus Tech Tips and more: who to watch, and how to spot paid posts.",
+  "blocks": [
+    {
+      "type": "specs",
+      "position": "top",
+      "title": "Big tech channels to know",
+      "intro": "Listed alphabetically. We aren’t affiliated with any of these creators, and they haven’t endorsed ViralGadgets.",
+      "items": [
+        {
+          "mono": "AE",
+          "title": "Austin Evans",
+          "kind": "YouTube",
+          "text": "Approachable reviews of consoles, phones and PC builds, often with a budget angle.",
+          "specs": [
+            [
+              "Best for",
+              "Gaming and value picks"
+            ]
+          ],
+          "url": "https://www.youtube.com/@austinevans"
+        },
+        {
+          "mono": "D2",
+          "title": "Dave2D",
+          "kind": "YouTube",
+          "text": "Short, calm, well-shot reviews of laptops and gadgets.",
+          "specs": [
+            [
+              "Best for",
+              "Laptops and design"
+            ]
+          ],
+          "url": "https://www.youtube.com/@Dave2D"
+        },
+        {
+          "mono": "iJ",
+          "title": "iJustine",
+          "kind": "YouTube",
+          "text": "Upbeat unboxings and first looks, especially Apple products.",
+          "specs": [
+            [
+              "Best for",
+              "Apple launches and unboxings"
+            ]
+          ],
+          "url": "https://www.youtube.com/@iJustine"
+        },
+        {
+          "mono": "JR",
+          "title": "JerryRigEverything",
+          "kind": "YouTube",
+          "text": "Scratch, burn and bend tests, plus teardowns of phones and gadgets.",
+          "specs": [
+            [
+              "Best for",
+              "Durability and build quality"
+            ]
+          ],
+          "url": "https://www.youtube.com/@JerryRigEverything"
+        },
+        {
+          "mono": "LT",
+          "title": "Linus Tech Tips",
+          "kind": "YouTube",
+          "text": "In-depth tech coverage, PC hardware and testing from a large team.",
+          "specs": [
+            [
+              "Best for",
+              "PCs, components and deep dives"
+            ]
+          ],
+          "url": "https://www.youtube.com/@LinusTechTips"
+        },
+        {
+          "mono": "MK",
+          "title": "MKBHD (Marques Brownlee)",
+          "kind": "YouTube",
+          "text": "Polished reviews of phones, cars and consumer tech; often among the first reviews of big launches.",
+          "specs": [
+            [
+              "Best for",
+              "Flagship phones and launches"
+            ]
+          ],
+          "url": "https://www.youtube.com/@mkbhd"
+        },
+        {
+          "mono": "MW",
+          "title": "Mrwhosetheboss (Arun Maini)",
+          "kind": "YouTube",
+          "text": "UK-based creator known for phone comparisons, gadget round-ups and big tech experiments.",
+          "specs": [
+            [
+              "Best for",
+              "Phone comparisons and gadget round-ups"
+            ]
+          ],
+          "url": "https://www.youtube.com/@Mrwhosetheboss"
+        },
+        {
+          "mono": "UT",
+          "title": "Unbox Therapy",
+          "kind": "YouTube",
+          "text": "Fast-paced unboxings of new and unusual gadgets.",
+          "specs": [
+            [
+              "Best for",
+              "Discovering quirky gadgets"
+            ]
+          ],
+          "url": "https://www.youtube.com/@UnboxTherapy"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "h2": "How to read an influencer review",
+      "html": "<ul><li><strong>Look for the disclosure.</strong> “Ad”, “Sponsored”, “Paid partnership” or “gifted” means there’s a commercial relationship.</li><li><strong>Watch more than one reviewer,</strong> ideally one who bought the product and one who has used it for months.</li><li><strong>Separate the unboxing from the review.</strong> First impressions videos can’t tell you about battery life or durability.</li><li><strong>Check who benefits from the link.</strong> Affiliate links in descriptions earn the creator commission (like some links on our site).</li></ul>"
+    },
+    {
+      "h2": "The disclosure rules in the US, UK and EU",
+      "html": "<p>In the <strong>US</strong>, the FTC’s Endorsement Guides say influencers must clearly disclose any material connection to a brand, including payment, free products or discounts, and the FTC’s “Disclosures 101” guide explains how. In the <strong>UK</strong>, the Advertising Standards Authority (ASA) expects paid, gifted and affiliate content to be labelled up front with a clear label such as “Ad”. In the <strong>EU</strong>, hidden advertising is banned under consumer protection law, and several countries have their own influencer rules.</p>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do tech YouTubers get to keep the products they review?",
+      "a": "It varies. Some return review units, some keep them, and some buy products themselves. Where a gift or payment is involved, they’re expected to disclose it."
+    },
+    {
+      "q": "Does ViralGadgets pay or work with these creators?",
+      "a": "No. We list them because they’re widely watched, and we link to their channels so you can see their reviews yourself. We don’t claim what any creator thinks of a product."
+    }
+  ],
+  "sources": [
+    {
+      "title": "FTC: Disclosures 101 for Social Media Influencers",
+      "url": "https://www.ftc.gov/business-guidance/resources/disclosures-101-social-media-influencers"
+    },
+    {
+      "title": "ASA/CAP: Influencers’ guide to making clear that ads are ads",
+      "url": "https://www.asa.org.uk/resource/influencers-guide.html"
+    }
+  ],
+  "related": [
+    "blog/spot-fake-reviews-paid-posts",
+    "tiktok-gadgets",
+    "cameras-for-creators"
+  ],
+  "keywords": [
+    "tech youtubers",
+    "tech reviewers",
+    "mkbhd",
+    "mrwhosetheboss",
+    "unbox therapy",
+    "linus tech tips",
+    "tech influencers",
+    "gadget reviews"
+  ],
+  "updated": "2026-10-14"
+}

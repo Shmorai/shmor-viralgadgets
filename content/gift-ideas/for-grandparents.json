@@ -1,0 +1,52 @@
+{
+  "slug": "gift-ideas/for-grandparents",
+  "related": [
+    "gift-ideas",
+    "blog/christmas-tech-gifts-by-age",
+    "tech-deals"
+  ],
+  "title": "Tech Gifts for Grandparents and Parents Over 55",
+  "description": "Easy, useful tech gifts for grandparents and older parents: digital photo frames, smart displays, e-readers, video doorbells and watches with fall detection.",
+  "nav": "For grandparents",
+  "eyebrow": "Ages 55+",
+  "h1": "Tech gifts for grandparents",
+  "intro": "Simple, genuinely useful gadgets that keep families connected, with tips on setting them up before you give them.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1638589766631-feac3a2608d2",
+    "alt": "A Christmas tree with red and gold presents underneath",
+    "credit": "CHUTTERSNAP",
+    "creditUrl": "https://unsplash.com/@chuttersnap"
+  },
+  "cardText": "Photo frames, smart displays, e-readers and watches with fall detection for parents and grandparents.",
+  "blocks": [
+    {
+      "type": "gadgets",
+      "position": "top",
+      "title": "Popular with over-55s",
+      "intro": "Filter by type or price to narrow it down.",
+      "preset": {
+        "age": "seniors"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Make it easy from day one",
+      "html": "<ul><li><strong>Set it up before you wrap it:</strong> connect it to Wi-Fi, create accounts and load photos or books.</li><li><strong>Pick big, clear screens</strong> and adjustable text sizes (e-readers and smart displays do this well).</li><li><strong>Safety features help:</strong> Apple Watch offers fall detection and emergency SOS; video doorbells let people see who’s calling first.</li><li><strong>Check subscriptions</strong> so they aren’t surprised by a bill later.</li></ul>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best tech gift for a grandparent who isn’t techy?",
+      "a": "A Wi-Fi digital photo frame that family members send pictures to, or a smart display for easy video calls, are popular because they need almost no effort once set up."
+    }
+  ],
+  "keywords": [
+    "gifts for grandparents",
+    "tech gifts for elderly parents",
+    "gifts for mom",
+    "gifts for mum",
+    "gadgets for seniors"
+  ],
+  "updated": "2026-10-14"
+}

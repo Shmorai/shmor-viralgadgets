@@ -1,0 +1,59 @@
+{
+  "slug": "gift-ideas/for-her",
+  "related": [
+    "gift-ideas",
+    "blog/christmas-tech-gifts-by-age",
+    "tech-deals"
+  ],
+  "title": "Tech Gifts for Her: Trending Gadgets She’ll Love",
+  "description": "Trending tech gifts for her: hair stylers, LED masks, e-readers, instant cameras, smart rings and more, plus what to check on subscriptions and sizing.",
+  "nav": "For her",
+  "eyebrow": "Gift guide",
+  "h1": "Tech gifts for her",
+  "intro": "A shortlist of the gadgets most searched for as gifts for women right now. Every gadget here works for anyone: filter by age, type and price.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1515940175183-6798529cb860",
+    "alt": "White Sony headphones next to a black smartphone case",
+    "credit": "Ady TeenagerInRO",
+    "creditUrl": "https://unsplash.com/@teenagerinro"
+  },
+  "cardText": "Hair stylers, LED masks, e-readers, cameras and smart rings: popular tech gifts for her.",
+  "blocks": [
+    {
+      "type": "gadgets",
+      "position": "top",
+      "title": "Popular tech gifts for her",
+      "intro": "Our starting shortlist. Use the filters to match her age and budget.",
+      "ids": [
+        "dyson-airwrap",
+        "led-face-mask",
+        "kindle-paperwhite",
+        "instax-mini",
+        "ember-mug",
+        "oura-ring",
+        "airpods-5",
+        "sunrise-alarm",
+        "ninja-creami",
+        "galaxy-z-flip",
+        "mini-projector",
+        "apple-watch-series-12",
+        "retro-digicam",
+        "sunset-lamp"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Getting it right",
+      "html": "<ul><li><strong>Smart rings need sizing:</strong> order the free sizing kit first, or gift it with a note.</li><li><strong>Beauty tech from authorised sellers only:</strong> counterfeit hair stylers are a known scam.</li><li><strong>E-readers make great gifts at any age</strong>, especially with BookTok recommendations loaded on.</li></ul>"
+    }
+  ],
+  "keywords": [
+    "gifts for her",
+    "tech gifts for women",
+    "gadgets for women",
+    "gifts for wife",
+    "gifts for girlfriend"
+  ],
+  "updated": "2026-10-14"
+}

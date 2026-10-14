@@ -1,0 +1,51 @@
+{
+  "slug": "gift-ideas/for-kids",
+  "related": [
+    "gift-ideas",
+    "blog/christmas-tech-gifts-by-age",
+    "tech-deals"
+  ],
+  "title": "Tech Gifts for Kids Aged 5 to 12: Fun and Sensible",
+  "description": "Kid-friendly gadgets for ages 5 to 12: screen-free audio players, instant cameras, volume-limited headphones and Switch 2, with safety and screen-time tips.",
+  "nav": "For kids",
+  "eyebrow": "Ages 5–12",
+  "h1": "Tech gifts for kids (that parents like too)",
+  "intro": "Fun gadgets for younger children, plenty of them screen-free, with notes on volume limits, subscriptions and screen time.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1521499672281-c8be7d37d451",
+    "alt": "Person holding up a white and black Polaroid instant camera",
+    "credit": "Jakob Owens",
+    "creditUrl": "https://unsplash.com/@jakobowens1"
+  },
+  "cardText": "Screen-free audio, instant cameras, kids’ headphones and gaming for ages 5 to 12.",
+  "blocks": [
+    {
+      "type": "gadgets",
+      "position": "top",
+      "title": "Popular for kids",
+      "intro": "Gadgets that suit primary-school-age children.",
+      "preset": {
+        "age": "kids"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Tips for buying tech for younger children",
+      "html": "<ul><li><strong>Protect their hearing:</strong> choose headphones with a volume limit (often 85 dB).</li><li><strong>Screen-free counts:</strong> audio players like Yoto and Tonies, and instant cameras, are great alternatives to another screen.</li><li><strong>Set up parental controls first</strong> on consoles, tablets and smart speakers, before the box is opened.</li><li><strong>Watch for small parts and button batteries</strong> with younger children: keep coin batteries and trackers out of reach.</li></ul>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is a good first “phone” alternative for a child?",
+      "a": "Kids’ smartwatches such as Garmin Bounce allow calls and messages with approved contacts plus location sharing, without full smartphone access. They usually need a monthly data plan, so check costs and availability in your country."
+    }
+  ],
+  "keywords": [
+    "gifts for kids",
+    "tech gifts for kids",
+    "gadgets for kids",
+    "screen free gifts"
+  ],
+  "updated": "2026-10-14"
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "blog/power-banks-on-planes",
+  "type": "post",
+  "eyebrow": "Travel tech",
+  "updated": "2026-10-07",
+  "date": "2026-10-07",
+  "title": "Power Banks on Planes: The Rules You Need to Know",
+  "description": "Can you take a power bank on a plane? Hand-luggage-only rules, watt-hour limits, working out Wh from mAh, and airline rules on using them on board.",
+  "h1": "Power banks on planes: the rules you need to know",
+  "intro": "Magnetic power banks are one of the most popular viral gadgets, and one of the most misunderstood at airport security. Here are the rules in plain English.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1526738549149-8e07eca6c147",
+    "alt": "A silver iPhone next to a cup and a MacBook",
+    "credit": "AltumCode",
+    "creditUrl": "https://unsplash.com/@altumcode"
+  },
+  "cardText": "Hand luggage only, watt-hour limits, and new rules on using power banks during flights.",
+  "sections": [
+    {
+      "h2": "The basic rule: hand luggage only",
+      "html": "<p>Spare lithium batteries, including power banks, must go in your carry-on or hand luggage, never in checked bags. That applies on flights in the US (FAA rules), the UK and Europe, because a battery fire is far easier to deal with in the cabin.</p>"
+    },
+    {
+      "h2": "Watt-hour limits",
+      "html": "<ul><li><strong>Up to 100 Wh:</strong> allowed in hand luggage without airline approval. Almost all phone power banks fall into this group.</li><li><strong>100 to 160 Wh:</strong> usually need the airline’s approval, with a limit of two spare batteries.</li><li><strong>Over 160 Wh:</strong> generally not allowed on passenger planes.</li></ul><div class=\"callout\"><strong>Work out watt-hours:</strong> mAh × volts ÷ 1,000. A 20,000 mAh power bank at 3.7 V is about 74 Wh, comfortably under 100 Wh.</div>"
+    },
+    {
+      "h2": "New rules on using them during the flight",
+      "html": "<p>A growing number of airlines now restrict using or charging power banks on board, after incidents of batteries overheating. Emirates, for example, has banned using power banks on board, and Southwest requires them to be kept visible while in use. Rules change, so check your airline’s website before you fly.</p>"
+    },
+    {
+      "h2": "Safety tips",
+      "html": "<ul><li>Buy from known brands, and stop using a power bank that swells, gets very hot or smells odd.</li><li>Protect the ports from short circuits (keep it in a pouch, away from coins and keys).</li><li>Tell cabin crew immediately if a device overheats.</li></ul><p>Find magnetic power banks in our <a href=\"/?type=desk#finder\">charging and desk gadgets</a>.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "title": "FAA PackSafe: Lithium batteries",
+      "url": "https://www.faa.gov/hazmat/packsafe/lithium-batteries"
+    },
+    {
+      "title": "GOV.UK: Hand luggage restrictions at UK airports",
+      "url": "https://www.gov.uk/hand-luggage-restrictions"
+    }
+  ],
+  "keywords": [
+    "power bank on plane",
+    "can you take a power bank on a plane",
+    "power bank airline rules",
+    "power bank watt hours"
+  ]
+}

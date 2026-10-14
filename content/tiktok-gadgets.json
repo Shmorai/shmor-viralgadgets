@@ -1,0 +1,65 @@
+{
+  "slug": "tiktok-gadgets",
+  "title": "TikTok Made Me Buy It: Viral Gadgets Worth the Hype",
+  "description": "The TikTok-famous gadgets everyone keeps buying, from keychain cameras to sunset lamps, with what the videos leave out and how to avoid dupes and scams.",
+  "nav": "TikTok finds",
+  "navOrder": 1,
+  "eyebrow": "#TikTokMadeMeBuyIt",
+  "h1": "TikTok made me buy it: the gadgets behind the hype",
+  "h1Html": "TikTok made me buy it: the gadgets behind the <em>hype</em>",
+  "intro": "The gadgets that keep turning up on the For You page, each with a reality check. Filter by age, who it’s for, type or price.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1673767298248-b128f17f89af",
+    "alt": "A woman sitting in front of a laptop computer, filming content",
+    "credit": "Videodeck .co",
+    "creditUrl": "https://unsplash.com/@videodeck"
+  },
+  "cardText": "Keychain cameras, sunset lamps, magnetic power banks and more: the For You page favourites, with a reality check.",
+  "blocks": [
+    {
+      "type": "gadgets",
+      "position": "top",
+      "title": "Trending on TikTok right now",
+      "intro": "Every gadget here is getting real attention on TikTok. Tap “Why it’s trending” for the story and the catch.",
+      "preset": {
+        "trend": "tiktok"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Why gadgets go viral on TikTok",
+      "html": "<p>TikTok rewards products you can understand in three seconds: a lamp that turns your wall golden, a camera the size of a keychain, an ice cream maker that turns protein shakes into dessert. That makes it brilliant for discovering clever, cheap gadgets, and risky for anything where the demo isn’t the whole story.</p><p>Many of the most-shared videos are made by creators who earn commission through TikTok Shop or Amazon, or who were sent the product for free. That doesn’t make them wrong, but it’s worth knowing. In the US and UK, paid or gifted posts must be clearly labelled as ads.</p>"
+    },
+    {
+      "h2": "Hype or genuinely good? A 30-second checklist",
+      "html": "<ul><li><strong>Look for a long-term review.</strong> Search the product name plus “after 3 months” or “one year later”.</li><li><strong>Check the ongoing costs.</strong> Film, refills, blades and subscriptions add up (Instax film, robot-vacuum bags, smart-ring memberships).</li><li><strong>Compare the “dupe”.</strong> Cheaper copies can be fine for simple gadgets like lamps or tripods, but are risky for anything that heats up or charges a battery.</li><li><strong>Buy from the brand or an authorised retailer</strong> for big-ticket items. Fake Dyson stylers and knock-off earbuds are a well-known scam on social ads.</li><li><strong>Check the safety marks</strong> on anything that plugs in: UL or ETL in the US, UKCA or CE in the UK and EU.</li></ul>"
+    },
+    {
+      "h2": "Returns if it doesn’t live up to the video",
+      "html": "<p>In the UK and EU you generally have 14 days to cancel most online purchases after delivery, under consumer law. In the US, returns depend on the retailer’s own policy, so check it before you buy, especially for TikTok Shop sellers and marketplaces. Holiday-season purchases often get extended return windows, but don’t assume it.</p>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does “TikTok made me buy it” mean?",
+      "a": "It’s a hashtag people use to share things they bought after seeing them on TikTok. It has become shorthand for viral, impulse-friendly products, often gadgets, beauty tools and kitchen gear."
+    },
+    {
+      "q": "Is TikTok Shop safe to buy gadgets from?",
+      "a": "TikTok Shop has its own buyer protections, but you are often buying from third-party sellers. Check the seller’s ratings and return policy, and buy expensive or battery-powered items from the brand or an established retailer."
+    }
+  ],
+  "related": [
+    "blog/tiktok-made-me-buy-it-gadgets",
+    "blog/kodak-charmera-keychain-camera",
+    "gadgets-under-50"
+  ],
+  "keywords": [
+    "tiktok made me buy it",
+    "tiktok gadgets",
+    "viral tiktok products",
+    "tiktok shop gadgets"
+  ],
+  "updated": "2026-10-14"
+}

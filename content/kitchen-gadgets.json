@@ -1,0 +1,46 @@
+{
+  "slug": "kitchen-gadgets",
+  "title": "Viral Kitchen Gadgets: Ninja CREAMi, Air Fryers & More",
+  "description": "The kitchen gadgets TikTok made famous: Ninja CREAMi, dual-basket air fryers, heated mugs and portable blenders, and what to know before you clear space.",
+  "nav": "Kitchen",
+  "eyebrow": "Kitchen",
+  "h1": "Viral kitchen gadgets",
+  "intro": "The kitchen gadgets behind TikTok’s favourite recipe videos, and whether they earn their spot on the counter.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1570222094114-d054a817e56b",
+    "alt": "A black and grey blender on a kitchen counter",
+    "credit": "Daniel Norris",
+    "creditUrl": "https://unsplash.com/@danielnorris"
+  },
+  "cardText": "Ninja CREAMi, air fryers, heated mugs and portable blenders: the TikTok kitchen favourites.",
+  "blocks": [
+    {
+      "type": "gadgets",
+      "position": "top",
+      "title": "Kitchen gadgets",
+      "intro": "Filter by age, price or who it’s for.",
+      "preset": {
+        "type": "kitchen"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Before you buy a kitchen gadget",
+      "html": "<ul><li><strong>Measure your counter and cupboards.</strong> Dual-basket air fryers and ice cream makers are bulky.</li><li><strong>Check the plug and voltage</strong> if buying from another country.</li><li><strong>Look at what’s dishwasher-safe:</strong> it decides whether you’ll actually use it.</li></ul>"
+    }
+  ],
+  "related": [
+    "tiktok-gadgets",
+    "amazon-gadgets",
+    "gift-ideas/for-her"
+  ],
+  "keywords": [
+    "kitchen gadgets",
+    "viral kitchen gadgets",
+    "ninja creami",
+    "air fryer",
+    "tiktok kitchen gadgets"
+  ],
+  "updated": "2026-10-14"
+}

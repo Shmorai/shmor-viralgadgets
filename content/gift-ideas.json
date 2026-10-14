@@ -1,0 +1,95 @@
+{
+  "slug": "gift-ideas",
+  "title": "Tech Gift Ideas by Person: Viral Gadgets for Everyone",
+  "description": "Find the right tech gift fast: shortlists of trending gadgets for teens, kids, him, her and grandparents, with honest notes on subscriptions and compatibility.",
+  "nav": "Gift ideas",
+  "navOrder": 3,
+  "eyebrow": "Gift guides",
+  "h1": "Tech gift ideas for everyone on your list",
+  "intro": "Pick a person, get a shortlist. Every gift guide is built from the same honest gadget finder, with the catches spelled out.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1480717846107-87837abec1e9",
+    "alt": "A gift box tied with a red ribbon",
+    "credit": "Ben White",
+    "creditUrl": "https://unsplash.com/@benwhitephotography"
+  },
+  "cardText": "Shortlists of trending gadgets for teens, kids, him, her and grandparents.",
+  "blocks": [
+    {
+      "type": "tiles",
+      "position": "top",
+      "items": [
+        {
+          "slug": "gift-ideas/for-teens",
+          "badge": "Most wanted",
+          "title": "Gifts for teens",
+          "text": "Earbuds, cameras, lights and gaming"
+        },
+        {
+          "slug": "gift-ideas/for-her",
+          "title": "Gifts for her"
+        },
+        {
+          "slug": "gift-ideas/for-him",
+          "title": "Gifts for him"
+        },
+        {
+          "slug": "gift-ideas/for-kids",
+          "title": "Gifts for kids"
+        },
+        {
+          "slug": "gift-ideas/for-grandparents",
+          "title": "Gifts for grandparents"
+        }
+      ]
+    },
+    {
+      "type": "links",
+      "title": "Or shop by budget and trend",
+      "items": [
+        {
+          "title": "Under $50 / £40",
+          "icon": "tag",
+          "slug": "gadgets-under-50"
+        },
+        {
+          "title": "TikTok-famous",
+          "icon": "zap",
+          "slug": "tiktok-gadgets"
+        },
+        {
+          "title": "Amazon best-sellers",
+          "icon": "store",
+          "slug": "amazon-gadgets"
+        },
+        {
+          "title": "Splurge: $200+",
+          "icon": "star",
+          "href": "/?price=premium#finder"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Five questions before you buy a tech gift",
+      "html": "<ol><li><strong>Which phone do they use?</strong> Apple Watch, AirTag and many accessories only work with iPhone; others are Android-first.</li><li><strong>Is there a subscription?</strong> Smart rings, video doorbells, kids’ smartwatches and some photo frames work best with a paid plan.</li><li><strong>Will they need to set it up?</strong> For older relatives, set it up before you wrap it.</li><li><strong>What’s the return window?</strong> Check gift receipts and holiday return policies.</li><li><strong>Does it suit their age?</strong> Check platform age rules for VR headsets, smart speakers and social apps.</li></ol>"
+    },
+    {
+      "h2": "Why we sort by “him” and “her” at all",
+      "html": "<p>Because that’s how lots of people search for gifts. But gadgets aren’t gendered: our “for him” and “for her” lists are just starting points based on what’s popular, and every gadget in the finder can be filtered by age, type and price instead.</p>"
+    }
+  ],
+  "related": [
+    "blog/christmas-tech-gifts-by-age",
+    "tech-deals",
+    "gadgets-under-50"
+  ],
+  "keywords": [
+    "tech gift ideas",
+    "gadget gifts",
+    "christmas tech gifts",
+    "birthday gift ideas tech"
+  ],
+  "updated": "2026-10-14"
+}

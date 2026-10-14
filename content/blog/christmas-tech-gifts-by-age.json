@@ -1,0 +1,47 @@
+{
+  "slug": "blog/christmas-tech-gifts-by-age",
+  "type": "post",
+  "eyebrow": "Gift guides",
+  "updated": "2026-10-08",
+  "date": "2026-10-08",
+  "title": "Christmas Tech Gift Ideas by Age, From Kids to Grandparents",
+  "description": "Christmas tech gift ideas for every age: screen-free kids’ gadgets, what teens want, picks for adults and easy tech for grandparents, plus timing tips.",
+  "h1": "Christmas tech gift ideas by age",
+  "intro": "Not sure what to get? Start with their age, then filter by budget. Every link below opens our gadget finder pre-filtered for you.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1638274307910-e89c61d6334c",
+    "alt": "A pile of wrapped presents on a table",
+    "credit": "Dorka Kardos-Latif",
+    "creditUrl": "https://unsplash.com/@dorkakardos"
+  },
+  "cardText": "Tech gift ideas for kids, teens, adults and grandparents, with links to filtered shortlists.",
+  "sections": [
+    {
+      "h2": "Kids (5–12)",
+      "html": "<p>Think screen-free audio players, instant cameras, volume-limited headphones and family gaming. Set up parental controls before the big day. <a href=\"/gift-ideas/for-kids/\">See gifts for kids →</a></p>"
+    },
+    {
+      "h2": "Teens (13–17)",
+      "html": "<p>Earbuds, keychain and instant cameras, LED room lights, gaming accessories and creator kit dominate teen wish lists. <a href=\"/gift-ideas/for-teens/\">See gifts for teens →</a></p>"
+    },
+    {
+      "h2": "Adults (18–54)",
+      "html": "<p>Noise-cancelling headphones, smart rings, kitchen gadgets, desk upgrades and handheld gaming are popular picks. <a href=\"/?age=young,adults#finder\">Open the finder for adults →</a></p>"
+    },
+    {
+      "h2": "Grandparents and parents (55+)",
+      "html": "<p>Digital photo frames, smart displays for video calls, e-readers with adjustable text and smartwatches with safety features. Set them up first. <a href=\"/gift-ideas/for-grandparents/\">See gifts for grandparents →</a></p>"
+    },
+    {
+      "h2": "Timing and returns",
+      "html": "<ul><li>Black Friday (27 November 2026) and Cyber Monday (30 November) are the main discount days. See the <a href=\"/tech-deals/\">deals calendar</a>.</li><li>Check each retailer’s last order dates for Christmas delivery; they vary by store and country.</li><li>Ask for a gift receipt and check holiday return windows.</li></ul>"
+    }
+  ],
+  "keywords": [
+    "christmas tech gifts",
+    "christmas gift ideas",
+    "tech gifts by age",
+    "stocking stuffers",
+    "stocking fillers"
+  ]
+}

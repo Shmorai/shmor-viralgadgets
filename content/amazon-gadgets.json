@@ -1,0 +1,64 @@
+{
+  "slug": "amazon-gadgets",
+  "title": "Amazon Gadget Finds: Best-Selling Tech Worth a Look",
+  "description": "The Amazon best-sellers and gift-list gadgets that keep selling, from Echo speakers to Kindles and robot vacuums, plus how to read reviews and track prices.",
+  "nav": "Amazon finds",
+  "navOrder": 2,
+  "eyebrow": "Amazon finds",
+  "h1": "Amazon gadget finds that keep selling",
+  "intro": "The gadgets that live in Amazon’s best-seller and gift lists year after year, and how to check you’re getting a real deal.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1647489238347-dbd651c2f37a",
+    "alt": "A cardboard box filled with various items",
+    "credit": "Ainur Iman",
+    "creditUrl": "https://unsplash.com/@mynameisiknow"
+  },
+  "cardText": "Echo speakers, Kindles, air fryers and robot vacuums: the Amazon regulars, plus how to read reviews and track prices.",
+  "blocks": [
+    {
+      "type": "gadgets",
+      "position": "top",
+      "title": "Popular on Amazon",
+      "intro": "Big sellers and gift-list regulars on Amazon in the US, UK and Europe. “Check today’s price” opens Amazon for your region.",
+      "preset": {
+        "trend": "amazon"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "h2": "What “Best Seller” and “Amazon’s Choice” mean",
+      "html": "<p>Amazon’s Best Sellers lists rank products by recent sales in a category and update frequently, so they show what’s selling now, not what’s best. The “Amazon’s Choice” label is chosen by Amazon’s algorithm for products it highlights for a search, and isn’t the same as an independent recommendation.</p>"
+    },
+    {
+      "h2": "Reading Amazon reviews without getting fooled",
+      "html": "<ul><li>Read the 3-star reviews first: they’re usually the most balanced.</li><li>Check reviews are for the exact model. Listings sometimes group several variants together.</li><li>Look for “Verified Purchase”, and be wary of lots of short, five-star reviews posted close together.</li><li>Fake reviews are now banned outright in the US (FTC rule), the UK (Digital Markets, Competition and Consumers Act) and the EU. Report ones you spot.</li></ul><p>More in our guide to <a href=\"/blog/spot-fake-reviews-paid-posts/\">spotting fake reviews and paid posts</a>.</p>"
+    },
+    {
+      "h2": "Is it really a deal? Check the price history",
+      "html": "<p>Free price trackers such as <a href=\"https://camelcamelcamel.com\" rel=\"noopener\" target=\"_blank\">camelcamelcamel</a> and <a href=\"https://keepa.com\" rel=\"noopener\" target=\"_blank\">Keepa</a> show an Amazon product’s price history in the US, UK and several EU stores, so you can see whether a “deal” is actually a low price. In the EU, shops announcing a price cut must show the lowest price from the previous 30 days.</p>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "When are Amazon gadget prices lowest?",
+      "a": "Prices on Amazon’s own devices (Echo, Kindle, Fire TV, Ring) usually drop most during Prime Day in summer, Prime Big Deal Days in October, and Black Friday to Cyber Monday. See our <a href=\"/tech-deals/\">tech deals calendar</a>."
+    },
+    {
+      "q": "Are Amazon gadgets cheaper in the UK or US?",
+      "a": "Prices differ by country and change constantly, and imported electronics may carry extra import costs, plug or warranty differences. Buy from your own country’s Amazon store where possible."
+    }
+  ],
+  "related": [
+    "tech-deals",
+    "blog/black-friday-tech-deals-guide",
+    "smart-home-gadgets"
+  ],
+  "keywords": [
+    "amazon finds",
+    "amazon gadgets",
+    "amazon best sellers electronics",
+    "amazon must haves"
+  ],
+  "updated": "2026-10-14"
+}

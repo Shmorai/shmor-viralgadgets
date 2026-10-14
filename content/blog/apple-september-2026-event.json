@@ -1,0 +1,58 @@
+{
+  "slug": "blog/apple-september-2026-event",
+  "type": "post",
+  "eyebrow": "Launches",
+  "updated": "2026-10-14",
+  "date": "2026-10-14",
+  "title": "Apple’s Fall Launches: iPhone Duo, iPhone 18 Pro & AirPods 5",
+  "description": "Everything Apple launched this fall in plain English: the foldable iPhone Duo, iPhone 18 Pro, Apple Watch Series 12 and Ultra 4, and AirPods 5, with key dates.",
+  "h1": "Apple’s fall launches explained: iPhone Duo, iPhone 18 Pro, AirPods 5 and more",
+  "intro": "Apple’s September 2026 event brought its first foldable iPhone and a new round of Pro phones, watches and AirPods. Here’s what each one is, who it’s for, and when you can get it.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb",
+    "alt": "Close-up of Apple AirPods in their case",
+    "credit": "Daniel Romero",
+    "creditUrl": "https://unsplash.com/@rmrdnl"
+  },
+  "cardText": "The foldable iPhone Duo, iPhone 18 Pro, Apple Watch Series 12 and AirPods 5 explained.",
+  "sections": [
+    {
+      "h2": "iPhone Duo: Apple’s first foldable",
+      "html": "<p>The headline launch. The iPhone Duo opens from a 5.4-inch outer screen to a 7.6-inch inner screen, runs the A20 Pro chip, and is rated IP68. In the US it starts at $1,999, with pre-orders from 16 October and sales from 23 October 2026, according to launch coverage.</p><p><strong>Who it’s for:</strong> early adopters who want a phone that becomes a small tablet. <strong>Our heads-up:</strong> it’s first-generation hardware, so wait for long-term reviews of the hinge and crease, and price up insurance.</p>"
+    },
+    {
+      "h2": "iPhone 18 Pro and Pro Max",
+      "html": "<p>Both use the A20 Pro, described by Apple as its first 2nm phone chip, and a 48MP main camera with a variable aperture. They went on sale on 18 September 2026, at US prices $100 higher than last year’s models. Notably, Apple didn’t release a standard iPhone 18 this fall.</p><p><strong>Should you upgrade?</strong> From a phone two or more years old, likely yes for the camera and battery. From last year’s Pro, probably not.</p>"
+    },
+    {
+      "h2": "Apple Watch Series 12 and Ultra 4",
+      "html": "<p>Both watches add a daily readiness score (0 to 10) built from heart rate and heart-rate-variability readings, and run the new S11 chip. The Ultra 4 adds much longer battery life and satellite emergency SOS. Both went on sale on 18 September 2026.</p><p>Remember Apple Watch only works with an iPhone. For older relatives, features like fall detection and emergency SOS are the real selling points.</p>"
+    },
+    {
+      "h2": "AirPods 5",
+      "html": "<p>The new standard AirPods now include active noise cancellation in the base model. A second version adds a wireless charging case and touch volume control on the stem. Both use the H2 chip and are rated IP57. They went on sale on 18 September 2026.</p><p>AirPods are perennial best-sellers and one of the most-requested gifts for teens, so expect them in every Black Friday sale.</p>"
+    },
+    {
+      "h2": "Prices outside the US",
+      "html": "<p>UK and EU prices are set separately and include VAT, so they don’t convert directly from US dollar prices. Check Apple’s UK or local store, or use the “Check today’s price” buttons in our <a href=\"/?q=apple\">gadget finder</a>.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Popular Science: Everything Apple announced at its fall 2026 event",
+      "url": "https://www.popsci.com/gear/apple-event-announcements-fall-2026-iphone-duo-apple-watch-12-iphone-18/"
+    },
+    {
+      "title": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/"
+    }
+  ],
+  "keywords": [
+    "iphone duo",
+    "foldable iphone",
+    "iphone 18 pro",
+    "airpods 5",
+    "apple watch series 12",
+    "apple event"
+  ]
+}

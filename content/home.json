@@ -1,15 +1,180 @@
 {
   "slug": "",
-  "title": "ViralGadgets: The gadgets everyone's talking about on TikTok",
-  "description": "The gadgets everyone's talking about on TikTok, Amazon and YouTube, filtered by age, who it's for and type, with honest guides and deal timing. Free to use, part of the Shmor.ai network.",
-  "eyebrow": "Part of the Shmor.ai network",
-  "h1": "ViralGadgets",
-  "intro": "The gadgets everyone's talking about on TikTok, Amazon and YouTube, filtered by age, who it's for and type, with honest guides and deal timing.",
-  "related": [],
-  "sections": [
+  "title": "ViralGadgets: Trending TikTok & Amazon Gadgets, Sorted",
+  "description": "Discover the viral gadgets trending on TikTok, Amazon and YouTube. Filter by age, gifts for him or her, type and price, with honest heads-ups first.",
+  "eyebrow": "Trending on TikTok · Amazon · YouTube",
+  "h1": "The gadgets everyone is talking about",
+  "h1Html": "The gadgets <em>everyone</em> is talking about",
+  "intro": "From TikTok-famous finds to the launches every tech YouTuber is reviewing: filter by age, who it’s for, type and price. No made-up star ratings, no fake prices, just why it’s trending and what to know before you buy.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1468495244123-6c6c332eeece",
+    "alt": "iPad, sunglasses, wallet and a camera laid out on a table",
+    "credit": "Héctor Martínez",
+    "creditUrl": "https://unsplash.com/@oria_hector"
+  },
+  "searchPlaceholder": "Search gadgets, gifts and guides",
+  "chips": [
     {
-      "h2": "Why use ViralGadgets?",
-      "html": "<p>The gadgets everyone's talking about on TikTok, Amazon and YouTube, filtered by age, who it's for and type, with honest guides and deal timing.</p>"
+      "label": "TikTok made me buy it",
+      "slug": "tiktok-gadgets"
+    },
+    {
+      "label": "Amazon finds",
+      "slug": "amazon-gadgets"
+    },
+    {
+      "label": "Under $50 / £40",
+      "slug": "gadgets-under-50"
+    },
+    {
+      "label": "Gifts for teens",
+      "slug": "gift-ideas/for-teens"
+    },
+    {
+      "label": "Black Friday dates",
+      "slug": "tech-deals"
     }
-  ]
+  ],
+  "latestPosts": 3,
+  "latestTitle": "Fresh from the blog",
+  "blocks": [
+    {
+      "type": "ticker",
+      "position": "top",
+      "title": "Trending now"
+    },
+    {
+      "type": "gadgets",
+      "position": "top",
+      "title": "Gadget finder",
+      "intro": "Tap the chips to mix and match: pick an age, who it’s for, a type, a price band or where it’s trending. Hit <strong>Surprise me</strong> if you can’t decide, and tap the heart to save favourites."
+    },
+    {
+      "type": "tiles",
+      "title": "Shop by person",
+      "intro": "Ready-made shortlists for the people on your list.",
+      "items": [
+        {
+          "slug": "gift-ideas/for-teens",
+          "badge": "Most wanted",
+          "title": "Gifts for teens"
+        },
+        {
+          "slug": "gift-ideas/for-her",
+          "title": "Gifts for her"
+        },
+        {
+          "slug": "gift-ideas/for-him",
+          "title": "Gifts for him"
+        },
+        {
+          "slug": "gift-ideas/for-kids",
+          "title": "Gifts for kids"
+        },
+        {
+          "slug": "gift-ideas/for-grandparents",
+          "title": "Gifts for grandparents"
+        }
+      ]
+    },
+    {
+      "type": "links",
+      "title": "Browse by type",
+      "items": [
+        {
+          "title": "Gaming",
+          "icon": "star",
+          "slug": "gaming-gadgets"
+        },
+        {
+          "title": "Smart home & lights",
+          "icon": "sun",
+          "slug": "smart-home-gadgets"
+        },
+        {
+          "title": "Kitchen",
+          "icon": "gift",
+          "slug": "kitchen-gadgets"
+        },
+        {
+          "title": "Cameras & creator kit",
+          "icon": "heart",
+          "slug": "cameras-for-creators"
+        },
+        {
+          "title": "Headphones & speakers",
+          "icon": "signal",
+          "href": "/?type=audio#finder"
+        },
+        {
+          "title": "Phones & wearables",
+          "icon": "smartphone",
+          "href": "/?type=phones#finder"
+        },
+        {
+          "title": "Beauty & wellness",
+          "icon": "droplet",
+          "href": "/?type=wellness#finder"
+        },
+        {
+          "title": "Charging, desk & reading",
+          "icon": "zap",
+          "href": "/?type=desk#finder"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "How we pick what’s “viral”",
+      "items": [
+        {
+          "icon": "search",
+          "title": "We watch the feeds",
+          "text": "We track what keeps coming up on TikTok, in Amazon best-seller and gift lists, and in the big tech YouTube channels’ reviews."
+        },
+        {
+          "icon": "check",
+          "title": "We check the facts",
+          "text": "Launch dates and features come from the maker or reputable tech press. We don’t invent prices, star ratings or sales figures."
+        },
+        {
+          "icon": "alert",
+          "title": "We add the catch",
+          "text": "Every gadget gets a heads-up: subscriptions, ongoing costs, compatibility, safety or legal points that the hype videos skip."
+        },
+        {
+          "icon": "tag",
+          "title": "You check the price",
+          "text": "Prices move hourly, so “Check today’s price” opens a live retailer search for your country (US, UK or EU)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do you decide which gadgets are trending?",
+      "a": "We look for products that keep appearing across TikTok, Amazon best-seller and gift lists, and reviews from popular tech YouTubers, plus new launches from major brands. It’s an editorial shortlist, not a paid ranking: brands can’t pay to be listed."
+    },
+    {
+      "q": "Why don’t you show prices?",
+      "a": "Gadget prices change constantly and differ between the US, UK and Europe. Rather than show a price that may be wrong, each card shows a rough price band and a “Check today’s price” button that opens a live search at a retailer in your region."
+    },
+    {
+      "q": "Do influencers get paid to recommend these?",
+      "a": "Often, yes. Many creators earn affiliate commission or receive free products. In the US the FTC, and in the UK the ASA, require them to disclose that clearly. See our guide to <a href=\"/tech-reviewers/\">tech reviewers and how to spot paid posts</a>."
+    },
+    {
+      "q": "Do you make money from ViralGadgets?",
+      "a": "We may earn a commission when you buy through some links, at no extra cost to you. It never changes what we list or what we say about it. <a href=\"https://shmor.ai/affiliate-disclosure/\">How we make money</a>."
+    }
+  ],
+  "keywords": [
+    "viral gadgets",
+    "trending gadgets",
+    "tiktok gadgets",
+    "amazon gadgets",
+    "cool gadgets",
+    "tech gift ideas"
+  ],
+  "updated": "2026-10-14"
 }

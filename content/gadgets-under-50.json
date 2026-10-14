@@ -1,0 +1,58 @@
+{
+  "slug": "gadgets-under-50",
+  "title": "Cool Gadgets Under $50 (and £40) That People Love",
+  "description": "Viral gadgets that won’t break the bank: magnetic power banks, keychain cameras, sunset lamps and trackers, typically under $50 or £40. Great stocking fillers.",
+  "nav": "Under $50",
+  "short": "Gadgets under $50",
+  "eyebrow": "Small price, big hype",
+  "h1": "Cool gadgets under $50 (and £40)",
+  "intro": "Budget-friendly gadgets with genuine buzz: perfect for stocking fillers, Secret Santa and “just because” gifts.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1609081219090-a6d81d3085bf",
+    "alt": "White and grey wireless headphones on a plain background",
+    "credit": "Akhil Yerabati",
+    "creditUrl": "https://unsplash.com/@justaguyintech"
+  },
+  "cardText": "Power banks, keychain cameras, sunset lamps and trackers: viral gadgets that typically cost under $50 or £40.",
+  "blocks": [
+    {
+      "type": "gadgets",
+      "position": "top",
+      "title": "Viral gadgets that typically cost under $50 / £40",
+      "intro": "Prices move around: these usually sit in the budget band, but always check today’s price.",
+      "preset": {
+        "price": "budget"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Getting the most from a small budget",
+      "html": "<ul><li><strong>Buy the accessory, not the device.</strong> A magnetic power bank or a selfie tripod upgrades a phone they already love.</li><li><strong>Watch the hidden extras.</strong> Instant cameras need film, trackers need a phone of the right brand.</li><li><strong>Cheap chargers and power banks need care:</strong> stick to known brands with safety marks; badly made batteries can overheat.</li><li><strong>Sales help most here.</strong> Small gadgets often get the biggest percentage discounts around Black Friday.</li></ul>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What’s a good tech gift under $25 or £20?",
+      "a": "Item trackers (bought singly), volume-limited kids’ headphones, LED strip lights and selfie stick tripods are often found around this price, depending on brand and sales. Check today’s price with the button on each card."
+    },
+    {
+      "q": "What are good stocking fillers for teenagers?",
+      "a": "Keychain cameras, magnetic power banks, LED lights and portable blenders are popular picks. See <a href=\"/gift-ideas/for-teens/\">gifts for teens</a> for more."
+    }
+  ],
+  "related": [
+    "gift-ideas/for-teens",
+    "tiktok-gadgets",
+    "blog/christmas-tech-gifts-by-age"
+  ],
+  "keywords": [
+    "gadgets under 50",
+    "gadgets under 40 pounds",
+    "cheap gadgets",
+    "stocking stuffers",
+    "stocking fillers",
+    "secret santa gadgets"
+  ],
+  "updated": "2026-10-14"
+}

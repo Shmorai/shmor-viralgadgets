@@ -1,0 +1,51 @@
+{
+  "slug": "gift-ideas/for-teens",
+  "related": [
+    "gift-ideas",
+    "blog/christmas-tech-gifts-by-age",
+    "tech-deals"
+  ],
+  "title": "Tech Gifts for Teens: What They Actually Want",
+  "description": "Trending tech gifts for teenagers aged 13 to 17: earbuds, keychain cameras, LED lights, gaming and creator kit, with notes on age rules and running costs.",
+  "nav": "For teens",
+  "eyebrow": "Ages 13–17",
+  "h1": "Tech gifts for teens they’ll actually use",
+  "intro": "What teenagers are asking for, straight from the feeds: earbuds, cameras, room lights, gaming and creator gear.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1585427795543-33cf23ea2853",
+    "alt": "Person holding a Nintendo Switch console",
+    "credit": "Alvaro Reyes",
+    "creditUrl": "https://unsplash.com/@alvarordesign"
+  },
+  "cardText": "Earbuds, keychain cameras, LED lights, gaming and creator kit for 13 to 17 year olds.",
+  "blocks": [
+    {
+      "type": "gadgets",
+      "position": "top",
+      "title": "Popular with teens",
+      "intro": "Narrow it down by type, price or gift for him or her.",
+      "preset": {
+        "age": "teens"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Tips for buying tech for teenagers",
+      "html": "<ul><li><strong>Ask about their phone</strong> before buying earbuds, trackers or controllers: compatibility matters.</li><li><strong>Creator kit is a safe bet</strong> for teens who film: a clip-on mic or tripod is cheaper than a camera and makes a bigger difference.</li><li><strong>Check age ratings and account rules</strong> for consoles, VR headsets and games, and set up family controls together.</li><li><strong>Room-makeover gadgets</strong> (LED strips, sunset lamps) are cheap, fun and endlessly TikTok-able.</li></ul>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the most popular tech gift for teens?",
+      "a": "Wireless earbuds, gaming (especially Nintendo Switch 2 games and accessories), instant and keychain cameras, and LED room lights consistently top teen wish lists and gift guides."
+    }
+  ],
+  "keywords": [
+    "gifts for teens",
+    "tech gifts for teenage girl",
+    "tech gifts for teenage boy",
+    "gadgets for teens"
+  ],
+  "updated": "2026-10-14"
+}

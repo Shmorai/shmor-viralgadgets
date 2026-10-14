@@ -1,0 +1,60 @@
+{
+  "slug": "gift-ideas/for-him",
+  "related": [
+    "gift-ideas",
+    "blog/christmas-tech-gifts-by-age",
+    "tech-deals"
+  ],
+  "title": "Tech Gifts for Him: Trending Gadgets He’ll Use",
+  "description": "Trending tech gifts for him: noise-cancelling headphones, handheld gaming, drones, massage guns and desk upgrades, with notes on rules and running costs.",
+  "nav": "For him",
+  "eyebrow": "Gift guide",
+  "h1": "Tech gifts for him",
+  "intro": "A shortlist of the gadgets most searched for as gifts for men right now. Every gadget here works for anyone: filter by age, type and price.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1515940279136-2f419eea8051",
+    "alt": "Black Fujifilm camera and white corded headphones",
+    "credit": "Ady TeenagerInRO",
+    "creditUrl": "https://unsplash.com/@teenagerinro"
+  },
+  "cardText": "Headphones, handheld gaming, drones, massage guns and desk upgrades: popular tech gifts for him.",
+  "blocks": [
+    {
+      "type": "gadgets",
+      "position": "top",
+      "title": "Popular tech gifts for him",
+      "intro": "Our starting shortlist. Use the filters to match his age and budget.",
+      "ids": [
+        "sony-wh-1000xm6",
+        "steam-deck-oled",
+        "switch-2",
+        "mini-drone",
+        "massage-gun",
+        "oneblade",
+        "mx-master",
+        "retro-handheld",
+        "ray-ban-meta",
+        "magnetic-power-bank",
+        "ember-mug",
+        "insta360-x",
+        "oura-ring",
+        "mechanical-keyboard"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Getting it right",
+      "html": "<ul><li><strong>Drones come with rules:</strong> check FAA (US), CAA (UK) or EASA (EU) registration and flying rules before gifting.</li><li><strong>Handheld PCs vs consoles:</strong> Steam Deck suits someone with a Steam library; Switch 2 suits Nintendo fans and families.</li><li><strong>Desk upgrades</strong> (mouse, keyboard, charging stand) are low-risk gifts for anyone working from home.</li></ul>"
+    }
+  ],
+  "keywords": [
+    "gifts for him",
+    "tech gifts for men",
+    "gadgets for men",
+    "gifts for husband",
+    "gifts for boyfriend",
+    "gifts for dad"
+  ],
+  "updated": "2026-10-14"
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "blog/digital-camera-comeback",
+  "type": "post",
+  "eyebrow": "Trends",
+  "updated": "2026-10-12",
+  "date": "2026-10-12",
+  "title": "Why Gen Z Is Buying Old Digital Cameras Again",
+  "description": "The digicam comeback explained: why old point-and-shoot cameras are trending on TikTok, what to check when buying second-hand, and new alternatives.",
+  "h1": "The digicam comeback: why old digital cameras are cool again",
+  "intro": "Flash-heavy, slightly blurry, wonderfully imperfect: 2000s point-and-shoot cameras are back. Here’s how to join in without getting a dud.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1594586041212-c642fef5d1e1",
+    "alt": "A black and silver compact camera on a white surface",
+    "credit": "Katrin Hauf",
+    "creditUrl": "https://unsplash.com/@trine"
+  },
+  "cardText": "Why point-and-shoot “digicams” are trending again, and how to buy one second-hand.",
+  "sections": [
+    {
+      "h2": "What’s driving the trend",
+      "html": "<p>Phone cameras now process every shot to look sharp and polished. Older compact cameras, with harsh flash, soft focus and colour quirks, produce photos that feel more candid, which is exactly the look behind countless #digicam photo dumps. A camera also means being in the moment without notifications.</p>"
+    },
+    {
+      "h2": "Buying a second-hand digicam: checklist",
+      "html": "<ul><li><strong>Battery and charger included?</strong> Original batteries can be hard to find; check that third-party ones exist.</li><li><strong>Memory card type:</strong> some older cameras use formats such as xD or Memory Stick; check you can get cards and a reader.</li><li><strong>Test the lens:</strong> ask for sample photos and check the lens extends and retracts smoothly.</li><li><strong>Check the screen and buttons</strong> for dead pixels and sticky controls.</li><li><strong>Buy from a seller with returns</strong> or a marketplace buyer-protection scheme.</li></ul>"
+    },
+    {
+      "h2": "New cameras with the same vibe",
+      "html": "<p>If you’d rather buy new, instant cameras like Fujifilm Instax Mini give a print-in-your-hand experience, and novelty cameras such as the <a href=\"/blog/kodak-charmera-keychain-camera/\">Kodak Charmera</a> lean fully into lo-fi. Browse more in <a href=\"/cameras-for-creators/\">cameras and creator kit</a>.</p>"
+    }
+  ],
+  "keywords": [
+    "digicam",
+    "digital camera trend",
+    "point and shoot camera",
+    "gen z camera",
+    "y2k camera"
+  ]
+}

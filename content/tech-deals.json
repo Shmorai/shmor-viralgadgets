@@ -1,0 +1,124 @@
+{
+  "slug": "tech-deals",
+  "title": "Tech Deals Calendar: Black Friday, Prime Day & More",
+  "description": "When gadgets are cheapest: Black Friday, Cyber Monday, Prime Big Deal Days, Boxing Day and more, plus free tools to check a tech deal is genuinely a good price.",
+  "nav": "Deals",
+  "navOrder": 6,
+  "eyebrow": "Deal timing",
+  "h1": "The tech deals calendar",
+  "intro": "We don’t post fake “deals”. Instead, here’s when gadget prices genuinely tend to drop, and how to check a deal is real before you buy.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1602526432604-029a709e131c",
+    "alt": "Person holding a blue and white product box",
+    "credit": "Samsung Memory",
+    "creditUrl": "https://unsplash.com/@samsungmemory"
+  },
+  "cardText": "Black Friday, Cyber Monday, Prime Day and Boxing Day dates, plus how to check a deal is real.",
+  "blocks": [
+    {
+      "type": "deals",
+      "position": "top",
+      "title": "Big sale dates",
+      "intro": "Dates for the current season. Always confirm on the retailer’s own site.",
+      "items": [
+        {
+          "icon": "calendar",
+          "badge": "27 Nov 2026",
+          "title": "Black Friday",
+          "text": "The biggest tech sale of the year in the US, UK and Europe. Many stores start “Black Friday” offers in early November."
+        },
+        {
+          "icon": "calendar",
+          "badge": "30 Nov 2026",
+          "title": "Cyber Monday",
+          "text": "Online-focused deals the Monday after Black Friday; some stores run a full “Cyber Week”."
+        },
+        {
+          "icon": "gift",
+          "badge": "11 Nov",
+          "title": "Singles’ Day",
+          "text": "A huge shopping day in China that AliExpress and some Western retailers also join."
+        },
+        {
+          "icon": "tag",
+          "badge": "26 Dec",
+          "title": "Boxing Day (UK)",
+          "text": "Post-Christmas sales in the UK and some other countries, often running into January."
+        },
+        {
+          "icon": "star",
+          "badge": "Usually July",
+          "title": "Amazon Prime Day",
+          "text": "Amazon’s summer members’ sale; strongest discounts on Amazon’s own devices."
+        },
+        {
+          "icon": "clock",
+          "badge": "Was 6–7 Oct 2026",
+          "title": "Prime Big Deal Days",
+          "text": "Amazon’s October members’ event. It has finished for this year; many prices dip again for Black Friday."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "Check a deal in 60 seconds",
+      "items": [
+        {
+          "icon": "clock",
+          "title": "Check the price history",
+          "text": "Use camelcamelcamel or Keepa (Amazon), or PriceRunner and idealo in the UK and Europe."
+        },
+        {
+          "icon": "search",
+          "title": "Compare the exact model",
+          "text": "Sales often feature older or retailer-specific models with similar names. Match the model number."
+        },
+        {
+          "icon": "shield",
+          "title": "Check the seller",
+          "text": "On marketplaces, check who is actually selling and shipping it, and their return policy."
+        },
+        {
+          "icon": "receipt",
+          "title": "Know your returns",
+          "text": "UK and EU online buyers usually get 14 days to cancel. US returns depend on the store’s policy."
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Which gadgets get the biggest discounts?",
+      "html": "<p>Patterns repeat every year: Amazon’s own devices (Echo, Kindle, Fire TV, Ring) are discounted most heavily during Amazon events; robot vacuums, headphones, TVs and air fryers are Black Friday regulars; brand-new flagship phones and consoles rarely get big cash discounts, but bundles, gift cards and trade-in boosts are common.</p>"
+    },
+    {
+      "h2": "Rules on “was” prices",
+      "html": "<p>In the EU, when a shop announces a price reduction it must show the lowest price it charged in the previous 30 days, so “was” prices can’t be inflated just before a sale. In the UK, the Competition and Markets Authority (CMA) can act against misleading pricing. In the US, the FTC has guidance on deceptive former-price comparisons. Even so, a price tracker is the quickest reality check.</p>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "When is Black Friday 2026?",
+      "a": "Black Friday 2026 is Friday 27 November, the day after US Thanksgiving (Thursday 26 November). Cyber Monday is 30 November 2026."
+    },
+    {
+      "q": "Is it better to buy tech on Black Friday or Cyber Monday?",
+      "a": "There’s usually a lot of overlap: many deals run from Black Friday through Cyber Monday. Check price history on the item you want rather than waiting for a particular day."
+    }
+  ],
+  "related": [
+    "blog/black-friday-tech-deals-guide",
+    "amazon-gadgets",
+    "gadgets-under-50"
+  ],
+  "keywords": [
+    "tech deals",
+    "black friday tech deals",
+    "cyber monday",
+    "prime day",
+    "prime big deal days",
+    "boxing day sales",
+    "gadget deals"
+  ],
+  "updated": "2026-10-14"
+}

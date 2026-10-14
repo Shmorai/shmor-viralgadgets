@@ -1,0 +1,47 @@
+{
+  "slug": "cameras-for-creators",
+  "title": "Cameras & Creator Kit: Gadgets for TikTok and Vlogs",
+  "description": "Creator gadgets that make videos look and sound better: clip-on mics, gimbal cameras, 360 cameras, instant and retro cameras, tripods and drones explained.",
+  "nav": "Creator kit",
+  "eyebrow": "Cameras & creator kit",
+  "h1": "Cameras and creator kit for TikTok and vlogs",
+  "intro": "The gear behind your favourite creators’ videos, from clip-on mics to 360 cameras, plus the retro cameras Gen Z can’t get enough of.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1630797160666-38e8c5ba44c1",
+    "alt": "A man in a black jacket holding a camera outdoors",
+    "credit": "Andrés",
+    "creditUrl": "https://unsplash.com/@andresssssssq"
+  },
+  "cardText": "Clip-on mics, gimbal and 360 cameras, instant and retro cameras for creators.",
+  "blocks": [
+    {
+      "type": "gadgets",
+      "position": "top",
+      "title": "Cameras & creator kit",
+      "intro": "Filter by age, price or where it’s trending.",
+      "preset": {
+        "type": "creator"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Where to spend first",
+      "html": "<ol><li><strong>Sound:</strong> a clip-on wireless mic is the biggest upgrade for talking-to-camera videos.</li><li><strong>Stability:</strong> a tripod or gimbal makes footage instantly look more professional.</li><li><strong>Light:</strong> face a window, or add a small LED light.</li><li><strong>Camera:</strong> only then think about a dedicated camera; modern phones are very capable.</li></ol>"
+    }
+  ],
+  "related": [
+    "blog/digital-camera-comeback",
+    "blog/kodak-charmera-keychain-camera",
+    "tech-reviewers"
+  ],
+  "keywords": [
+    "creator gadgets",
+    "vlogging camera",
+    "tiktok setup",
+    "wireless microphone",
+    "instant camera",
+    "360 camera"
+  ],
+  "updated": "2026-10-14"
+}

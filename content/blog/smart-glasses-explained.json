@@ -1,0 +1,52 @@
+{
+  "slug": "blog/smart-glasses-explained",
+  "type": "post",
+  "eyebrow": "Explainers",
+  "updated": "2026-10-06",
+  "date": "2026-10-06",
+  "title": "Smart Glasses Explained: Ray-Ban Meta and Beyond",
+  "description": "What smart glasses do in plain English: cameras, open-ear audio, AI assistants and in-lens displays, plus privacy etiquette and UK and EU availability.",
+  "h1": "Smart glasses explained: Ray-Ban Meta and beyond",
+  "intro": "Smart glasses have gone from sci-fi to the For You page. Here’s what they actually do, the difference between models, and the etiquette of wearing a camera on your face.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1413708617479-50918bc877eb",
+    "alt": "A MacBook, headphones and assorted accessories on a desk",
+    "credit": "Oscar Nilsson",
+    "creditUrl": "https://unsplash.com/@oscrse"
+  },
+  "cardText": "Cameras, open-ear audio, AI and in-lens displays: what smart glasses do and where to get them.",
+  "sections": [
+    {
+      "h2": "What smart glasses do",
+      "html": "<p>Most popular smart glasses, such as Ray-Ban Meta, look like ordinary frames but add a small camera for hands-free photos and point-of-view video, open-ear speakers for music and calls, and a voice assistant (Meta AI) you can ask questions. They don’t have a screen.</p>"
+    },
+    {
+      "h2": "Glasses with a display",
+      "html": "<p>Meta Ray-Ban Display adds a small screen inside one lens for messages, directions and captions, and is controlled with a wristband. Meta paused its planned international rollout in early 2026 because of demand in the US, so check Meta’s or Ray-Ban’s site in your country for current availability.</p>"
+    },
+    {
+      "h2": "Privacy and etiquette",
+      "html": "<ul><li>A light on the frame shows when you’re recording, but people may not notice it. Ask before filming people close up.</li><li>Many venues, gyms, schools and workplaces don’t allow recording; take them off where cameras aren’t welcome.</li><li>Review the app’s privacy settings, including how AI features use your photos and voice.</li></ul>"
+    },
+    {
+      "h2": "Who should buy them?",
+      "html": "<p>Great for cyclists, runners, parents capturing moments hands-free, and creators filming point-of-view clips. If you mainly want audio, open-ear headphones are cheaper. Compare them in the <a href=\"/?type=phones#finder\">phones and wearables finder</a>.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "title": "GIGAZINE: Meta temporarily limits Ray-Ban Display sales to the US",
+      "url": "https://www.gigazine.net/gsc_news/en/20260107-meta-ray-ban-display-delay"
+    },
+    {
+      "title": "Meta: Ray-Ban Meta smart glasses",
+      "url": "https://www.meta.com/ai-glasses/"
+    }
+  ],
+  "keywords": [
+    "smart glasses",
+    "ray-ban meta",
+    "meta ray-ban display",
+    "ai glasses"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "smart-home-gadgets",
+  "title": "Smart Home Gadgets Worth Buying: Lights, Speakers & More",
+  "description": "Popular smart home gadgets explained: Echo speakers, video doorbells, LED lights, robot vacuums, photo frames and trackers, with privacy and subscription tips.",
+  "nav": "Smart home",
+  "navOrder": 5,
+  "eyebrow": "Smart home",
+  "h1": "Smart home gadgets worth buying",
+  "intro": "From colour-changing room lights to robot vacuums: the smart home gadgets people are buying now, with the privacy and subscription small print.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1542681575-352258e0c854",
+    "alt": "A bedroom lit with coloured LED lights",
+    "credit": "Joshua Rawson-Harris",
+    "creditUrl": "https://unsplash.com/@joshrh19"
+  },
+  "cardText": "Echo speakers, doorbells, LED lights, robot vacuums and photo frames, with privacy tips.",
+  "blocks": [
+    {
+      "type": "gadgets",
+      "position": "top",
+      "title": "Smart home & lights",
+      "intro": "Filter by age, price or who it’s for.",
+      "preset": {
+        "type": "smarthome"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Smart home privacy basics",
+      "html": "<ul><li>Use a strong, unique password and turn on two-step verification for each smart home app.</li><li>Review voice-recording and camera settings; most speakers have a mic-off button and displays a camera shutter.</li><li>Keep devices updated, and buy from brands that promise security updates.</li><li>Point cameras at your own property. In the UK, the ICO has guidance for home CCTV that captures public areas or neighbours.</li></ul>"
+    }
+  ],
+  "related": [
+    "amazon-gadgets",
+    "gift-ideas/for-grandparents",
+    "tech-deals"
+  ],
+  "keywords": [
+    "smart home gadgets",
+    "smart home devices",
+    "led strip lights",
+    "video doorbell",
+    "robot vacuum",
+    "smart speaker"
+  ],
+  "updated": "2026-10-14"
+}
