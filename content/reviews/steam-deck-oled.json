@@ -1,0 +1,96 @@
+{
+  "slug": "reviews/steam-deck-oled",
+  "type": "review",
+  "date": "2026-10-14",
+  "updated": "2026-10-14",
+  "eyebrow": "Volt’s verdict",
+  "search": false,
+  "image": {
+    "src": "https://images.unsplash.com/photo-1665041982909-8a86864a1e49",
+    "alt": "A handheld game console and controller with figurines on a desk",
+    "credit": "Branden Skeli",
+    "creditUrl": "https://unsplash.com/@branden_skeli"
+  },
+  "sourcesTitle": "The reviews behind this verdict",
+  "blocks": [
+    {
+      "type": "verdict",
+      "position": "top"
+    },
+    {
+      "type": "reviewList",
+      "title": "More of Volt’s verdicts",
+      "limit": 3,
+      "more": true
+    }
+  ],
+  "gadget": "steam-deck-oled",
+  "rating": 4.5,
+  "scores": {
+    "hype": 4.5,
+    "value": 4.5,
+    "staying": 4.5
+  },
+  "title": "Steam Deck OLED Review Roundup: Still the One to Beat?",
+  "description": "Volt’s research-based verdict on the Steam Deck OLED: the gorgeous screen and better battery reviewers love, and why it isn’t a performance upgrade.",
+  "h1": "Steam Deck OLED: Volt’s verdict",
+  "intro": "Valve’s refreshed handheld swapped in a stunning HDR OLED screen and a bigger battery. Reviewers call it the definitive Steam Deck, but not a Steam Deck 2.",
+  "verdict": "The best-value PC handheld, now with a gorgeous screen. Same performance, though.",
+  "pros": [
+    "Vivid HDR OLED screen with deep blacks and a 90Hz refresh rate",
+    "Better battery life and faster charging than the original",
+    "Lighter, cooler and quieter",
+    "Faster Wi-Fi and the easy SteamOS experience"
+  ],
+  "cons": [
+    "No real performance boost; demanding new games can struggle",
+    "Battery is still a weak spot in heavy games",
+    "Still bulky",
+    "Installing non-Steam games is fiddly"
+  ],
+  "bestFor": "PC gamers with a Steam library who want a polished handheld.",
+  "skipIf": "You already own an original Steam Deck and mostly play docked.",
+  "cardText": "The best-value PC handheld, with a gorgeous screen but the same power.",
+  "sections": [
+    {
+      "h2": "Why everyone is talking about it",
+      "html": "<p>The Steam Deck is still the handheld every new PC handheld is compared to, and the OLED model is the version most reviewers recommend.</p>"
+    },
+    {
+      "h2": "What the reviews agree on",
+      "html": "<p>Tom’s Guide called it the best the device has ever been. TechRadar called it the definitive Steam Deck but harder to justify for existing owners. Stuff summed it up as the ultimate first-generation Steam Deck rather than a sequel. Everyone praised the screen; battery gains were welcome but not dramatic, and performance is unchanged.</p>"
+    },
+    {
+      "h2": "Volt’s take",
+      "html": "<p>For a new buyer with Steam games, it’s still the smart choice. Compare it with the pricier <a href=\"/reviews/rog-xbox-ally-x/\">ROG Xbox Ally X</a> and the <a href=\"/reviews/nintendo-switch-2/\">Switch 2</a> in our <a href=\"/blog/gaming-handhelds-compared/\">handheld comparison</a>.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Tom’s Guide: Steam Deck OLED review",
+      "url": "https://tomsguide.com/reviews/steam-deck-oled"
+    },
+    {
+      "title": "TechRadar: Steam Deck OLED review",
+      "url": "https://www.techradar.com/gaming/steam-deck-oled-review"
+    },
+    {
+      "title": "Trusted Reviews: Steam Deck OLED review",
+      "url": "https://www.trustedreviews.com/reviews/steam-deck-oled"
+    },
+    {
+      "title": "Stuff: Steam Deck OLED review",
+      "url": "https://www.stuff.tv/review/valve-steam-deck-oled-review"
+    }
+  ],
+  "related": [
+    "blog/gaming-handhelds-compared",
+    "gaming-gadgets",
+    "gift-ideas/for-him"
+  ],
+  "keywords": [
+    "steam deck oled review",
+    "is steam deck oled worth it",
+    "steam deck oled vs lcd"
+  ]
+}

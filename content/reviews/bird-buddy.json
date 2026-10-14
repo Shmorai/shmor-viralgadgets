@@ -1,0 +1,88 @@
+{
+  "slug": "reviews/bird-buddy",
+  "type": "review",
+  "date": "2026-10-14",
+  "updated": "2026-10-14",
+  "eyebrow": "Volt’s verdict",
+  "search": false,
+  "image": {
+    "src": "https://images.unsplash.com/photo-1718012934624-07822822df8c",
+    "alt": "A bird perched on a bird feeder",
+    "credit": "Andrey Larionov",
+    "creditUrl": "https://unsplash.com/@shooter__andy"
+  },
+  "sourcesTitle": "The reviews behind this verdict",
+  "blocks": [
+    {
+      "type": "verdict",
+      "position": "top"
+    },
+    {
+      "type": "reviewList",
+      "title": "More of Volt’s verdicts",
+      "limit": 3,
+      "more": true
+    }
+  ],
+  "gadget": "bird-buddy",
+  "rating": 4,
+  "scores": {
+    "hype": 4.5,
+    "value": 3.5,
+    "staying": 4
+  },
+  "title": "Bird Buddy Review Roundup: Is the Smart Feeder Worth It?",
+  "description": "Volt’s research-based verdict on Bird Buddy smart bird feeders: the joyful app and bird snaps reviewers love, and what the paid Premium plan adds on top.",
+  "h1": "Bird Buddy smart feeder: Volt’s verdict",
+  "intro": "The camera bird feeder that turned garden birds into a TikTok genre. Reviewers love the experience; the debate is over the price and the optional subscription.",
+  "verdict": "Pure joy for bird lovers. The core features are free; Premium is optional.",
+  "pros": [
+    "Automatic photo and video “postcards” of visiting birds",
+    "AI species identification in a fun, polished app",
+    "Works without a subscription for the core features",
+    "A brilliant gift for families and grandparents"
+  ],
+  "cons": [
+    "Premium price for a bird feeder",
+    "Best video quality and extra AI features need Premium",
+    "Needs solid Wi-Fi where you mount it",
+    "Some quirks reported in long-term use"
+  ],
+  "bestFor": "Nature-loving families and grandparents.",
+  "skipIf": "Your garden has weak Wi-Fi, or you’d resent paying for Premium extras.",
+  "cardText": "Pure joy for bird lovers; Premium is optional.",
+  "sections": [
+    {
+      "h2": "What the reviews agree on",
+      "html": "<p>TechRadar praised the Pro model’s joyful app, and its six-month test of the Bird Buddy 2 found the app delightful but the price and small quirks held it back. Bird Buddy’s own support pages confirm core features work without a membership, with Premium adding extras like top video quality and more AI tools.</p>"
+    },
+    {
+      "h2": "Volt’s take",
+      "html": "<p>One of the most delightful gadgets around, especially as a gift. Start without Premium and upgrade only if you find yourself living in the app. More in our <a href=\"/blog/smart-bird-feeders-explained/\">smart bird feeder guide</a>.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "title": "TechRadar: Bird Buddy Smart Bird Feeder Pro review",
+      "url": "https://www.techradar.com/cameras/bird-buddy-smart-bird-feeder-pro-review"
+    },
+    {
+      "title": "TechRadar: six months with the Bird Buddy 2",
+      "url": "https://www.techradar.com/cameras/ive-tested-the-bird-buddy-2-for-six-months-its-app-is-joyful-but-a-premium-price-and-small-quirks-keep-this-2k-solar-smart-feeder-from-flying-even-higher"
+    },
+    {
+      "title": "Bird Buddy support: membership features",
+      "url": "https://support.mybirdbuddy.com/hc/en-us/articles/31848755922705"
+    }
+  ],
+  "related": [
+    "blog/smart-bird-feeders-explained",
+    "gift-ideas/for-grandparents",
+    "smart-home-gadgets"
+  ],
+  "keywords": [
+    "bird buddy review",
+    "is bird buddy worth it",
+    "smart bird feeder review"
+  ]
+}

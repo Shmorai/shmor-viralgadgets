@@ -1,0 +1,96 @@
+{
+  "slug": "reviews/fujifilm-x100vi",
+  "type": "review",
+  "date": "2026-10-14",
+  "updated": "2026-10-14",
+  "eyebrow": "Volt’s verdict",
+  "search": false,
+  "image": {
+    "src": "https://images.unsplash.com/photo-1592571148494-08b2c2253556",
+    "alt": "A black and grey compact camera on a wooden table",
+    "credit": "Charlie Firth",
+    "creditUrl": "https://unsplash.com/@charliefirth"
+  },
+  "sourcesTitle": "The reviews behind this verdict",
+  "blocks": [
+    {
+      "type": "verdict",
+      "position": "top"
+    },
+    {
+      "type": "reviewList",
+      "title": "More of Volt’s verdicts",
+      "limit": 3,
+      "more": true
+    }
+  ],
+  "gadget": "fujifilm-x100vi",
+  "rating": 4,
+  "scores": {
+    "hype": 5,
+    "value": 3,
+    "staying": 4
+  },
+  "title": "Fujifilm X100VI Review Roundup: Worth the Wait?",
+  "description": "Volt’s research-based verdict on the Fujifilm X100VI: the image quality and film looks reviewers adore, plus the battery, card slot and availability catches.",
+  "h1": "Fujifilm X100VI: Volt’s verdict",
+  "intro": "TikTok’s favourite camera is genuinely excellent according to reviewers. The hard part is buying one at a fair price.",
+  "verdict": "A brilliant everyday camera. Just don’t pay a scalper for one.",
+  "pros": [
+    "40MP sensor with in-body stabilisation",
+    "Fujifilm’s much-loved film simulation colours",
+    "Classic, compact design that’s a joy to carry",
+    "Sharp 35mm-equivalent f/2 lens"
+  ],
+  "cons": [
+    "Hard to find, with long waiting lists at times",
+    "Battery life is modest",
+    "Fixed lens: no zoom",
+    "Single, slower UHS-I card slot for big files"
+  ],
+  "bestFor": "Enthusiasts who want one beautiful camera for everyday and travel photos.",
+  "skipIf": "You need zoom or video features, or you’d have to pay over the odds to get one.",
+  "cardText": "A brilliant everyday camera; just don’t pay scalper prices.",
+  "sections": [
+    {
+      "h2": "Why everyone is talking about it",
+      "html": "<p>Its predecessor went viral on TikTok for film-like photos straight out of the camera, and the X100VI inherited that hype, with back orders reported by TechRadar.</p>"
+    },
+    {
+      "h2": "What the reviews agree on",
+      "html": "<p>DPReview scored it 87%, praising the stabilised 40MP sensor. TechRadar called it an everyday delight. Tom’s Guide liked the images but flagged the single UHS-I card slot. Battery life and the fixed lens are the recurring caveats.</p>"
+    },
+    {
+      "h2": "Volt’s take",
+      "html": "<p>The hype is deserved, the value depends on what you pay. Buy from authorised retailers or join official waiting lists. Alternatives are in our <a href=\"/blog/fujifilm-x100vi-hype/\">X100VI explainer</a>.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "title": "DPReview: Fujifilm X100VI review",
+      "url": "https://www.dpreview.com/reviews/0046017017"
+    },
+    {
+      "title": "TechRadar: Fujifilm X100VI review",
+      "url": "https://www.techradar.com/cameras/mirrorless-cameras/fujifilm-x100vi-review"
+    },
+    {
+      "title": "Tom’s Guide: Fujifilm X100VI review",
+      "url": "https://tomsguide.com/cameras-photography/fujifilm-x100vi-review"
+    },
+    {
+      "title": "RTINGS: Fujifilm X100VI",
+      "url": "https://www.rtings.com/camera/reviews/fujifilm/x100vi"
+    }
+  ],
+  "related": [
+    "blog/fujifilm-x100vi-hype",
+    "cameras-for-creators",
+    "blog/digital-camera-comeback"
+  ],
+  "keywords": [
+    "fujifilm x100vi review",
+    "is the x100vi worth it",
+    "x100vi verdict"
+  ]
+}

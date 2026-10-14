@@ -20,6 +20,22 @@
 <main id="main">
 {{main}}
 </main>
+<section class="nl" id="newsletter" aria-labelledby="nl-title">
+  <div class="wrap"><div class="nl-inner">
+    <img class="nl-volt" src="/assets/volt.svg" width="120" height="120" alt="Volt, the ViralGadgets mascot">
+    <div class="nl-copy">
+      <p class="nl-kicker">Free weekly email</p>
+      <h2 id="nl-title">Volt’s Weekly</h2>
+      <p>Volt’s newest verdicts, fresh reviews and the gadgets going viral, in your inbox once a week. No spam, unsubscribe any time.</p>
+    </div>
+    <form class="nl-form" data-newsletter action="" method="post" target="_blank" novalidate>
+      <label class="nl-field"><span class="sr">Email address</span><input type="email" name="email" placeholder="you@example.com" autocomplete="email" required></label>
+      <button type="submit">Sign me up</button>
+      <label class="nl-consent"><input type="checkbox" name="consent" required><span>Yes, send me Volt’s Weekly emails. I can unsubscribe at any time. See the <a href="https://shmor.ai/privacy/">privacy policy</a>.</span></label>
+      <p class="nl-msg" data-newsletter-msg role="status" hidden></p>
+    </form>
+  </div></div>
+</section>
 <footer class="site-footer">
   <div class="wrap">
     <div class="foot-cols">

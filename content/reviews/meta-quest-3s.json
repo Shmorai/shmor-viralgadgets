@@ -1,0 +1,93 @@
+{
+  "slug": "reviews/meta-quest-3s",
+  "type": "review",
+  "date": "2026-10-14",
+  "updated": "2026-10-14",
+  "eyebrow": "Volt’s verdict",
+  "search": false,
+  "image": {
+    "src": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac",
+    "alt": "A pink and white VR headset",
+    "credit": "Remy Gieling",
+    "creditUrl": "https://unsplash.com/@gieling"
+  },
+  "sourcesTitle": "The reviews behind this verdict",
+  "blocks": [
+    {
+      "type": "verdict",
+      "position": "top"
+    },
+    {
+      "type": "reviewList",
+      "title": "More of Volt’s verdicts",
+      "limit": 3,
+      "more": true
+    }
+  ],
+  "gadget": "meta-quest-3s",
+  "rating": 4,
+  "scores": {
+    "hype": 4,
+    "value": 4.5,
+    "staying": 3.5
+  },
+  "title": "Meta Quest 3S Review Roundup: Best Budget VR?",
+  "description": "Volt’s research-based verdict on the Meta Quest 3S: why reviewers call it the best-value standalone VR headset, and the screen, fit and battery compromises.",
+  "h1": "Meta Quest 3S: Volt’s verdict",
+  "intro": "The Quest 3S is the cheapest way into modern standalone VR and mixed reality. Reviewers love the value and point out what was cut to get there.",
+  "verdict": "The best-value way into VR, with a softer screen than the Quest 3.",
+  "pros": [
+    "Much cheaper than the Quest 3 with the same processor",
+    "Full-colour mixed-reality passthrough",
+    "The biggest library of standalone VR games and apps",
+    "No PC or console needed"
+  ],
+  "cons": [
+    "Lower-resolution screen with older Fresnel lenses",
+    "Narrower lens-spacing range, so it may not suit every face",
+    "Battery life of around two to three hours",
+    "The included strap isn’t the most comfortable"
+  ],
+  "bestFor": "First-time VR buyers, families and fitness gamers.",
+  "skipIf": "You want the sharpest picture or wear it for long sessions; consider the Quest 3.",
+  "cardText": "The best-value way into VR, with a softer screen.",
+  "sections": [
+    {
+      "h2": "Why everyone is talking about it",
+      "html": "<p>VR fitness, mixed-reality games and “VR fails” clips keep the Quest line trending, and the 3S brought the price down for a lot more households.</p>"
+    },
+    {
+      "h2": "What the reviews agree on",
+      "html": "<p>Stuff said nothing does standalone VR better for the money. TechRadar called it the world’s best affordable VR headset, while noting it isn’t for everyone. Tom’s Hardware described sensible compromises for the price, with a more noticeable “screen door” effect than the Quest 3. PCGamesN scored it 7/10, calling it a brilliant budget headset with some issues.</p>"
+    },
+    {
+      "h2": "Volt’s take",
+      "html": "<p>As a first VR headset, it’s the obvious pick. Check Meta’s age rules and set up a parent-managed account for younger players, and clear a safe space before you play.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "title": "TechRadar: Meta Quest 3S review",
+      "url": "https://www.techradar.com/computing/virtual-reality-augmented-reality/meta-quest-3s-review-an-affordable-mixed-reality-headset-that-everyone-might-want"
+    },
+    {
+      "title": "Tom’s Hardware: Quest 3S review",
+      "url": "https://www.tomshardware.com/virtual-reality/meta-quest-3s-review"
+    },
+    {
+      "title": "PCGamesN: Meta Quest 3S review",
+      "url": "https://www.pcgamesn.com/meta/quest-3s-review"
+    }
+  ],
+  "related": [
+    "gaming-gadgets",
+    "gift-ideas/for-teens",
+    "blog/gaming-handhelds-compared"
+  ],
+  "keywords": [
+    "meta quest 3s review",
+    "is quest 3s worth it",
+    "quest 3s vs quest 3",
+    "best budget vr headset"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "reviews/sony-wh-1000xm6",
+  "type": "review",
+  "date": "2026-10-14",
+  "updated": "2026-10-14",
+  "eyebrow": "Volt’s verdict",
+  "search": false,
+  "image": {
+    "src": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb",
+    "alt": "Black wireless headphones on a white table",
+    "credit": "Luke Peterson",
+    "creditUrl": "https://unsplash.com/@ldpeterson11"
+  },
+  "sourcesTitle": "The reviews behind this verdict",
+  "blocks": [
+    {
+      "type": "verdict",
+      "position": "top"
+    },
+    {
+      "type": "reviewList",
+      "title": "More of Volt’s verdicts",
+      "limit": 3,
+      "more": true
+    }
+  ],
+  "gadget": "sony-wh-1000xm6",
+  "rating": 4.5,
+  "scores": {
+    "hype": 4.5,
+    "value": 3.5,
+    "staying": 4
+  },
+  "title": "Sony WH-1000XM6 Review Roundup: Still the Best?",
+  "description": "Volt’s research-based verdict on Sony’s WH-1000XM6: the class-leading noise cancelling, comfort and calls reviewers praise, plus the price and upgrade catch.",
+  "h1": "Sony WH-1000XM6: Volt’s verdict",
+  "intro": "Sony’s flagship noise-cancelling headphones are a refinement rather than a reinvention, and reviewers mostly love them for it.",
+  "verdict": "Top-tier noise cancelling and comfort. Owners of the XM5 can probably wait.",
+  "pros": [
+    "Class-leading noise cancelling",
+    "Comfortable and lightweight, and they fold again",
+    "Excellent call quality in most conditions",
+    "Long battery life in RTINGS’ testing",
+    "Reinforced metal hinges"
+  ],
+  "cons": [
+    "Expensive, and a big jump over the XM5’s price",
+    "No water or sweat resistance",
+    "Some smart features are hit and miss",
+    "No audio over USB-C"
+  ],
+  "bestFor": "Frequent flyers, commuters and anyone who takes lots of calls.",
+  "skipIf": "You own the XM5 and they still work well, or you want sweat-proof gym headphones.",
+  "cardText": "Top-tier noise cancelling and comfort; XM5 owners can wait.",
+  "sections": [
+    {
+      "h2": "Why everyone is talking about it",
+      "html": "<p>Sony’s 1000X line has been the noise-cancelling benchmark for years, so every new model kicks off a wave of “Sony vs Bose vs AirPods Max” comparison videos.</p>"
+    },
+    {
+      "h2": "What the reviews agree on",
+      "html": "<p>Expert Reviews called them Sony’s finest headphones yet, and What Hi-Fi called them sensational. TechRadar praised the noise cancelling and comfort. Tom’s Guide and RTINGS were more measured, describing a refinement rather than a big leap. Common complaints: the price, no water resistance, and inconsistent smart features.</p>"
+    },
+    {
+      "h2": "Volt’s take",
+      "html": "<p>If you’re buying your first premium noise-cancelling headphones, these are among the safest picks. If you own the XM5, the improvements are real but small, so look for the older model on sale instead if you’re on a budget.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Expert Reviews: Sony WH-1000XM6 review",
+      "url": "https://expertreviews.co.uk/technology/headphones-audio/sony-wh-1000xm6-review"
+    },
+    {
+      "title": "Tom’s Guide: Sony WH-1000XM6 review",
+      "url": "https://tomsguide.com/audio/over-ear-headphones/sony-wh-1000xm6-review"
+    },
+    {
+      "title": "What Hi-Fi: Sony WH-1000XM6 review",
+      "url": "https://www.whathifi.com/headphones/sony-wh-1000xm6"
+    },
+    {
+      "title": "TechRadar: Sony WH-1000XM6 review",
+      "url": "https://www.techradar.com/audio/wireless-headphones/sony-wh-1000xm6-review"
+    },
+    {
+      "title": "RTINGS: Sony WH-1000XM6",
+      "url": "https://www.rtings.com/headphones/reviews/sony/wh-1000xm6"
+    }
+  ],
+  "related": [
+    "gift-ideas/for-him",
+    "blog/wireless-earbuds-buying-guide",
+    "tech-deals"
+  ],
+  "keywords": [
+    "sony wh-1000xm6 review",
+    "xm6 vs xm5",
+    "best noise cancelling headphones"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "reviews/ninja-slushi",
+  "type": "review",
+  "date": "2026-10-14",
+  "updated": "2026-10-14",
+  "eyebrow": "Volt’s verdict",
+  "search": false,
+  "image": {
+    "src": "https://images.unsplash.com/photo-1698153767529-457811fa4981",
+    "alt": "Slush machines with different coloured drinks",
+    "credit": "Eryk Piotr Munk",
+    "creditUrl": "https://unsplash.com/@piotrmunk"
+  },
+  "sourcesTitle": "The reviews behind this verdict",
+  "blocks": [
+    {
+      "type": "verdict",
+      "position": "top"
+    },
+    {
+      "type": "reviewList",
+      "title": "More of Volt’s verdicts",
+      "limit": 3,
+      "more": true
+    }
+  ],
+  "gadget": "ninja-slushi",
+  "rating": 4,
+  "scores": {
+    "hype": 4.5,
+    "value": 3.5,
+    "staying": 3.5
+  },
+  "title": "Ninja SLUSHi Review Roundup: Party Hit or Gimmick?",
+  "description": "Volt’s research-based verdict on the Ninja SLUSHi: the effortless slushies and party appeal reviewers loved, versus the size, wait times and sugar catch.",
+  "h1": "Ninja SLUSHi: Volt’s verdict",
+  "intro": "TikTok’s favourite frozen-drink machine gets good marks from reviewers, with a few practical catches.",
+  "verdict": "A party hit that genuinely delivers, if you have the counter space.",
+  "pros": [
+    "Makes slushies, frappés and milkshakes with no ice",
+    "Little effort once it’s running",
+    "Keeps drinks at serving texture for hours",
+    "Several presets and adjustable thickness"
+  ],
+  "cons": [
+    "Can take up to an hour depending on the batch",
+    "Drinks need enough sugar to slush properly",
+    "Minimum batch size",
+    "Large and bulky"
+  ],
+  "bestFor": "Households that host often or love frozen drinks.",
+  "skipIf": "You only want the odd slushie; a blender is cheaper and smaller.",
+  "cardText": "A party hit that delivers, if you have the counter space.",
+  "sections": [
+    {
+      "h2": "What the reviews agree on",
+      "html": "<p>CNN Underscored found everything it tried came out great with very little effort. Gulf News was positive for households that regularly enjoy frozen drinks. Reviewers noted the wait for bigger batches and some trial and error with settings.</p>"
+    },
+    {
+      "h2": "Volt’s take",
+      "html": "<p>It lives up to the TikTok hype for the right household. More detail in our <a href=\"/blog/ninja-slushi-worth-it/\">SLUSHi explainer</a>.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "title": "CNN Underscored: Ninja SLUSHi review",
+      "url": "https://amp.cnn.com/cnn/cnn-underscored/reviews/ninja-slushi"
+    },
+    {
+      "title": "Gulf News: Ninja SLUSHi review",
+      "url": "https://gulfnews.com/best-buys/ninja-slushi-review-frozen-drinks-and-slushies-at-home-for-the-uae-summer-1.500600012"
+    },
+    {
+      "title": "Best Buy Canada blog: Ninja SLUSHi review",
+      "url": "https://blog.bestbuy.ca/appliances/small-appliances/ninja-slushi-frozen-drink-maker-review"
+    }
+  ],
+  "related": [
+    "blog/ninja-slushi-worth-it",
+    "kitchen-gadgets",
+    "tiktok-gadgets"
+  ],
+  "keywords": [
+    "ninja slushi review",
+    "ninja slushi verdict",
+    "slushie machine review"
+  ]
+}

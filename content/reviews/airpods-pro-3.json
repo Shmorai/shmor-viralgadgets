@@ -1,0 +1,100 @@
+{
+  "slug": "reviews/airpods-pro-3",
+  "type": "review",
+  "date": "2026-10-14",
+  "updated": "2026-10-14",
+  "eyebrow": "Volt’s verdict",
+  "search": false,
+  "image": {
+    "src": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb",
+    "alt": "Close-up of white wireless earbuds in their case",
+    "credit": "Daniel Romero",
+    "creditUrl": "https://unsplash.com/@rmrdnl"
+  },
+  "sourcesTitle": "The reviews behind this verdict",
+  "blocks": [
+    {
+      "type": "verdict",
+      "position": "top"
+    },
+    {
+      "type": "reviewList",
+      "title": "More of Volt’s verdicts",
+      "limit": 3,
+      "more": true
+    }
+  ],
+  "gadget": "airpods-pro-3",
+  "rating": 4.5,
+  "scores": {
+    "hype": 4.5,
+    "value": 3.5,
+    "staying": 4.5
+  },
+  "title": "AirPods Pro 3 Review Roundup: Apple’s Best Yet?",
+  "description": "Volt’s research-based verdict on AirPods Pro 3: the noise cancelling and sound reviewers praise, the heart-rate sensing, and the fit question to check first.",
+  "h1": "AirPods Pro 3: Volt’s verdict",
+  "intro": "Apple’s top earbuds added stronger noise cancelling and heart-rate sensing. Most reviewers call them Apple’s best yet, but fit divides opinion.",
+  "verdict": "The best AirPods yet for iPhone owners. Try the fit before you commit.",
+  "pros": [
+    "Stronger noise cancelling, with an excellent transparency mode",
+    "Sound most reviewers prefer to the Pro 2",
+    "Heart-rate sensing that reviewers found reliable for workouts",
+    "More ear-tip sizes, including XXS"
+  ],
+  "cons": [
+    "Fit is divisive: some testers found it less secure than the Pro 2",
+    "No conventional equaliser",
+    "Many features are iPhone-only",
+    "Premium price, and no charging cable in the box"
+  ],
+  "bestFor": "iPhone owners who want the best noise cancelling in a small earbud.",
+  "skipIf": "You use Android, or your AirPods Pro 2 already fit perfectly.",
+  "cardText": "The best AirPods yet for iPhone owners, if the fit works for you.",
+  "sections": [
+    {
+      "h2": "Why everyone is talking about it",
+      "html": "<p>AirPods Pro are a fixture of “what’s in my bag” videos, and the third generation added workout heart-rate tracking, which made them a fitness-creator favourite too.</p>"
+    },
+    {
+      "h2": "What the reviews agree on",
+      "html": "<p>Tom’s Guide called them the best AirPods yet, praising the noise cancelling and transparency mode. What Hi-Fi called them delightfully dependable, especially for iOS users, and Digital Trends liked them after months of use. The dissent is about fit: T3 found the redesigned shape less secure than the Pro 2, which hurt real-world noise cancelling, while RTINGS and Tom’s Guide found the fit comfortable and stable.</p>"
+    },
+    {
+      "h2": "Volt’s take",
+      "html": "<p>On an iPhone, these are an easy recommendation, but buy from a store with simple returns so you can check the fit. Already happy with your Pro 2? The upgrade is nice, not necessary. Compare with the cheaper <a href=\"/#g-airpods-5\">AirPods 5</a>, which now have noise cancelling too.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Tom’s Guide: AirPods Pro 3 review",
+      "url": "https://www.tomsguide.com/audio/airpods/airpods-pro-3-review"
+    },
+    {
+      "title": "What Hi-Fi: AirPods Pro 3 review",
+      "url": "https://www.whathifi.com/headphones/apple-airpods-pro-3"
+    },
+    {
+      "title": "T3: AirPods Pro 3 review",
+      "url": "https://www.t3.com/tech/earbuds/apple-airpods-pro-3-review"
+    },
+    {
+      "title": "RTINGS: AirPods Pro 3",
+      "url": "https://rtings.com/headphones/reviews/apple/airpods-pro-3"
+    },
+    {
+      "title": "Digital Trends: AirPods Pro 3 review",
+      "url": "https://www.digitaltrends.com/home-theater/apple-airpods-pro-3-review/"
+    }
+  ],
+  "related": [
+    "blog/wireless-earbuds-buying-guide",
+    "gift-ideas/for-teens",
+    "tech-deals"
+  ],
+  "keywords": [
+    "airpods pro 3 review",
+    "are airpods pro 3 worth it",
+    "airpods pro 3 vs pro 2"
+  ]
+}

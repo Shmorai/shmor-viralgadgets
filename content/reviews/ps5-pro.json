@@ -1,0 +1,88 @@
+{
+  "slug": "reviews/ps5-pro",
+  "type": "review",
+  "date": "2026-10-14",
+  "updated": "2026-10-14",
+  "eyebrow": "Volt’s verdict",
+  "search": false,
+  "image": {
+    "src": "https://images.unsplash.com/photo-1622297845775-5ff3fef71d13",
+    "alt": "A white PlayStation console and controller",
+    "credit": "Nik",
+    "creditUrl": "https://unsplash.com/@helloimnik"
+  },
+  "sourcesTitle": "The reviews behind this verdict",
+  "blocks": [
+    {
+      "type": "verdict",
+      "position": "top"
+    },
+    {
+      "type": "reviewList",
+      "title": "More of Volt’s verdicts",
+      "limit": 3,
+      "more": true
+    }
+  ],
+  "gadget": "ps5-pro",
+  "rating": 3.5,
+  "scores": {
+    "hype": 3.5,
+    "value": 2.5,
+    "staying": 4
+  },
+  "title": "PS5 Pro Review Roundup: Who Should Actually Buy It?",
+  "description": "Volt’s research-based verdict on the PS5 Pro: sharper graphics and upscaling reviewers rate, against the high price and missing disc drive. Who it really suits.",
+  "h1": "PS5 Pro: Volt’s verdict",
+  "intro": "The most powerful PlayStation is impressive on a big 4K TV and a hard sell almost everywhere else. Here’s the reviewer consensus.",
+  "verdict": "A real upgrade for 4K enthusiasts. Most players are better off with a standard PS5.",
+  "pros": [
+    "Sharper images and smoother frame rates in supported games",
+    "PSSR AI upscaling",
+    "Roomy 2TB storage",
+    "Works with existing PS5 games and accessories"
+  ],
+  "cons": [
+    "Expensive at launch",
+    "No disc drive included",
+    "Gains are subtle on smaller or 1080p TVs",
+    "Upscaling can show occasional quirks"
+  ],
+  "bestFor": "Enthusiasts with a large 4K TV who care about image quality.",
+  "skipIf": "You’re happy with your PS5, or play on a 1080p screen.",
+  "cardText": "A real upgrade for 4K enthusiasts; most players should skip it.",
+  "sections": [
+    {
+      "h2": "What the reviews agree on",
+      "html": "<p>Digital Trends called it worthwhile for enthusiasts but something most people can live without. Laptop Mag described it as Sony’s most divisive console. Reviewers agree the improvements show most on big 4K TVs.</p>"
+    },
+    {
+      "h2": "Volt’s take",
+      "html": "<p>Great hardware, tough value. Factor in the separate disc drive if you buy physical games. Full details in our <a href=\"/blog/ps5-pro-worth-it/\">PS5 Pro explainer</a>.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Digital Trends: PS5 Pro review",
+      "url": "https://digitaltrends.com/gaming/ps5-pro-review"
+    },
+    {
+      "title": "Laptop Mag: PS5 Pro review",
+      "url": "https://www.laptopmag.com/gaming/ps5-pro-review-sony-games-performance-value"
+    },
+    {
+      "title": "Press Start: PS5 Pro disc drive sold separately",
+      "url": "https://press-start.com.au/news/playstation/2024/09/11/the-ps5-pro-doesnt-come-with-a-disc-drive-but-you-can-buy-one-separately/"
+    }
+  ],
+  "related": [
+    "blog/ps5-pro-worth-it",
+    "gaming-gadgets",
+    "tech-deals"
+  ],
+  "keywords": [
+    "ps5 pro review",
+    "ps5 pro verdict",
+    "should i buy ps5 pro"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "reviews/rog-xbox-ally-x",
+  "type": "review",
+  "date": "2026-10-14",
+  "updated": "2026-10-14",
+  "eyebrow": "Volt’s verdict",
+  "search": false,
+  "image": {
+    "src": "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf",
+    "alt": "A wireless game controller lit by cyan and magenta neon light",
+    "credit": "Javier Martínez",
+    "creditUrl": "https://unsplash.com/@cjdante"
+  },
+  "sourcesTitle": "The reviews behind this verdict",
+  "blocks": [
+    {
+      "type": "verdict",
+      "position": "top"
+    },
+    {
+      "type": "reviewList",
+      "title": "More of Volt’s verdicts",
+      "limit": 3,
+      "more": true
+    }
+  ],
+  "gadget": "rog-xbox-ally",
+  "rating": 4,
+  "scores": {
+    "hype": 4.5,
+    "value": 3,
+    "staying": 3.5
+  },
+  "title": "ROG Xbox Ally X Review Roundup: The Best PC Handheld?",
+  "description": "Volt’s research-based verdict on the ROG Xbox Ally X: the performance and Xbox interface reviewers praise, and the price and battery catches to weigh.",
+  "h1": "ROG Xbox Ally X: Volt’s verdict",
+  "intro": "Xbox and ASUS teamed up for a handheld that hides Windows behind a console-style interface. Reviewers rate the Ally X highly, at a high price.",
+  "verdict": "The most powerful, most console-like Windows handheld. Pricey, though.",
+  "pros": [
+    "Fast AMD Z2 Extreme chip with 24GB of memory",
+    "Xbox full-screen interface makes Windows feel console-like",
+    "Comfortable grips",
+    "Plays Xbox PC, Game Pass, Steam and other stores"
+  ],
+  "cons": [
+    "Expensive, especially against a Steam Deck",
+    "Battery life in demanding games is short",
+    "Still Windows underneath, with occasional quirks"
+  ],
+  "bestFor": "Game Pass and PC gamers who want top handheld performance.",
+  "skipIf": "You’re on a budget (consider the Steam Deck OLED or the standard Ally).",
+  "cardText": "The most powerful console-like Windows handheld, at a price.",
+  "sections": [
+    {
+      "h2": "What the reviews agree on",
+      "html": "<p>Trusted Reviews called it the definitive Windows handheld at the time, praising performance and ergonomics. Notebookcheck scored it 85.9%, noting the Xbox interface improves usability. Battery life and price were the repeated caveats.</p>"
+    },
+    {
+      "h2": "Volt’s take",
+      "html": "<p>If performance is the priority and the budget is there, it’s the one. Otherwise compare it with the <a href=\"/reviews/steam-deck-oled/\">Steam Deck OLED</a>. Model differences are in our <a href=\"/blog/rog-xbox-ally-explained/\">Ally explainer</a>.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Notebookcheck: Asus ROG Xbox Ally X",
+      "url": "https://www.notebookcheck.net/Asus-ROG-Xbox-Ally-X.1102117.0.html"
+    },
+    {
+      "title": "HotHardware: ROG Xbox Ally pricing",
+      "url": "https://hothardware.com/news/asus-leaks-rog-xbox-ally-price"
+    },
+    {
+      "title": "Tom’s Guide: ROG Xbox Ally X20 hands-on",
+      "url": "https://www.tomsguide.com/gaming/handheld-gaming/i-tested-the-usd1-299-rog-xbox-ally-x20-with-that-oled-display-the-usd300-price-hike-is-surprisingly-palatable"
+    }
+  ],
+  "related": [
+    "blog/rog-xbox-ally-explained",
+    "blog/gaming-handhelds-compared",
+    "gaming-gadgets"
+  ],
+  "keywords": [
+    "rog xbox ally x review",
+    "xbox ally x worth it",
+    "best pc handheld"
+  ]
+}

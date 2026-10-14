@@ -226,3 +226,39 @@
   r = r || (/-gb$|-ie$/.test(lang) ? "uk" : /^(de|fr|es|it|nl|pt|pl|sv|da|fi)/.test(lang) ? "eu" : "us");
   links.forEach(function (a) { a.href = "https://" + HOSTS[r] + "/s?k=" + encodeURIComponent(a.dataset.q); });
 })();
+
+/* Volt's Weekly sign-up. Checks the email + consent, then saves the sign-up:
+   1. on a mailing-list provider when the form has an action (templates/layout.html), else
+   2. in the private claude.ai preview's database (collection "signups"), else
+   3. on the local preview server (tools/serve.js → subscribers/signups.csv, git-ignored).
+   It only says "you're in" when one of those actually saved the address. */
+(function () {
+  'use strict';
+  function viaPreviewDb(row) {
+    if (!window.claude || !window.claude.use) return Promise.reject();
+    return window.claude.use('db').then(function (db) { if (!db) throw new Error('no db'); return db.collection('signups').add(row); });
+  }
+  function viaLocalServer(row) {
+    return fetch('/api/newsletter', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(row) })
+      .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); });
+  }
+  document.querySelectorAll('form[data-newsletter]').forEach(function (form) {
+    var msg = form.querySelector('[data-newsletter-msg]'), btn = form.querySelector('button[type=submit]');
+    var say = function (t) { msg.textContent = t; msg.hidden = false; };
+    form.addEventListener('submit', function (e) {
+      var email = form.querySelector('input[type=email]'), consent = form.querySelector('input[name=consent]');
+      if (!email.value || !email.checkValidity()) { e.preventDefault(); say('Volt needs a valid email address to send you anything.'); email.focus(); return; }
+      if (!consent.checked) { e.preventDefault(); say('Please tick the box to say you’re happy to get Volt’s Weekly.'); return; }
+      if (form.getAttribute('action')) { say('Almost there! Check your inbox to confirm your subscription.'); return; }
+      e.preventDefault();
+      var row = { email: email.value.trim().toLowerCase(), consent: true, list: 'volts-weekly', page: location.pathname, signedUpAt: new Date().toISOString() };
+      btn.disabled = true; say('Saving…');
+      viaPreviewDb(row).catch(function () { return viaLocalServer(row); }).then(function () {
+        form.classList.add('is-done'); email.value = ''; consent.checked = false;
+        say('You’re in! Volt’s Weekly will land in your inbox soon. Beep boop.');
+      }).catch(function () {
+        say('Volt couldn’t save that just now. Please try again in a moment.');
+      }).then(function () { btn.disabled = false; });
+    });
+  });
+})();

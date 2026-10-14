@@ -198,7 +198,7 @@
       "position": "top",
       "title": "Volt’s latest verdicts",
       "intro": "New research-based reviews of trending gadgets every Tuesday and Friday, with stars, pros, cons and every source we read.",
-      "limit": 3,
+      "limit": 6,
       "more": true
     },
     {
