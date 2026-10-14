@@ -1648,6 +1648,896 @@
         "credit": "Alireza Attari",
         "creditUrl": "https://unsplash.com/@alireza_attari"
       }
+    },
+    {
+      "id": "airpods-pro-3",
+      "name": "AirPods Pro 3",
+      "brand": "Apple",
+      "type": "audio",
+      "ages": [
+        "teens",
+        "young",
+        "adults"
+      ],
+      "who": [
+        "him",
+        "her"
+      ],
+      "price": "premium",
+      "trend": [
+        "youtube",
+        "tiktok",
+        "amazon"
+      ],
+      "blurb": "Apple’s top in-ear buds, updated in 2025 with stronger noise cancellation and heart-rate sensing for workouts.",
+      "why": "The Pro AirPods are a staple of “what’s in my bag” videos, and the fitness features gave reviewers plenty to test.",
+      "note": "Best with an iPhone; many features are Apple-only. The cheaper AirPods 5 now also have noise cancellation, so compare both.",
+      "q": "AirPods Pro 3",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb",
+        "alt": "Close-up of white wireless earbuds in their case",
+        "credit": "Daniel Romero",
+        "creditUrl": "https://unsplash.com/@rmrdnl"
+      }
+    },
+    {
+      "id": "beats-pill",
+      "name": "Beats Pill",
+      "brand": "Beats",
+      "type": "audio",
+      "ages": [
+        "teens",
+        "young"
+      ],
+      "who": [
+        "him",
+        "her"
+      ],
+      "price": "mid",
+      "trend": [
+        "tiktok",
+        "amazon"
+      ],
+      "blurb": "The revived pill-shaped Bluetooth speaker: water and dust resistant, and works with iPhone and Android.",
+      "why": "The comeback of a 2010s icon, helped along by colourful drops and celebrity collabs.",
+      "note": "Compare with JBL’s Flip on sound and battery before you decide; colours and prices vary by retailer.",
+      "q": "Beats Pill speaker",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1589256469067-ea99122bbdc4",
+        "alt": "A black and red portable speaker",
+        "credit": "Habib Dadkhah",
+        "creditUrl": "https://unsplash.com/@habibdadkhah"
+      }
+    },
+    {
+      "id": "marshall-speaker",
+      "name": "Emberton portable speaker",
+      "brand": "Marshall",
+      "type": "audio",
+      "ages": [
+        "young",
+        "adults"
+      ],
+      "who": [
+        "him",
+        "her"
+      ],
+      "price": "mid",
+      "trend": [
+        "youtube",
+        "amazon"
+      ],
+      "blurb": "A rugged pocket speaker with Marshall’s classic guitar-amp styling.",
+      "why": "Design-led tech is having a moment, and Marshall’s retro look photographs beautifully.",
+      "note": "You’re partly paying for the look; check sound comparisons against cheaper rivals.",
+      "q": "Marshall Emberton speaker",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1589003077984-894e133dabab",
+        "alt": "A black and silver portable speaker",
+        "credit": "Habib Dadkhah",
+        "creditUrl": "https://unsplash.com/@habibdadkhah"
+      }
+    },
+    {
+      "id": "sonos-era-100",
+      "name": "Era 100 smart speaker",
+      "brand": "Sonos",
+      "type": "audio",
+      "ages": [
+        "young",
+        "adults",
+        "seniors"
+      ],
+      "who": [
+        "him",
+        "her"
+      ],
+      "price": "premium",
+      "trend": [
+        "youtube",
+        "amazon"
+      ],
+      "blurb": "A compact Wi-Fi speaker with stereo sound that can grow into a multi-room system.",
+      "why": "A favourite starter speaker in home-setup and apartment-tour videos.",
+      "note": "Sonos’s 2024 app redesign drew a lot of complaints; read recent reviews about the app before buying.",
+      "q": "Sonos Era 100",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1586078875290-c22eb791ad5d",
+        "alt": "A white and black round speaker",
+        "credit": "Nicolas Lafargue",
+        "creditUrl": "https://unsplash.com/@nicolaslafargue"
+      }
+    },
+    {
+      "id": "record-player",
+      "name": "Bluetooth record players",
+      "brand": "Audio-Technica, Victrola and others",
+      "type": "audio",
+      "ages": [
+        "teens",
+        "young",
+        "adults"
+      ],
+      "who": [
+        "him",
+        "her"
+      ],
+      "price": "mid",
+      "trend": [
+        "tiktok",
+        "amazon"
+      ],
+      "blurb": "Turntables that play vinyl and can stream to a Bluetooth speaker.",
+      "why": "The vinyl revival is real: record collections and “Sunday spins” are all over TikTok.",
+      "note": "Very cheap suitcase-style players can wear records faster. A basic entry-level turntable is a safer bet.",
+      "q": "bluetooth turntable record player",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1616714109948-c74fe5029a4d",
+        "alt": "A translucent amber vinyl record spinning on a turntable",
+        "credit": "Jakob Rosen",
+        "creditUrl": "https://unsplash.com/@jakobnoahrosen"
+      }
+    },
+    {
+      "id": "whoop",
+      "name": "WHOOP band",
+      "brand": "WHOOP",
+      "type": "phones",
+      "ages": [
+        "young",
+        "adults"
+      ],
+      "who": [
+        "him",
+        "her"
+      ],
+      "price": "mid",
+      "trend": [
+        "tiktok",
+        "youtube"
+      ],
+      "blurb": "A screenless fitness band focused on recovery, sleep and strain.",
+      "why": "Athletes and fitness creators made recovery scores part of their daily content.",
+      "note": "It works on a paid membership rather than a one-off purchase. Add up the yearly cost before signing up.",
+      "q": "WHOOP band",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1480179087180-d9f0ec044897",
+        "alt": "A woman running while wearing a fitness armband",
+        "credit": "Filip Mroz",
+        "creditUrl": "https://unsplash.com/@mroz"
+      }
+    },
+    {
+      "id": "galaxy-watch",
+      "name": "Galaxy Watch",
+      "brand": "Samsung",
+      "type": "phones",
+      "ages": [
+        "young",
+        "adults",
+        "seniors"
+      ],
+      "who": [
+        "him",
+        "her"
+      ],
+      "price": "premium",
+      "trend": [
+        "youtube",
+        "amazon"
+      ],
+      "blurb": "Samsung’s smartwatch for health tracking, workouts and notifications.",
+      "why": "The go-to smartwatch for Android users, and a regular in every Black Friday sale.",
+      "note": "Recent Galaxy Watches don’t work with iPhone, and some health features work best with a Samsung phone.",
+      "q": "Samsung Galaxy Watch",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1660844817855-3ecc7ef21f12",
+        "alt": "A smartwatch with a black face",
+        "credit": "pratik prasad",
+        "creditUrl": "https://unsplash.com/@pratik19"
+      }
+    },
+    {
+      "id": "budget-fitness-tracker",
+      "name": "Budget fitness trackers",
+      "brand": "Fitbit, Xiaomi, Amazfit and others",
+      "type": "phones",
+      "ages": [
+        "teens",
+        "young",
+        "adults",
+        "seniors"
+      ],
+      "who": [
+        "him",
+        "her"
+      ],
+      "price": "budget",
+      "trend": [
+        "amazon"
+      ],
+      "blurb": "Slim bands that track steps, sleep and heart rate, with long battery life.",
+      "why": "Steady Amazon best-sellers for anyone who wants the basics without a pricey smartwatch.",
+      "note": "Accuracy varies; some brands charge for premium insights. Check the app is available in your region.",
+      "q": "fitness tracker band",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1576243345690-4e4b79b63288",
+        "alt": "A black fitness tracker band",
+        "credit": "Nikita Kostrykin",
+        "creditUrl": "https://unsplash.com/@chilinik"
+      }
+    },
+    {
+      "id": "fujifilm-x100vi",
+      "name": "X100VI",
+      "brand": "Fujifilm",
+      "type": "creator",
+      "ages": [
+        "young",
+        "adults"
+      ],
+      "who": [
+        "him",
+        "her"
+      ],
+      "price": "premium",
+      "trend": [
+        "tiktok",
+        "youtube"
+      ],
+      "blurb": "A premium compact camera with a fixed lens and Fujifilm’s famous film-style colour looks.",
+      "why": "It went viral on TikTok for its “film look” straight out of the camera, and waiting lists followed.",
+      "note": "Expensive and often hard to find; avoid inflated reseller prices and buy from authorised retailers.",
+      "q": "Fujifilm X100VI",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1592571148494-08b2c2253556",
+        "alt": "A black and grey compact camera on a wooden table",
+        "credit": "Charlie Firth",
+        "creditUrl": "https://unsplash.com/@charliefirth"
+      }
+    },
+    {
+      "id": "canon-g7x",
+      "name": "PowerShot G7 X Mark III",
+      "brand": "Canon",
+      "type": "creator",
+      "ages": [
+        "teens",
+        "young"
+      ],
+      "who": [
+        "her",
+        "him"
+      ],
+      "price": "premium",
+      "trend": [
+        "tiktok",
+        "youtube"
+      ],
+      "blurb": "A pocket vlogging camera with a flip-up screen, loved by Gen Z for its flash-photo look.",
+      "why": "One of the most-wanted compact cameras of the digicam revival, and frequently sold out.",
+      "note": "It’s been on sale for years, so check you’re paying a fair price; older second-hand units are common.",
+      "q": "Canon G7X Mark III",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1677172954692-90cf8bdc91e6",
+        "alt": "A couple of compact cameras on a table",
+        "credit": "Sanju Pandita",
+        "creditUrl": "https://unsplash.com/@spxclicks"
+      }
+    },
+    {
+      "id": "gopro-hero",
+      "name": "GoPro HERO",
+      "brand": "GoPro",
+      "type": "creator",
+      "ages": [
+        "teens",
+        "young",
+        "adults"
+      ],
+      "who": [
+        "him",
+        "her"
+      ],
+      "price": "premium",
+      "trend": [
+        "youtube",
+        "tiktok"
+      ],
+      "blurb": "The classic rugged action camera for sports, travel and point-of-view video.",
+      "why": "Ski, surf and bike clips keep GoPros trending every season.",
+      "note": "Cloud backup and some extras need a GoPro subscription. Factor in mounts and spare batteries.",
+      "q": "GoPro HERO",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1603720913661-76d1053714e2",
+        "alt": "A black and orange action camera on a brown surface",
+        "credit": "Maik Kleinert",
+        "creditUrl": "https://unsplash.com/@maikkleinert"
+      }
+    },
+    {
+      "id": "ring-light",
+      "name": "LED ring light",
+      "brand": "Various",
+      "type": "creator",
+      "ages": [
+        "teens",
+        "young",
+        "adults"
+      ],
+      "who": [
+        "her",
+        "him"
+      ],
+      "price": "budget",
+      "trend": [
+        "tiktok",
+        "amazon"
+      ],
+      "blurb": "A circular light with a phone holder for flattering, even lighting on video calls and videos.",
+      "why": "The signature light behind countless TikTok and makeup videos.",
+      "note": "Look for adjustable colour temperature and a sturdy stand; cheap ones can flicker on camera.",
+      "q": "ring light with phone holder",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1673196649671-eb09066ad6c1",
+        "alt": "A close-up of a ring light on a table",
+        "credit": "Maria",
+        "creditUrl": "https://unsplash.com/@lyumotech"
+      }
+    },
+    {
+      "id": "rog-xbox-ally",
+      "name": "ROG Xbox Ally",
+      "brand": "ASUS × Xbox",
+      "type": "gaming",
+      "ages": [
+        "teens",
+        "young",
+        "adults"
+      ],
+      "who": [
+        "him",
+        "her"
+      ],
+      "price": "premium",
+      "trend": [
+        "youtube",
+        "tiktok"
+      ],
+      "blurb": "A Windows gaming handheld with an Xbox-style full-screen interface, launched in October 2025.",
+      "why": "Xbox’s first big step into handhelds made it one of the most-watched hardware launches for gamers.",
+      "note": "There are two models at very different prices. Battery life in demanding games is short, as with most PC handhelds.",
+      "q": "ROG Xbox Ally",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf",
+        "alt": "A wireless game controller lit by cyan and magenta neon light",
+        "credit": "Javier Martínez",
+        "creditUrl": "https://unsplash.com/@cjdante"
+      }
+    },
+    {
+      "id": "ps5-pro",
+      "name": "PlayStation 5 Pro",
+      "brand": "Sony",
+      "type": "gaming",
+      "ages": [
+        "teens",
+        "young",
+        "adults"
+      ],
+      "who": [
+        "him",
+        "her"
+      ],
+      "price": "premium",
+      "trend": [
+        "youtube",
+        "amazon"
+      ],
+      "blurb": "The more powerful PS5 for sharper graphics and smoother frame rates in supported games.",
+      "why": "A favourite comparison topic on gaming YouTube: is the Pro worth it over a standard PS5?",
+      "note": "The disc drive is sold separately. Most of the benefit shows on a 4K TV; on a 1080p screen the standard PS5 is better value.",
+      "q": "PS5 Pro",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1622297845775-5ff3fef71d13",
+        "alt": "A white PlayStation console and controller",
+        "credit": "Nik",
+        "creditUrl": "https://unsplash.com/@helloimnik"
+      }
+    },
+    {
+      "id": "gaming-headset",
+      "name": "Wireless gaming headsets",
+      "brand": "SteelSeries, Razer, HyperX and others",
+      "type": "gaming",
+      "ages": [
+        "kids",
+        "teens",
+        "young"
+      ],
+      "who": [
+        "him",
+        "her"
+      ],
+      "price": "mid",
+      "trend": [
+        "amazon",
+        "youtube"
+      ],
+      "blurb": "Comfortable headsets with a mic for chatting with friends while gaming.",
+      "why": "A perennial best-seller and one of the safest gifts for any gamer.",
+      "note": "Check it supports your console (PlayStation, Xbox and Switch differ). For kids, look for volume limits.",
+      "q": "wireless gaming headset",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1560419015-7c427e8ae5ba",
+        "alt": "A person wearing orange and black headphones",
+        "credit": "Fredrick Tendong",
+        "creditUrl": "https://unsplash.com/@frdx"
+      }
+    },
+    {
+      "id": "tamagotchi",
+      "name": "Tamagotchi",
+      "brand": "Bandai",
+      "type": "gaming",
+      "ages": [
+        "kids",
+        "teens",
+        "young"
+      ],
+      "who": [
+        "her",
+        "him"
+      ],
+      "price": "budget",
+      "trend": [
+        "tiktok"
+      ],
+      "blurb": "The pocket virtual pet is back, with new models and collector editions.",
+      "why": "90s and Y2K nostalgia plus keyring culture made Tamagotchis a TikTok favourite again.",
+      "note": "There are many versions with different features; check which one you’re buying, and beware of fakes on marketplaces.",
+      "q": "Tamagotchi",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1781409701110-18cad955a0a1",
+        "alt": "A light blue Tamagotchi virtual pet inside a green bag",
+        "credit": "Jenny Dabon",
+        "creditUrl": "https://unsplash.com/@jennydabon"
+      }
+    },
+    {
+      "id": "star-projector",
+      "name": "Galaxy star projector",
+      "brand": "Various",
+      "type": "smarthome",
+      "ages": [
+        "kids",
+        "teens",
+        "young"
+      ],
+      "who": [
+        "her",
+        "him"
+      ],
+      "price": "budget",
+      "trend": [
+        "tiktok",
+        "amazon"
+      ],
+      "blurb": "Projects a swirling galaxy of stars and nebula onto your ceiling.",
+      "why": "Bedroom glow-ups and “cosy night” videos made galaxy projectors a TikTok staple.",
+      "note": "Choose a reputable brand with clear laser-safety labelling, and don’t let young children look into the light.",
+      "q": "galaxy star projector",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1628498188904-036f5e25e93e",
+        "alt": "Stars in the night sky",
+        "credit": "Olena Bohovyk",
+        "creditUrl": "https://unsplash.com/@olenkasergienko"
+      }
+    },
+    {
+      "id": "bird-buddy",
+      "name": "Smart bird feeder",
+      "brand": "Bird Buddy and others",
+      "type": "smarthome",
+      "ages": [
+        "adults",
+        "seniors",
+        "kids"
+      ],
+      "who": [
+        "him",
+        "her"
+      ],
+      "price": "premium",
+      "trend": [
+        "tiktok",
+        "youtube"
+      ],
+      "blurb": "A bird feeder with a camera that snaps visiting birds and identifies them in an app.",
+      "why": "Close-up “bird postcards” turned garden birds into a viral TikTok genre.",
+      "note": "Some features need a subscription, and it needs decent Wi-Fi where you mount it.",
+      "q": "smart bird feeder camera",
+      "guide": "gift-ideas/for-grandparents",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1718012934624-07822822df8c",
+        "alt": "A bird perched on a bird feeder",
+        "credit": "Andrey Larionov",
+        "creditUrl": "https://unsplash.com/@shooter__andy"
+      }
+    },
+    {
+      "id": "air-purifier",
+      "name": "Compact air purifier",
+      "brand": "Levoit, Blueair and others",
+      "type": "smarthome",
+      "ages": [
+        "young",
+        "adults",
+        "seniors"
+      ],
+      "who": [
+        "him",
+        "her"
+      ],
+      "price": "mid",
+      "trend": [
+        "amazon"
+      ],
+      "blurb": "A quiet HEPA purifier for bedrooms and small living spaces.",
+      "why": "A long-running Amazon best-seller, especially during allergy and wildfire-smoke seasons.",
+      "note": "Replacement filters are an ongoing cost. Check the clean-air delivery rate (CADR) suits your room size.",
+      "q": "HEPA air purifier",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1436473849883-bb3464c23e93",
+        "alt": "A rectangular white device",
+        "credit": "Álvaro Bernal",
+        "creditUrl": "https://unsplash.com/@abn"
+      }
+    },
+    {
+      "id": "espresso-machine",
+      "name": "Bambino espresso machine",
+      "brand": "Breville (Sage in the UK & EU)",
+      "type": "kitchen",
+      "ages": [
+        "young",
+        "adults"
+      ],
+      "who": [
+        "him",
+        "her"
+      ],
+      "price": "premium",
+      "trend": [
+        "tiktok",
+        "youtube"
+      ],
+      "blurb": "A compact home espresso machine with a steam wand for café-style lattes.",
+      "why": "Home coffee-bar videos made it one of the most-recommended starter espresso machines.",
+      "note": "Sold as Breville in the US and Sage in the UK and Europe. You’ll want a decent grinder too.",
+      "q": "Breville Bambino",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1620051787208-a45bc64e32ff",
+        "alt": "A black and silver coffee machine on a wooden table",
+        "credit": "Luke Porter",
+        "creditUrl": "https://unsplash.com/@lukeporter"
+      }
+    },
+    {
+      "id": "ninja-slushi",
+      "name": "SLUSHi frozen drink maker",
+      "brand": "Ninja",
+      "type": "kitchen",
+      "ages": [
+        "teens",
+        "young",
+        "adults"
+      ],
+      "who": [
+        "her",
+        "him"
+      ],
+      "price": "premium",
+      "trend": [
+        "tiktok",
+        "amazon"
+      ],
+      "blurb": "A countertop machine that turns drinks into slushies and frozen cocktails.",
+      "why": "One of 2025’s biggest viral kitchen launches, with endless flavour experiments on TikTok.",
+      "note": "It’s big and takes a while to freeze each batch. Measure your counter space first.",
+      "q": "Ninja Slushi",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1698153767529-457811fa4981",
+        "alt": "Slush machines with different coloured drinks",
+        "credit": "Eryk Piotr Munk",
+        "creditUrl": "https://unsplash.com/@piotrmunk"
+      }
+    },
+    {
+      "id": "meater",
+      "name": "Wireless meat thermometer",
+      "brand": "MEATER and others",
+      "type": "kitchen",
+      "ages": [
+        "young",
+        "adults",
+        "seniors"
+      ],
+      "who": [
+        "him"
+      ],
+      "price": "mid",
+      "trend": [
+        "amazon",
+        "youtube"
+      ],
+      "blurb": "A probe that sits in the meat and sends the temperature to your phone.",
+      "why": "A favourite gift for barbecue fans, and a hero of “perfect steak” videos.",
+      "note": "Bluetooth range can be limited through walls or grills; check the range of the model you choose.",
+      "q": "wireless meat thermometer",
+      "guide": "gift-ideas/for-him",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1614119068601-483274e9dcb7",
+        "alt": "Tongs lifting a seared steak over a charcoal grill",
+        "credit": "Matt Connor",
+        "creditUrl": "https://unsplash.com/@mattconnor"
+      }
+    },
+    {
+      "id": "milk-frother",
+      "name": "Electric milk frother",
+      "brand": "Various",
+      "type": "kitchen",
+      "ages": [
+        "teens",
+        "young",
+        "adults",
+        "seniors"
+      ],
+      "who": [
+        "her",
+        "him"
+      ],
+      "price": "budget",
+      "trend": [
+        "tiktok",
+        "amazon"
+      ],
+      "blurb": "A handheld or jug frother for foamy lattes, matcha and hot chocolate at home.",
+      "why": "Iced latte and matcha routines made the humble frother a TikTok must-have.",
+      "note": "Handheld wands are cheapest; heated jug frothers are easier for hot drinks.",
+      "q": "electric milk frother",
+      "guide": "gadgets-under-50",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1541167760496-1628856ab772",
+        "alt": "A person making latte art",
+        "credit": "Fahmi Fakhrudin",
+        "creditUrl": "https://unsplash.com/@fahmipaping"
+      }
+    },
+    {
+      "id": "laifen-dryer",
+      "name": "High-speed hair dryer",
+      "brand": "Laifen, Dyson and others",
+      "type": "wellness",
+      "ages": [
+        "teens",
+        "young",
+        "adults"
+      ],
+      "who": [
+        "her"
+      ],
+      "price": "mid",
+      "trend": [
+        "tiktok",
+        "amazon"
+      ],
+      "blurb": "A lightweight, fast-drying hair dryer with a high-speed motor.",
+      "why": "Laifen went viral as a lower-priced alternative to Dyson’s Supersonic, with endless comparison videos.",
+      "note": "Buy from the brand’s official store or authorised sellers; look-alikes are common on marketplaces.",
+      "q": "Laifen hair dryer",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1720424643395-f966961d7782",
+        "alt": "A woman holding a hair dryer",
+        "credit": "JOVS Beauty",
+        "creditUrl": "https://unsplash.com/@jovsbeauty"
+      }
+    },
+    {
+      "id": "walking-pad",
+      "name": "Under-desk walking pad",
+      "brand": "WalkingPad and others",
+      "type": "wellness",
+      "ages": [
+        "young",
+        "adults"
+      ],
+      "who": [
+        "her",
+        "him"
+      ],
+      "price": "premium",
+      "trend": [
+        "tiktok",
+        "amazon"
+      ],
+      "blurb": "A slim, folding treadmill for walking while you work or watch TV.",
+      "why": "“Walking pad era” and #deskwalking videos made them a work-from-home staple.",
+      "note": "Built for walking, not running. Check the weight limit, and think about noise if you have neighbours below.",
+      "q": "walking pad under desk treadmill",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1633394782240-f81aba3f850d",
+        "alt": "A woman on a treadmill",
+        "credit": "Mike Cox",
+        "creditUrl": "https://unsplash.com/@iprefermike"
+      }
+    },
+    {
+      "id": "remarkable",
+      "name": "reMarkable Paper Pro",
+      "brand": "reMarkable",
+      "type": "desk",
+      "ages": [
+        "young",
+        "adults"
+      ],
+      "who": [
+        "him",
+        "her"
+      ],
+      "price": "premium",
+      "trend": [
+        "youtube",
+        "tiktok"
+      ],
+      "blurb": "A paper-like E Ink tablet for handwriting notes, sketching and reading PDFs, now with a colour screen.",
+      "why": "Productivity and study creators love it as a distraction-free notebook.",
+      "note": "It’s expensive, and cloud sync extras need a subscription. It isn’t a general-purpose tablet.",
+      "q": "reMarkable Paper Pro",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1683921045461-b8dc5ad37740",
+        "alt": "A notepad on top of a laptop next to a keyboard",
+        "credit": "Fiona Murray-deGraaff",
+        "creditUrl": "https://unsplash.com/@fionamurrayphoto"
+      }
+    },
+    {
+      "id": "kobo-libra-colour",
+      "name": "Kobo Libra Colour",
+      "brand": "Kobo",
+      "type": "desk",
+      "ages": [
+        "teens",
+        "young",
+        "adults",
+        "seniors"
+      ],
+      "who": [
+        "her",
+        "him"
+      ],
+      "price": "mid",
+      "trend": [
+        "tiktok",
+        "youtube"
+      ],
+      "blurb": "A colour E Ink e-reader with page-turn buttons and optional stylus notes.",
+      "why": "BookTok’s favourite Kindle alternative, especially for library borrowing.",
+      "note": "Many libraries lend e-books through it via OverDrive in supported regions. Colour is softer than on a phone screen.",
+      "q": "Kobo Libra Colour",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1555631545-9dc21031669b",
+        "alt": "An e-reader switched on",
+        "credit": "Balázs Kétyi",
+        "creditUrl": "https://unsplash.com/@balazsketyi"
+      }
+    },
+    {
+      "id": "monitor-light-bar",
+      "name": "Monitor light bar",
+      "brand": "BenQ, Xiaomi and others",
+      "type": "desk",
+      "ages": [
+        "young",
+        "adults",
+        "seniors"
+      ],
+      "who": [
+        "him",
+        "her"
+      ],
+      "price": "mid",
+      "trend": [
+        "youtube",
+        "amazon"
+      ],
+      "blurb": "A slim lamp that clips onto your monitor and lights the desk without glare on the screen.",
+      "why": "A desk-setup YouTube favourite that frees up space and looks tidy.",
+      "note": "Check it fits your monitor; very curved or thin screens can need a different clamp.",
+      "q": "monitor light bar",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1500989145603-8e7ef71d639e",
+        "alt": "A latte next to a white wireless keyboard and earbuds on a desk",
+        "credit": "Lukas Blazek",
+        "creditUrl": "https://unsplash.com/@goumbik"
+      }
+    },
+    {
+      "id": "kids-camera",
+      "name": "Kids’ digital camera",
+      "brand": "VTech and others",
+      "type": "creator",
+      "ages": [
+        "kids"
+      ],
+      "who": [
+        "him",
+        "her"
+      ],
+      "price": "budget",
+      "trend": [
+        "amazon"
+      ],
+      "blurb": "A chunky, drop-friendly camera with big buttons and fun photo effects for young photographers.",
+      "why": "A consistent Amazon best-seller and a popular screen-light gift.",
+      "note": "Image quality is basic; check whether it needs a memory card, and how photos get onto a computer.",
+      "q": "kids digital camera",
+      "guide": "gift-ideas/for-kids",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1519038983316-43241d5d7b61",
+        "alt": "A child holding a camera",
+        "credit": "Annie Spratt",
+        "creditUrl": "https://unsplash.com/@anniespratt"
+      }
+    },
+    {
+      "id": "fire-kids-tablet",
+      "name": "Fire Kids tablet",
+      "brand": "Amazon",
+      "type": "desk",
+      "ages": [
+        "kids"
+      ],
+      "who": [
+        "him",
+        "her"
+      ],
+      "price": "mid",
+      "trend": [
+        "amazon"
+      ],
+      "blurb": "A tablet in a kid-proof case with parental controls and a kids’ content subscription included for a period.",
+      "why": "One of Amazon’s top-selling devices every holiday season.",
+      "note": "The included Amazon Kids+ subscription renews at a monthly cost unless you cancel. Set up controls before gifting.",
+      "q": "Fire Kids tablet",
+      "guide": "gift-ideas/for-kids",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1654414884104-c6fc9a27ed35",
+        "alt": "A young child looking at a tablet",
+        "credit": "Shashank Verma",
+        "creditUrl": "https://unsplash.com/@heyshashank"
+      }
     }
   ]
 }

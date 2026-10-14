@@ -84,18 +84,58 @@
       chips.forEach(function (c) { if (c.getAttribute('aria-pressed') === 'true') (s[c.dataset.dim] = s[c.dataset.dim] || []).push(c.dataset.val); });
       return s;
     }
-    function apply(sync) {
-      var s = selected(), q = qInput.value.trim().toLowerCase(), n = 0;
-      cards.forEach(function (card) {
+    // Pages: the full catalogue spreads over 5 pages (min 12 per page); "Show all" puts everything on one.
+    var grid = root.querySelector('.gz-grid'), pager = root.querySelector('[data-fz-pager]');
+    var PER = Math.max(12, Math.ceil(cards.length / 5)), page = 1, showAll = false, matched = [];
+    var voltSrc = (root.querySelector('[data-fz-volt] img') || {}).getAttribute ? root.querySelector('[data-fz-volt] img').getAttribute('src') : '';
+    var QUIPS = ['Psst. Prices change all the time, so always hit “Check today’s price”.', 'Volt’s golden rule: read the heads-up before the hype.',
+      'Spotted something you like? Tap the heart and I’ll remember it for you.', 'Subscriptions are sneaky. I always check for them first.',
+      'Buying a gift? Check the return window before you wrap it.', 'Battery claims are like my dance moves: best-case scenario only.',
+      'Filters stack up: try a type plus an age for a tighter shortlist.', 'Can’t choose? “Surprise me” is my favourite button. Just saying.',
+      'Fun fact: I have no hands, so I read every review instead.', 'If a big-brand gadget is suspiciously cheap on a social ad, it’s probably fake.'];
+    function breakCard(text) {
+      var el = document.createElement('div');
+      el.className = 'gz-break';
+      el.innerHTML = (voltSrc ? '<img src="' + voltSrc + '" width="96" height="96" alt="">' : '') + '<p class="gzb-kicker">Volt says</p><p class="gzb-text"></p>';
+      el.querySelector('.gzb-text').textContent = text;
+      return el;
+    }
+    function renderPager(pages) {
+      if (!pager) return;
+      pager.hidden = matched.length <= PER;
+      if (pager.hidden) return;
+      var h = '';
+      if (!showAll) {
+        h += '<button type="button" data-fz-page="' + (page - 1) + '"' + (page === 1 ? ' disabled' : '') + ' aria-label="Previous page">←</button>';
+        for (var i = 1; i <= pages; i++) h += '<button type="button" data-fz-page="' + i + '"' + (i === page ? ' aria-current="page"' : '') + '>' + i + '</button>';
+        h += '<button type="button" data-fz-page="' + (page + 1) + '"' + (page === pages ? ' disabled' : '') + ' aria-label="Next page">→</button>';
+      }
+      h += '<button type="button" class="fz-all" data-fz-all aria-pressed="' + showAll + '">' + (showAll ? 'Show in pages' : 'Show all ' + matched.length) + '</button>';
+      pager.innerHTML = h;
+    }
+    function apply(sync, keepPage) {
+      var s = selected(), q = qInput.value.trim().toLowerCase();
+      if (!keepPage) page = 1;
+      matched = cards.filter(function (card) {
         var ok = Object.keys(s).every(function (dim) {
           var vals = (card.getAttribute('data-' + dim) || '').split(' ');
           return s[dim].some(function (v) { return vals.indexOf(v) > -1; });
         });
         if (ok && q) ok = q.split(/\s+/).every(function (w) { return (card.dataset.name + ' ' + card.textContent.toLowerCase()).indexOf(w) > -1; });
         if (ok && savedOnly) ok = saved.indexOf(card.id.slice(2)) > -1;
-        card.hidden = !ok; if (ok) n++;
+        return ok;
       });
-      countEl.textContent = n + (n === 1 ? ' gadget' : ' gadgets') + (savedOnly ? ' saved' : '');
+      var n = matched.length, pages = showAll ? 1 : Math.max(1, Math.ceil(n / PER));
+      page = Math.min(Math.max(1, page), pages);
+      var shown = showAll ? matched : matched.slice((page - 1) * PER, page * PER);
+      cards.forEach(function (card) { card.hidden = shown.indexOf(card) < 0; });
+      // Volt pops in between the cards: after the 5th and 12th card shown, a different quip on every page
+      grid.querySelectorAll('.gz-break').forEach(function (b) { b.remove(); });
+      [5, 12, 20, 28, 36, 44, 52, 60, 68, 76].forEach(function (at, k) {
+        if (shown.length > at) shown[at - 1].after(breakCard(QUIPS[((page - 1) * 2 + k) % QUIPS.length]));
+      });
+      renderPager(pages);
+      countEl.textContent = n + (n === 1 ? ' gadget' : ' gadgets') + (savedOnly ? ' saved' : '') + (pages > 1 ? ' · page ' + page + ' of ' + pages : '');
       empty.hidden = n > 0;
       var any = Object.keys(s).length || q || savedOnly;
       resetBtns.forEach(function (b) { b.hidden = !any; });
@@ -116,10 +156,13 @@
         chips.forEach(function (c) { c.setAttribute('aria-pressed', 'false'); });
         qInput.value = ''; savedOnly = false; savedBtn.setAttribute('aria-pressed', 'false'); apply(true); return;
       }
+      var pg = e.target.closest('[data-fz-page]');
+      if (pg && !pg.disabled) { page = +pg.dataset.fzPage; apply(false, true); grid.scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }
+      if (e.target.closest('[data-fz-all]')) { showAll = !showAll; apply(false); grid.scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }
       if (e.target.closest('[data-fz-surprise]')) {
-        var pool = cards.filter(function (c) { return !c.hidden; });
-        if (!pool.length) return;
-        var pick = pool[Math.floor(Math.random() * pool.length)];
+        if (!matched.length) return;
+        var pick = matched[Math.floor(Math.random() * matched.length)];
+        if (pick.hidden) { page = Math.floor(matched.indexOf(pick) / PER) + 1; apply(false, true); }
         cards.forEach(function (c) { c.classList.remove('zap'); });
         pick.scrollIntoView({ behavior: 'smooth', block: 'center' });
         setTimeout(function () { pick.classList.add('zap'); var d = pick.querySelector('details'); if (d) d.open = true; }, 350);
@@ -166,7 +209,8 @@
     apply(false);
     if (location.hash.indexOf('#g-') === 0) {
       var t = document.getElementById(location.hash.slice(1));
-      if (t) { t.hidden = false; setTimeout(function () { t.classList.add('zap'); var d = t.querySelector('details'); if (d) d.open = true; }, 400); }
+      if (t && matched.indexOf(t) > -1) { page = Math.floor(matched.indexOf(t) / PER) + 1; apply(false, true); }
+      if (t) { t.hidden = false; setTimeout(function () { t.scrollIntoView({ block: 'center' }); t.classList.add('zap'); var d = t.querySelector('details'); if (d) d.open = true; }, 400); }
     }
   });
 })();

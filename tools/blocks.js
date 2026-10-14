@@ -133,6 +133,7 @@ module.exports.gadgets = function gadgets(b, p, kit) {
   </div>
   <div class="fz-volt" data-fz-volt hidden aria-live="polite"><img src="/assets/volt.svg" width="52" height="52" alt="Volt"><p></p></div>
   <div class="gz-grid">${items.map(card).join('\n')}</div>
+  <nav class="fz-pager" data-fz-pager hidden aria-label="Gadget pages"></nav>
   <p class="gz-empty" data-fz-empty hidden><img src="/assets/volt.svg" width="64" height="64" alt="Volt"><br>Hmm, Volt can’t find a gadget that matches all of those filters. Try removing one, or <button type="button" data-fz-reset>clear them all</button>.</p>
   <p class="aff-note">Prices change constantly, so we never list them here: “Check today's price” opens a live retailer search. Photos are illustrative and may not show the exact model. We may earn a commission from some links, at no extra cost to you. <a href="https://shmor.ai/affiliate-disclosure/">How we make money</a>.</p>
 </div></div></section>`;
