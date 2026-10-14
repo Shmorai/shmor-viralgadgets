@@ -56,6 +56,17 @@ function photo(it, { esc, imgSrc }, w = 640, ratio = 0.75, sizes = "(max-width: 
   return `<img src="${esc(imgSrc(it.img, w, Math.round(w * ratio)))}" srcset="${set}" sizes="${sizes}" width="${w}" height="${Math.round(w * ratio)}" alt="${esc(it.img.alt || "")}" loading="lazy" decoding="async">`;
 }
 
+// Star rating (0-5 in halves) as inline SVG; the text equivalent is in aria-label
+const STAR = "M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z";
+function stars(r) {
+  r = Math.max(0, Math.min(5, Math.round((+r || 0) * 2) / 2));
+  return `<span class="stars" role="img" aria-label="${r} out of 5">${[1, 2, 3, 4, 5].map(n => {
+    const cls = r >= n ? "on" : r >= n - .5 ? "half" : "off";
+    return `<svg class="st-${cls}" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="${STAR}"/></svg>`; }).join("")}</span>`;
+}
+const fmt = d => new Date(d + "T12:00:00Z").toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+const VOLT = '<img class="volt" src="/assets/volt.svg" width="56" height="56" alt="Volt, the ViralGadgets mascot">';
+
 function matches(it, preset) {
   return Object.entries(preset || {}).every(([k, v]) => {
     const d = DIMS.find(x => x.key === k);
@@ -74,7 +85,9 @@ module.exports.gadgets = function gadgets(b, p, kit) {
   const us = retail.us || { host: 'www.amazon.com' };
   const src = (p.slug || 'home').replace(/\//g, '-');
 
+  const reviews = [...bySlug.values()].filter(x => x.type === "review");
   const card = it => {
+    const rev = reviews.find(r => r.gadget === it.id);
     const t = DATA.types[it.type];
     if (!t) errors.push(`data/gadgets.json: "${it.id}" has unknown type "${it.type}"`);
     if (it.link && !LINKS[it.link]) errors.push(`data/gadgets.json: "${it.id}" link "${it.link}" isn't in shmor-site.json "links"`);
@@ -91,6 +104,7 @@ module.exports.gadgets = function gadgets(b, p, kit) {
   <div class="gz-body">
     <p class="gz-kind">${esc(t ? t.label : '')} <span>·</span> ${esc(it.brand)}</p>
     <h3>${esc(it.name)}</h3>
+    ${rev ? `<a class="gz-rating" href="${pagePath(rev)}">${stars(rev.rating)}<span>Volt's verdict ${esc(rev.rating)}/5 →</span></a>` : ""}
     <p class="gz-blurb">${esc(it.blurb)}</p>
     <details class="gz-more"><summary>Why it's trending</summary><p>${esc(it.why)}</p>${it.note ? `<p class="gz-note"><strong>Heads-up:</strong> ${esc(it.note)}</p>` : ''}${it.guide ? `<p><a href="${pagePath(bySlug.get(it.guide) || { slug: it.guide })}">Read our guide →</a></p>` : ''}${it.img?.credit ? `<p class="gz-credit">Illustrative photo: <a href="${esc(it.img.creditUrl)}?utm_source=shmor&amp;utm_medium=referral" rel="nofollow noopener" target="_blank">${esc(it.img.credit)}</a> on Unsplash</p>` : ''}</details>
     <ul class="gz-meta"><li>${esc(DATA.prices[it.price])}</li><li>${esc(who)}</li><li>${esc(ages)}</li></ul>
@@ -138,4 +152,44 @@ module.exports.spotlight = function spotlight(b, p, kit) {
   if (!list.length) return "";
   const head = b.title ? `<div class="block-head"><h2>${esc(b.title)}</h2>${b.intro ? `<p>${b.intro}</p>` : ""}</div>` : "";
   return `<section class="blocks blocks-spotlight"><div class="wrap">${head}<div class="spot-grid">${list.map((it, n) => `<a class="spot${n === 0 ? " spot-lead" : ""}" href="${p.slug ? "/" : ""}#g-${esc(it.id)}">${photo(it, kit, n === 0 ? 1200 : 640, n === 0 ? 0.62 : 0.75, n === 0 ? "(max-width: 900px) 100vw, 60vw" : "(max-width: 900px) 100vw, 30vw")}<span class="spot-shade"></span><span class="spot-body"><span class="spot-kind">${it.added ? "New · " : ""}${esc(DATA.types[it.type].label)}</span><h3>${esc(it.name)}</h3><p>${esc(it.blurb)}</p></span></a>`).join("")}</div></div></section>`;
+};
+
+/* ---------- Volt's verdicts (research-based reviews) ----------
+   Review pages: content/reviews/<slug>.json with "type": "review", "gadget": "<gadget id>", "date",
+   "rating" (0-5, halves), "scores": { hype, value, staying } (0-5), "verdict" (one line), "pros", "cons",
+   "bestFor", "skipIf", "sources" (the published reviews the verdict is based on). Volt is an openly
+   fictional mascot: ratings are research-based and never presented as hands-on testing. */
+const SCORE_LABELS = { hype: "Lives up to the hype", value: "Value for money", staying: "Staying power" };
+const allReviews = bySlug => [...bySlug.values()].filter(x => x.type === "review").sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+
+module.exports.verdict = function verdict(b, p, kit) {
+  const { esc, errors } = kit;
+  const it = DATA.items.find(x => x.id === p.gadget);
+  if (!it) errors.push(`${p._file}: "gadget" "${p.gadget}" isn't in data/gadgets.json`);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(p.date || "")) errors.push(`${p._file}: reviews need "date": "YYYY-MM-DD"`);
+  if (!(p.sources || []).length) errors.push(`${p._file}: reviews must list the published reviews they're based on in "sources"`);
+  const list = (cls, arr) => `<ul class="${cls}">${(arr || []).map(x => `<li>${esc(x)}</li>`).join("")}</ul>`;
+  const sc = p.scores || {};
+  return `<section class="blocks blocks-verdict"><div class="wrap"><div class="vd">
+  <div class="vd-score"><p class="vd-label">Volt's verdict</p><p class="vd-num">${esc(p.rating)}<span>/5</span></p>${stars(p.rating)}<p class="vd-line">${esc(p.verdict || "")}</p></div>
+  <div class="vd-bars">${Object.entries(SCORE_LABELS).map(([k, l]) => `<div class="vd-bar"><span class="vd-bl">${l}</span><span class="vd-track"><span style="width:${Math.max(0, Math.min(100, (+sc[k] || 0) * 20))}%"></span></span><b>${esc(sc[k] ?? "–")}</b></div>`).join("")}
+    <p class="vd-by">${VOLT}<span><strong>Rated by Volt</strong>, our (fictional) robot mascot · <time datetime="${esc(p.date)}">${p.date ? fmt(p.date) : ""}</time><br>A research-based rating: the ViralGadgets team compares published reviews, long-term tests and specs. We haven't tested it hands-on. <a href="/reviews/#how-volt-rates">How Volt rates</a></span></p></div>
+  <div class="vd-pc"><div><h3>What reviewers love</h3>${list("vd-pros", p.pros)}</div><div><h3>What gives them pause</h3>${list("vd-cons", p.cons)}</div></div>
+  <div class="vd-fit">${p.bestFor ? `<p><strong>Best for:</strong> ${esc(p.bestFor)}</p>` : ""}${p.skipIf ? `<p><strong>Skip it if:</strong> ${esc(p.skipIf)}</p>` : ""}
+    ${it ? `<p class="vd-links"><a class="gz-deal" data-q="${esc(it.q || it.name)}" href="https://www.amazon.com/s?k=${encodeURIComponent(it.q || it.name)}" rel="nofollow noopener sponsored" target="_blank">Check today's price →</a><a href="/#g-${esc(it.id)}">See it in the gadget finder</a><a href="https://www.youtube.com/results?search_query=${encodeURIComponent(it.q || it.name)}+review" rel="nofollow noopener" target="_blank">Watch video reviews</a></p>` : ""}</div>
+</div></div></section>`;
+};
+
+module.exports.reviewList = function reviewList(b, p, kit) {
+  const { esc, pagePath, bySlug } = kit;
+  const list = allReviews(bySlug).filter(r => r.slug !== p.slug).slice(0, b.limit || 99);
+  if (!list.length) return "";
+  const head = b.title ? `<div class="block-head"><h2>${esc(b.title)}</h2>${b.intro ? `<p>${b.intro}</p>` : ""}${b.more ? '<a class="block-more" href="/reviews/">All reviews →</a>' : ""}</div>` : "";
+  return `<section class="blocks blocks-reviews"><div class="wrap">${head}<div class="rv-grid">${list.map(r => { const it = DATA.items.find(x => x.id === r.gadget) || {};
+    return `<a class="rv" href="${pagePath(r)}"><span class="rv-media">${photo(it, kit)}<span class="rv-score">${esc(r.rating)}<small>/5</small></span></span><span class="rv-body"><span class="rv-kind">Volt's verdict · ${r.date ? fmt(r.date) : ""}</span><h3>${esc(it.name || r.h1)}</h3>${stars(r.rating)}<span class="rv-text">${esc(r.verdict || r.cardText || "")}</span></span></a>`; }).join("")}</div></div></section>`;
+};
+
+module.exports.volt = function volt(b, p, kit) {
+  const { esc } = kit;
+  return `<section class="blocks blocks-volt" id="${esc(b.anchor || "meet-volt")}"><div class="wrap"><div class="vt"><img src="/assets/volt.svg" width="150" height="150" alt="Volt, the ViralGadgets robot mascot"><div><p class="vt-kicker">${esc(b.kicker || "Meet Volt")}</p><h2>${esc(b.title || "Hi, I'm Volt.")}</h2>${b.html || ""}</div></div></div></section>`;
 };

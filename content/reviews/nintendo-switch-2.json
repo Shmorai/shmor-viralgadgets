@@ -1,0 +1,103 @@
+{
+  "slug": "reviews/nintendo-switch-2",
+  "type": "review",
+  "date": "2026-10-14",
+  "updated": "2026-10-14",
+  "eyebrow": "Volt’s verdict",
+  "search": false,
+  "image": {
+    "src": "https://images.unsplash.com/photo-1749138149339-b744bb979317",
+    "alt": "A Nintendo Switch 2 console with a red screen",
+    "credit": "Kamil Switalski",
+    "creditUrl": "https://unsplash.com/@8bitspell"
+  },
+  "sourcesTitle": "The reviews behind this verdict",
+  "blocks": [
+    {
+      "type": "verdict",
+      "position": "top"
+    },
+    {
+      "type": "reviewList",
+      "title": "More of Volt’s verdicts",
+      "limit": 3,
+      "more": true
+    }
+  ],
+  "gadget": "switch-2",
+  "rating": 4.5,
+  "scores": {
+    "hype": 5,
+    "value": 3.5,
+    "staying": 4.5
+  },
+  "title": "Nintendo Switch 2 Review Roundup: Is It Worth It?",
+  "description": "Volt’s research-based verdict on the Nintendo Switch 2: what reviewers love about the screen and power, and the battery and price catches to know first.",
+  "h1": "Nintendo Switch 2: Volt’s verdict",
+  "intro": "More than a year after launch, the Switch 2 is still one of the most-wanted gifts around. Reviewers mostly agree it’s a big upgrade, with two catches.",
+  "verdict": "The best hybrid console you can buy, held back by short handheld battery life and a premium price.",
+  "pros": [
+    "Big, sharp 7.9-inch 1080p screen with up to 120Hz",
+    "Huge performance jump over the original Switch, with 4K output when docked",
+    "Plays most original Switch games, and many run better",
+    "Magnetic Joy-Con 2 controllers that also work like a mouse",
+    "Smooth, fast menus"
+  ],
+  "cons": [
+    "Handheld battery life is short: Nintendo rates it at roughly 2 to 6.5 hours",
+    "LCD rather than OLED, so blacks and HDR in handheld mode are weaker",
+    "Expensive console, and new games are expensive too",
+    "No built-in grips; some find it less comfortable than a Steam Deck",
+    "Some physical games are “game-key cards” that still need a download"
+  ],
+  "bestFor": "New Nintendo players, families, and original Switch owners who want better performance.",
+  "skipIf": "You mostly play handheld on long trips, or you’re happy with an original Switch OLED.",
+  "cardText": "The best hybrid console you can buy, with battery and price catches.",
+  "sections": [
+    {
+      "h2": "Why everyone is talking about it",
+      "html": "<p>Nintendo’s follow-up to one of the best-selling consoles ever launched in June 2025, and it’s still dominating gift lists, unboxing videos and Mario Kart clips. It keeps the original’s hybrid idea (play on the TV, or take it with you) but with a much bigger screen and far more power.</p>"
+    },
+    {
+      "h2": "What the reviews agree on",
+      "html": "<p>Across major reviews, the verdict is remarkably consistent. Tom’s Guide called it the best hybrid console you can buy. Pocket Tactics scored it 9/10. PCWorld was more measured, calling it a smart, meaningful upgrade that suits dedicated fans more than casual players because of its battery, screen and price. TechRadar praised the smooth interface and backwards compatibility but called handheld battery life a real weakness.</p><p>The screen gets near-universal praise, even though it’s LCD rather than OLED. The most common complaint, by far, is battery life in handheld mode, followed by price.</p>"
+    },
+    {
+      "h2": "Volt’s take",
+      "html": "<p>The hype is real: almost nobody who has used one is disappointed by the hardware. Value is where it slips, between the console, the games and a microSD Express card if you need more storage. If you’re buying one as a gift, bundles around Black Friday are usually the best route. Check what’s included before you buy.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Tom’s Guide: Nintendo Switch 2 review",
+      "url": "https://www.tomsguide.com/gaming/nintendo/nintendo-switch-2-console-review"
+    },
+    {
+      "title": "PCWorld: Nintendo Switch 2 review",
+      "url": "https://www.pcworld.com/article/2811793/nintendo-switch-2-review.html"
+    },
+    {
+      "title": "TechRadar: Nintendo Switch 2 review",
+      "url": "https://www.techradar.com/gaming/nintendo/nintendo-switch-2-review"
+    },
+    {
+      "title": "Pocket Tactics: Nintendo Switch 2 review",
+      "url": "https://www.pockettactics.com/nintendo-switch-2-review"
+    },
+    {
+      "title": "Nintendo: Switch 2 official site",
+      "url": "https://www.nintendo.com/us/gaming-systems/switch-2/"
+    }
+  ],
+  "related": [
+    "gaming-gadgets",
+    "gift-ideas/for-teens",
+    "tech-deals"
+  ],
+  "keywords": [
+    "nintendo switch 2 review",
+    "is switch 2 worth it",
+    "switch 2 battery life",
+    "switch 2 pros and cons"
+  ]
+}

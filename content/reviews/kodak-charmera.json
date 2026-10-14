@@ -1,0 +1,97 @@
+{
+  "slug": "reviews/kodak-charmera",
+  "type": "review",
+  "date": "2026-10-14",
+  "updated": "2026-10-14",
+  "eyebrow": "Volt’s verdict",
+  "search": false,
+  "image": {
+    "src": "https://images.unsplash.com/photo-1588294566662-e2e7c54ded11",
+    "alt": "A small white and black point-and-shoot camera",
+    "credit": "Yucel M",
+    "creditUrl": "https://unsplash.com/@ymoran"
+  },
+  "sourcesTitle": "The reviews behind this verdict",
+  "blocks": [
+    {
+      "type": "verdict",
+      "position": "top"
+    },
+    {
+      "type": "reviewList",
+      "title": "More of Volt’s verdicts",
+      "limit": 3,
+      "more": true
+    }
+  ],
+  "gadget": "kodak-charmera",
+  "rating": 3,
+  "scores": {
+    "hype": 4,
+    "value": 3.5,
+    "staying": 2
+  },
+  "title": "Kodak Charmera Review Roundup: Fun or Just Hype?",
+  "description": "Volt’s research-based verdict on the viral Kodak Charmera keychain camera: why reviewers find it charming, and why the photos are, honestly, pretty bad.",
+  "h1": "Kodak Charmera: Volt’s verdict",
+  "intro": "The blind-box keychain camera that kept selling out. Reviewers agree on two things: it’s a lot of fun, and the photos are terrible. Whether that’s a problem is up to you.",
+  "verdict": "A delightful toy and collectible, not a camera for photos you’ll want to keep.",
+  "pros": [
+    "Tiny, cute and genuinely pocketable on a keyring",
+    "Lo-fi, retro-looking photos with built-in filters",
+    "Inexpensive, and fun as a gift or collectible",
+    "The blind-box colours add to the appeal"
+  ],
+  "cons": [
+    "1.6MP fixed-focus lens: soft, low-detail images",
+    "Struggles badly in low light",
+    "Short battery life, and you can’t shoot while it charges",
+    "Fiddly menus for deleting photos and changing settings",
+    "Rare editions attract scalpers and inflated resale prices"
+  ],
+  "bestFor": "Teens and collectors who love the lo-fi, disposable-camera look.",
+  "skipIf": "You want photos sharp enough to print or keep: a second-hand compact digicam is far better.",
+  "cardText": "A delightful toy and collectible, not a serious camera.",
+  "sections": [
+    {
+      "h2": "Why everyone is talking about it",
+      "html": "<p>The Charmera mixes several things TikTok loves at once: blind boxes, keyrings, nostalgia and deliberately imperfect photos. It sold out within a day at launch in 2025, and restocks kept disappearing. Read the full story in our <a href=\"/blog/kodak-charmera-keychain-camera/\">Charmera explainer</a>.</p>"
+    },
+    {
+      "h2": "What the reviews agree on",
+      "html": "<p>Reviewers are unusually unanimous. PetaPixel called the image quality objectively bad. Amateur Photographer was harsher still, while TechRadar called it the worst camera its reviewer had used, yet still loved it for being so retro. Tom’s Guide summed it up as a camera meant for fun, not serious photography. Results are best outdoors in good light, at a metre or two from your subject.</p>"
+    },
+    {
+      "h2": "Volt’s take",
+      "html": "<p>Rated as a camera, it would score lower. Rated as what it really is (a fun, inexpensive collectible that takes charming bad photos), it delivers. Buy from official stockists, never pay scalper prices, and if you want the retro look with better results, see our guide to the <a href=\"/blog/digital-camera-comeback/\">digicam comeback</a>.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "title": "PetaPixel: Kodak Charmera review",
+      "url": "https://petapixel.com/2025/12/20/kodak-charmera-review-reto-makes-a-retro-redo/"
+    },
+    {
+      "title": "Tom’s Guide: Kodak Charmera review",
+      "url": "https://www.tomsguide.com/cameras-photography/kodak-charmera-review"
+    },
+    {
+      "title": "Amateur Photographer: Kodak Charmera review",
+      "url": "https://amateurphotographer.com/review/kodak-charmera-review/"
+    },
+    {
+      "title": "TechRadar: The viral Kodak Charmera",
+      "url": "https://www.techradar.com/cameras/compact-cameras/the-viral-kodak-charmera-is-the-worst-camera-ive-ever-used-but-its-so-bad-and-so-retro-that-i-actually-love-it"
+    }
+  ],
+  "related": [
+    "blog/kodak-charmera-keychain-camera",
+    "cameras-for-creators",
+    "gift-ideas/for-teens"
+  ],
+  "keywords": [
+    "kodak charmera review",
+    "is kodak charmera worth it",
+    "keychain camera review"
+  ]
+}

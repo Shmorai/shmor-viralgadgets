@@ -1,0 +1,60 @@
+{
+  "slug": "reviews",
+  "title": "Gadget Reviews: Volt’s Verdicts on Trending Tech",
+  "description": "Research-based verdicts on the gadgets everyone is talking about, rated by Volt, our robot mascot, from what published reviews and long-term tests agree on.",
+  "nav": "Reviews",
+  "navOrder": 6,
+  "eyebrow": "Volt’s verdicts",
+  "h1": "Volt’s verdicts: is the hype real?",
+  "h1Html": "Volt’s verdicts: is the <em>hype</em> real?",
+  "intro": "Twice a week, Volt picks a gadget that’s blowing up online and asks one question: do the people who’ve actually used it agree with the hype? Star ratings, pros and cons, and links to every review we read.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1615655406736-b37c4fabf923",
+    "alt": "A desk with electronics and a microphone set up for recording",
+    "credit": "Onur Binay",
+    "creditUrl": "https://unsplash.com/@onurbinay"
+  },
+  "cardText": "Research-based star ratings on trending gadgets, published twice a week.",
+  "search": false,
+  "blocks": [
+    {
+      "type": "reviewList",
+      "position": "top",
+      "title": "Latest verdicts"
+    },
+    {
+      "type": "volt",
+      "anchor": "how-volt-rates",
+      "kicker": "How Volt rates",
+      "title": "Hi, I’m Volt. Here’s how I score things.",
+      "html": "<p>I’m ViralGadgets’ mascot: a small, fictional robot who has watched far too many unboxing videos. I don’t have hands, so <strong>I don’t test gadgets myself</strong>. Behind me, the ViralGadgets team reads the in-depth reviews from established tech publications, watches long-term and durability tests, and checks the maker’s specs. My stars are a summary of that research, never a claim that we’ve used the product.</p><ul><li><strong>Lives up to the hype:</strong> do people who’ve actually used it agree with the buzz?</li><li><strong>Value for money:</strong> is it fairly priced against its rivals, including running costs and subscriptions?</li><li><strong>Staying power:</strong> what do long-term reviews and owners say after months, not minutes?</li></ul><p>The overall rating is an editorial judgement across all three, not an average. Every verdict links to the reviews it’s based on. No brand pays for a review or a rating, and we don’t accept free products in exchange for coverage.</p>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Volt a real reviewer?",
+      "a": "No. Volt is our fictional mascot. The ratings are written by the ViralGadgets team from published reviews, long-term tests and official specs. We say clearly on every review that it isn’t a hands-on test."
+    },
+    {
+      "q": "How often are new reviews published?",
+      "a": "Twice a week, usually on Tuesdays and Fridays, focusing on gadgets that are trending on TikTok, Amazon and YouTube."
+    },
+    {
+      "q": "Can brands pay for a better rating?",
+      "a": "No. Ratings are editorial and never paid for. Some “Check today’s price” links may earn us a commission, which never affects the score. <a href=\"https://shmor.ai/affiliate-disclosure/\">How we make money</a>."
+    }
+  ],
+  "related": [
+    "tech-reviewers",
+    "blog/spot-fake-reviews-paid-posts",
+    "tiktok-gadgets"
+  ],
+  "keywords": [
+    "gadget reviews",
+    "tech reviews",
+    "is it worth it",
+    "star ratings",
+    "review roundup"
+  ],
+  "updated": "2026-10-14"
+}

@@ -31,8 +31,8 @@
       "slug": "gift-ideas/for-teens"
     },
     {
-      "label": "Black Friday dates",
-      "slug": "tech-deals"
+      "label": "Volt’s reviews",
+      "slug": "reviews"
     }
   ],
   "latestPosts": 3,
@@ -47,12 +47,26 @@
       "type": "spotlight",
       "position": "top",
       "title": "In the spotlight",
-      "intro": "What every tech channel is talking about this season.",
+      "intro": "Nine gadgets every tech channel is talking about this season.",
       "ids": [
         "switch-2",
         "apple-watch-series-12",
-        "airpods-5"
+        "airpods-5",
+        "iphone-18-pro",
+        "jbl-flip",
+        "kindle-paperwhite",
+        "mini-drone",
+        "ray-ban-meta",
+        "robot-vacuum"
       ]
+    },
+    {
+      "type": "reviewList",
+      "position": "top",
+      "title": "Volt’s latest verdicts",
+      "intro": "New research-based reviews of trending gadgets every Tuesday and Friday, with stars, pros, cons and every source we read.",
+      "limit": 3,
+      "more": true
     },
     {
       "type": "gadgets",

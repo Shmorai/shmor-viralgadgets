@@ -1,0 +1,94 @@
+{
+  "slug": "reviews/kindle-paperwhite",
+  "type": "review",
+  "date": "2026-10-14",
+  "updated": "2026-10-14",
+  "eyebrow": "Volt’s verdict",
+  "search": false,
+  "image": {
+    "src": "https://images.unsplash.com/photo-1703332795377-65ccc6818232",
+    "alt": "An e-reader on a window sill next to a stack of books",
+    "credit": "Irina Rybcko",
+    "creditUrl": "https://unsplash.com/@irarybcko"
+  },
+  "sourcesTitle": "The reviews behind this verdict",
+  "blocks": [
+    {
+      "type": "verdict",
+      "position": "top"
+    },
+    {
+      "type": "reviewList",
+      "title": "More of Volt’s verdicts",
+      "limit": 3,
+      "more": true
+    }
+  ],
+  "gadget": "kindle-paperwhite",
+  "rating": 4.5,
+  "scores": {
+    "hype": 4.5,
+    "value": 4,
+    "staying": 5
+  },
+  "title": "Kindle Paperwhite Review Roundup: Still the One?",
+  "description": "Volt’s research-based verdict on the latest Kindle Paperwhite: the bigger, faster screen and huge battery reviewers love, plus the ads and buttons catch.",
+  "h1": "Kindle Paperwhite: Volt’s verdict",
+  "intro": "BookTok’s favourite gadget got a bigger, faster screen in its latest version. Reviewers love it, but call it an evolution, not a revolution.",
+  "verdict": "Still the e-reader to beat for most people. Just budget for the ad-free version.",
+  "pros": [
+    "Larger 7-inch screen with sharper contrast",
+    "Noticeably faster page turns than older models",
+    "Waterproof for bath and beach reading",
+    "Battery measured in weeks, not days",
+    "Adjustable text size suits readers of every age"
+  ],
+  "cons": [
+    "A modest upgrade if you own a recent Paperwhite",
+    "No physical page-turn buttons",
+    "Lock-screen ads unless you pay extra to remove them",
+    "A little pricier than the model it replaced"
+  ],
+  "bestFor": "First-time e-reader buyers, BookTok fans, and older readers who want bigger text.",
+  "skipIf": "You already own a Paperwhite from the last few years, or you want page-turn buttons.",
+  "cardText": "Still the e-reader to beat, but budget for the ad-free version.",
+  "sections": [
+    {
+      "h2": "Why everyone is talking about it",
+      "html": "<p>BookTok turned reading into one of TikTok’s biggest communities, and the Kindle Paperwhite is the gadget you see in half of those videos. It’s also one of the most heavily discounted devices in Amazon sales, which keeps it on gift lists every year.</p>"
+    },
+    {
+      "h2": "What the reviews agree on",
+      "html": "<p>Tom’s Guide said the bigger display, faster performance and longer battery justify the price increase. TechRadar praised the improved screen contrast and battery but found the design plain for the price. Expert Reviews called it too familiar to be a must-upgrade, but still the go-to touchscreen e-reader. The repeated catches: no page-turn buttons, and ads on the lock screen unless you pay to remove them.</p>"
+    },
+    {
+      "h2": "Volt’s take",
+      "html": "<p>For anyone without an e-reader, this is an easy recommendation and a lovely gift. If you already have a Paperwhite from the last few years, keep it. Wait for a sale: Kindles are among the biggest discounts on Prime Day and Black Friday.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Tom’s Guide: Kindle Paperwhite (2024) review",
+      "url": "https://www.tomsguide.com/tablets/e-readers/kindle-paperwhite-2024-review"
+    },
+    {
+      "title": "TechRadar: Kindle Paperwhite Signature Edition (2024) review",
+      "url": "https://www.techradar.com/tablets/ereaders/amazon-kindle-paperwhite-signature-edition-2024-review"
+    },
+    {
+      "title": "Expert Reviews: Amazon Kindle Paperwhite (2024) review",
+      "url": "https://www.expertreviews.co.uk/technology/tablets-ereaders/amazon-kindle-paperwhite-review"
+    }
+  ],
+  "related": [
+    "gift-ideas/for-grandparents",
+    "amazon-gadgets",
+    "tech-deals"
+  ],
+  "keywords": [
+    "kindle paperwhite review",
+    "is kindle paperwhite worth it",
+    "best e-reader",
+    "kindle ads"
+  ]
+}

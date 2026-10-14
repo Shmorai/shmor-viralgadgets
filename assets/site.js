@@ -163,3 +163,15 @@
     }
   });
 })();
+
+/* "Check today's price" links outside the finder (review pages): use the visitor's saved or guessed region */
+(function () {
+  "use strict";
+  var links = [].slice.call(document.querySelectorAll("a.gz-deal[data-q]")).filter(function (a) { return !a.closest("[data-finder]"); });
+  if (!links.length) return;
+  var HOSTS = { us: "www.amazon.com", uk: "www.amazon.co.uk", eu: "www.amazon.de" }, r;
+  try { r = JSON.parse(localStorage.getItem("vg-region")); } catch (e) { r = null; }
+  var lang = (navigator.language || "en-US").toLowerCase();
+  r = r || (/-gb$|-ie$/.test(lang) ? "uk" : /^(de|fr|es|it|nl|pt|pl|sv|da|fi)/.test(lang) ? "eu" : "us");
+  links.forEach(function (a) { a.href = "https://" + HOSTS[r] + "/s?k=" + encodeURIComponent(a.dataset.q); });
+})();
