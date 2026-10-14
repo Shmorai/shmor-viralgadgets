@@ -49,6 +49,13 @@ const ICO = {
   play: P('m6 3 14 9-14 9V3z'),
 };
 
+// Card photo: Unsplash URLs are resized by their CDN (srcset for sharp cards on every screen)
+function photo(it, { esc, imgSrc }, w = 640, ratio = 0.75, sizes = "(max-width: 640px) 100vw, 360px") {
+  if (!it.img) return "";
+  const set = [360, 640, 960].map(x => `${esc(imgSrc(it.img, x, Math.round(x * ratio)))} ${x}w`).join(", ");
+  return `<img src="${esc(imgSrc(it.img, w, Math.round(w * ratio)))}" srcset="${set}" sizes="${sizes}" width="${w}" height="${Math.round(w * ratio)}" alt="${esc(it.img.alt || "")}" loading="lazy" decoding="async">`;
+}
+
 function matches(it, preset) {
   return Object.entries(preset || {}).every(([k, v]) => {
     const d = DIMS.find(x => x.key === k);
@@ -74,21 +81,21 @@ module.exports.gadgets = function gadgets(b, p, kit) {
     if (it.guide && !bySlug.has(it.guide)) errors.push(`data/gadgets.json: "${it.id}" guide "${it.guide}" isn't a page`);
     const q = encodeURIComponent(it.q || it.name);
     const deal = it.link && LINKS[it.link]
-      ? `<a class="gz-deal" href="${goHref(it.link, src)}" ${AFF}>Check today's price</a>`
-      : `<a class="gz-deal" data-q="${esc(it.q || it.name)}" href="https://${us.host}/s?k=${q}${us.tag ? `&tag=${encodeURIComponent(us.tag)}` : ''}" rel="nofollow noopener sponsored" target="_blank">Check today's price</a>`;
+      ? `<a class="gz-deal" href="${goHref(it.link, src)}" ${AFF}>Check today's price →</a>`
+      : `<a class="gz-deal" data-q="${esc(it.q || it.name)}" href="https://${us.host}/s?k=${q}${us.tag ? `&tag=${encodeURIComponent(us.tag)}` : ''}" rel="nofollow noopener sponsored" target="_blank">Check today's price →</a>`;
     const ages = it.ages.map(a => DATA.ages[a]).join(' · ');
     const who = it.who.length === 1 ? DATA.who[it.who[0]] : DATA.who.anyone;
     return `<article class="gz" id="g-${esc(it.id)}" data-who="${esc(it.who.join(' '))}" data-age="${esc(it.ages.join(' '))}" data-type="${esc(it.type)}" data-price="${esc(it.price)}" data-trend="${esc(it.trend.join(' '))}" data-name="${esc((it.name + ' ' + it.brand + ' ' + (t ? t.label : '')).toLowerCase())}" style="--c:${esc(t ? t.color : '#FF2D55')}">
-  <div class="gz-art">${svg(ART[it.type] || '', 54, 'gz-ico')}<ul class="gz-trend" aria-label="Trending on">${it.trend.map(x => `<li class="tr-${esc(x)}">${esc(DATA.trends[x])}</li>`).join('')}</ul>${it.added ? '<span class="gz-new">New</span>' : ''}
-    <button type="button" class="gz-save" data-save="${esc(it.id)}" aria-pressed="false" aria-label="Save ${esc(it.name)}" hidden>${svg(ICO.heart, 20)}</button></div>
+  <div class="gz-media">${photo(it, kit) || `<span class="gz-art">${svg(ART[it.type] || '', 54, 'gz-ico')}</span>`}<ul class="gz-trend" aria-label="Trending on">${it.trend.map(x => `<li class="tr-${esc(x)}">${esc(DATA.trends[x])}</li>`).join('')}</ul>${it.added ? '<span class="gz-new">New</span>' : ''}
+    <button type="button" class="gz-save" data-save="${esc(it.id)}" aria-pressed="false" aria-label="Save ${esc(it.name)}" hidden>${svg(ICO.heart, 18)}</button></div>
   <div class="gz-body">
-    <p class="gz-kind">${esc(t ? t.label : '')} · ${esc(it.brand)}</p>
+    <p class="gz-kind">${esc(t ? t.label : '')} <span>·</span> ${esc(it.brand)}</p>
     <h3>${esc(it.name)}</h3>
     <p class="gz-blurb">${esc(it.blurb)}</p>
-    <details class="gz-more"><summary>Why it's trending</summary><p>${esc(it.why)}</p>${it.note ? `<p class="gz-note"><strong>Heads-up:</strong> ${esc(it.note)}</p>` : ''}${it.guide ? `<p><a href="${pagePath(bySlug.get(it.guide) || { slug: it.guide })}">Read our guide →</a></p>` : ''}</details>
+    <details class="gz-more"><summary>Why it's trending</summary><p>${esc(it.why)}</p>${it.note ? `<p class="gz-note"><strong>Heads-up:</strong> ${esc(it.note)}</p>` : ''}${it.guide ? `<p><a href="${pagePath(bySlug.get(it.guide) || { slug: it.guide })}">Read our guide →</a></p>` : ''}${it.img?.credit ? `<p class="gz-credit">Illustrative photo: <a href="${esc(it.img.creditUrl)}?utm_source=shmor&amp;utm_medium=referral" rel="nofollow noopener" target="_blank">${esc(it.img.credit)}</a> on Unsplash</p>` : ''}</details>
     <ul class="gz-meta"><li>${esc(DATA.prices[it.price])}</li><li>${esc(who)}</li><li>${esc(ages)}</li></ul>
     <div class="gz-foot">${deal}
-      <a class="gz-rev" href="https://www.youtube.com/results?search_query=${q}+review" rel="nofollow noopener" target="_blank">${svg(ICO.play, 14)} YouTube reviews</a>
+      <a class="gz-rev" href="https://www.youtube.com/results?search_query=${q}+review" rel="nofollow noopener" target="_blank">${svg(ICO.play, 12)} YouTube reviews</a>
       <a class="gz-rev" href="https://www.tiktok.com/search?q=${q}%20review" rel="nofollow noopener" target="_blank">TikTok reviews</a></div>
   </div>
 </article>`;
@@ -112,7 +119,7 @@ module.exports.gadgets = function gadgets(b, p, kit) {
   </div>
   <div class="gz-grid">${items.map(card).join('\n')}</div>
   <p class="gz-empty" data-fz-empty hidden>No gadgets match all of those filters. Try removing one, or <button type="button" data-fz-reset>clear them all</button>.</p>
-  <p class="aff-note">Prices change constantly, so we never list them here: “Check today's price” opens a live retailer search. We may earn a commission from some links, at no extra cost to you. <a href="https://shmor.ai/affiliate-disclosure/">How we make money</a>.</p>
+  <p class="aff-note">Prices change constantly, so we never list them here: “Check today's price” opens a live retailer search. Photos are illustrative and may not show the exact model. We may earn a commission from some links, at no extra cost to you. <a href="https://shmor.ai/affiliate-disclosure/">How we make money</a>.</p>
 </div></div></section>`;
 };
 
@@ -122,4 +129,13 @@ module.exports.ticker = function ticker(b, p, kit) {
   const list = [...DATA.items.filter(it => it.added), ...DATA.items.filter(it => !it.added && it.trend.includes('tiktok'))].slice(0, b.limit || 14);
   const row = list.map(it => `<li><a href="/#g-${esc(it.id)}"><span class="tk-dot" style="background:${esc(DATA.types[it.type].color)}"></span>${esc(it.name)}${it.added ? ' <em>new</em>' : ''}</a></li>`).join('');
   return `<section class="blocks blocks-ticker" aria-label="${esc(b.title || 'Trending right now')}"><div class="tk"><span class="tk-label">${esc(b.title || 'Trending now')}</span><div class="tk-track"><ul>${row}</ul><ul aria-hidden="true">${row.replace(/<a /g, '<a tabindex="-1" ')}</ul></div></div></section>`;
+};
+
+/* "spotlight" block: large photo cards for the newest launches (items with "added", or "ids"), linking to their finder card. */
+module.exports.spotlight = function spotlight(b, p, kit) {
+  const { esc } = kit;
+  const list = (b.ids ? b.ids.map(id => DATA.items.find(it => it.id === id)).filter(Boolean) : DATA.items.filter(it => it.added).sort((x, y) => y.added.localeCompare(x.added))).slice(0, b.limit || 4);
+  if (!list.length) return "";
+  const head = b.title ? `<div class="block-head"><h2>${esc(b.title)}</h2>${b.intro ? `<p>${b.intro}</p>` : ""}</div>` : "";
+  return `<section class="blocks blocks-spotlight"><div class="wrap">${head}<div class="spot-grid">${list.map((it, n) => `<a class="spot${n === 0 ? " spot-lead" : ""}" href="${p.slug ? "/" : ""}#g-${esc(it.id)}">${photo(it, kit, n === 0 ? 1200 : 640, n === 0 ? 0.62 : 0.75, n === 0 ? "(max-width: 900px) 100vw, 60vw" : "(max-width: 900px) 100vw, 30vw")}<span class="spot-shade"></span><span class="spot-body"><span class="spot-kind">${it.added ? "New · " : ""}${esc(DATA.types[it.type].label)}</span><h3>${esc(it.name)}</h3><p>${esc(it.blurb)}</p></span></a>`).join("")}</div></div></section>`;
 };

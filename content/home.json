@@ -2,7 +2,7 @@
   "slug": "",
   "title": "ViralGadgets: Trending TikTok & Amazon Gadgets, Sorted",
   "description": "Discover the viral gadgets trending on TikTok, Amazon and YouTube. Filter by age, gifts for him or her, type and price, with honest heads-ups first.",
-  "eyebrow": "Trending on TikTok · Amazon · YouTube",
+  "eyebrow": "Trending on TikTok, Amazon & YouTube",
   "h1": "The gadgets everyone is talking about",
   "h1Html": "The gadgets <em>everyone</em> is talking about",
   "intro": "From TikTok-famous finds to the launches every tech YouTuber is reviewing: filter by age, who it’s for, type and price. No made-up star ratings, no fake prices, just why it’s trending and what to know before you buy.",
@@ -36,7 +36,7 @@
     }
   ],
   "latestPosts": 3,
-  "latestTitle": "Fresh from the blog",
+  "latestTitle": "From the journal",
   "blocks": [
     {
       "type": "ticker",
@@ -44,15 +44,26 @@
       "title": "Trending now"
     },
     {
+      "type": "spotlight",
+      "position": "top",
+      "title": "In the spotlight",
+      "intro": "What every tech channel is talking about this season.",
+      "ids": [
+        "switch-2",
+        "apple-watch-series-12",
+        "airpods-5"
+      ]
+    },
+    {
       "type": "gadgets",
       "position": "top",
-      "title": "Gadget finder",
+      "title": "The gadget finder",
       "intro": "Tap the chips to mix and match: pick an age, who it’s for, a type, a price band or where it’s trending. Hit <strong>Surprise me</strong> if you can’t decide, and tap the heart to save favourites."
     },
     {
       "type": "tiles",
       "title": "Shop by person",
-      "intro": "Ready-made shortlists for the people on your list.",
+      "intro": "Ready-made shortlists for everyone on your list.",
       "items": [
         {
           "slug": "gift-ideas/for-teens",
@@ -78,48 +89,74 @@
       ]
     },
     {
-      "type": "links",
-      "title": "Browse by type",
+      "type": "tiles",
+      "feature": false,
+      "title": "Browse by category",
+      "intro": "Eight corners of the feed, each with its own shortlist.",
       "items": [
         {
+          "slug": "gaming-gadgets",
           "title": "Gaming",
-          "icon": "star",
-          "slug": "gaming-gadgets"
+          "text": "Switch 2, handhelds and VR"
         },
         {
-          "title": "Smart home & lights",
-          "icon": "sun",
-          "slug": "smart-home-gadgets"
-        },
-        {
-          "title": "Kitchen",
-          "icon": "gift",
-          "slug": "kitchen-gadgets"
-        },
-        {
-          "title": "Cameras & creator kit",
-          "icon": "heart",
-          "slug": "cameras-for-creators"
-        },
-        {
+          "href": "/?type=audio#finder",
           "title": "Headphones & speakers",
-          "icon": "signal",
-          "href": "/?type=audio#finder"
+          "text": "Noise cancelling to open-ear",
+          "image": {
+            "src": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb",
+            "alt": "Black wireless headphones on a white table",
+            "credit": "Luke Peterson",
+            "creditUrl": "https://unsplash.com/@ldpeterson11"
+          }
         },
         {
+          "slug": "cameras-for-creators",
+          "title": "Cameras & creator kit",
+          "text": "Mics, gimbals and retro cameras"
+        },
+        {
+          "slug": "smart-home-gadgets",
+          "title": "Smart home & lights",
+          "text": "Speakers, doorbells, LED lights"
+        },
+        {
+          "href": "/?type=phones#finder",
           "title": "Phones & wearables",
-          "icon": "smartphone",
-          "href": "/?type=phones#finder"
+          "text": "Foldables, watches, smart glasses",
+          "image": {
+            "src": "https://images.unsplash.com/photo-1546868871-7041f2a55e12",
+            "alt": "Space grey Apple Watch with a black sports band",
+            "credit": "Daniel Korpai",
+            "creditUrl": "https://unsplash.com/@danielkorpai"
+          }
         },
         {
+          "slug": "kitchen-gadgets",
+          "title": "Kitchen",
+          "text": "The TikTok recipe favourites"
+        },
+        {
+          "href": "/?type=wellness#finder",
           "title": "Beauty & wellness",
-          "icon": "droplet",
-          "href": "/?type=wellness#finder"
+          "text": "Stylers, LED masks, recovery",
+          "image": {
+            "src": "https://images.unsplash.com/photo-1734111719430-fe4a3973f8af",
+            "alt": "Styling long blonde hair with a round brush",
+            "credit": "Jenna Oslin",
+            "creditUrl": "https://unsplash.com/@jennaoslin"
+          }
         },
         {
+          "href": "/?type=desk#finder",
           "title": "Charging, desk & reading",
-          "icon": "zap",
-          "href": "/?type=desk#finder"
+          "text": "Power banks to e-readers",
+          "image": {
+            "src": "https://images.unsplash.com/photo-1703332795377-65ccc6818232",
+            "alt": "An e-reader on a window sill next to a stack of books",
+            "credit": "Irina Rybcko",
+            "creditUrl": "https://unsplash.com/@irarybcko"
+          }
         }
       ]
     },

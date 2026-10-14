@@ -7,7 +7,7 @@ A Shmor marketplace (shared rules in `../../CLAUDE.md`): its own brand, design a
 |---|---|
 | Card on shmor.ai, search keywords, **referral links**, offers, SEO defaults, `retail` (Amazon hosts + Associates tags per region) | `shmor-site.json` |
 | **Gadget catalogue** (every product card on the site) | `data/gadgets.json` |
-| Finder + ticker block renderers (kit hook) | `tools/blocks.js` |
+| Finder, ticker and spotlight block renderers (kit hook) | `tools/blocks.js` |
 | Pages (1 JSON file = 1 Google landing page) | `content/` (`home.json` = homepage) |
 | Design: header, logo, footer | `templates/layout.html` |
 | Design: styles | `assets/site.css` (kit defaults; **ViralGadgets theme** block at the bottom) |
@@ -31,7 +31,8 @@ Writing rules: research current facts, link sources (`"sources"`), "as of" wordi
 Dated facts to re-check: Prime Big Deal Days card on tech-deals (was 6–7 Oct 2026), Black Friday dates, Meta Ray-Ban Display availability, DJI US availability, airline power-bank rules.
 
 ## Design
-"Sticker pop": cream paper #FFF7EC, ink #14101F with 2.5px black outlines and offset "sticker" shadows, hot red #FF2D55 (brand/accent, CTA buttons), sunny yellow #FFD60A (highlights, eyebrows, Surprise me), electric cyan #00C2FF, violet #6D28D9 (links). Fonts: Bricolage Grotesque (display, 800) + Inter. Logo: red phone with a yellow lightning bolt in a black rounded square + cyan "notification" dot; wordmark "Viral**Gadgets**" + "by Shmor.ai" pill. Hero: photo shown as a tilted sticker on the right (banner strip on mobile), yellow/cyan blobs, highlighted word via `h1Html` with `<em>`. Black scrolling "Trending now" ticker. Gadget cards: colour-coded by type with a big icon, TikTok/Amazon/YouTube stickers, "New" sticker, heart to save. Dark footer. Checked at 375px (no horizontal scroll) and desktop.
+"Editorial" (redesigned 2026-10-14 after the user found the first "sticker pop" look too childish and asked for something more stylish with more photos; the old theme is in git history). Warm paper #F5F3EE, near-black ink #0E0E10, one vermilion accent #E8452C (soft #FF8A73 on dark photos), hairline borders #E0DBD1, no cartoon outlines or icons. Fonts: Instrument Serif (headlines, italic for emphasis via `h1Html` <em>) + Inter Tight (UI and body). Logo: black rounded square with a cream "V" chevron and a vermilion dot; wordmark "Viral" + italic vermilion "Gadgets", "BY SHMOR.AI" small caps.
+**Photo-led:** full-bleed hero photos with a dark gradient on every page; homepage = hero → slim black "Trending now" ticker → "In the spotlight" (3 large photo cards; `spotlight` block with `ids`, chosen because their photos genuinely match the product) → finder → "Shop by person" photo tiles → "Browse by category" (8 photo tiles) → "How we pick" (numbered serif steps) → journal posts. **Every gadget card has a photo** (`img` in data/gadgets.json): free-licence Unsplash, credited in the card details, labelled "illustrative" in the finder note. When a photo clearly shows a different product, prefer a neutral one (e.g. iPhone Duo uses a generic iPhone shot, not Android phones). Finder bar is sticky on desktop; chip rows swipe sideways on mobile. Dark footer. Checked at 375px (no horizontal scroll) and 1440px. The blog is labelled "Journal" in the menu (URL stays /blog/).
 
 ## Commands (run here)
 ```bash
