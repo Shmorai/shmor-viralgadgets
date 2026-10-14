@@ -23,7 +23,7 @@ A Shmor marketplace (shared rules in `../../CLAUDE.md`): its own brand, design a
 
 ## Pages (26)
 Home (ticker + full finder, shop-by-person tiles, browse-by-type, how we pick) · tiktok-gadgets · amazon-gadgets · gadgets-under-50 · gift-ideas (+ for-teens, for-kids, for-her, for-him, for-grandparents) · gaming-gadgets · smart-home-gadgets · kitchen-gadgets · cameras-for-creators · tech-deals (sale calendar + how to check a deal) · tech-reviewers (MKBHD, Mrwhosetheboss, Unbox Therapy, LTT, iJustine, JerryRigEverything, Dave2D, Austin Evans: channel links only, no endorsement claimed; FTC/ASA/EU disclosure rules) · blog + 9 posts.
-Top menu (navOrder): TikTok finds, Amazon finds, Gift ideas, Gaming, Smart home, Deals, Reviewers, Blog.
+Top menu (navOrder): TikTok finds, Amazon finds, Gift ideas, Gaming, Smart home, Deals, Reviewers, Journal (the blog).
 
 ## Blog (/blog/)
 Posts (2026-10): Apple fall launches (iPhone Duo, 18 Pro, Watch 12, AirPods 5), Kodak Charmera, digicam comeback, Black Friday tech deals guide (27 Nov 2026 / Cyber Monday 30 Nov), spotting fake reviews & paid posts, TikTok-made-me-buy-it worth it?, Christmas tech gifts by age, power banks on planes, smart glasses explained.
