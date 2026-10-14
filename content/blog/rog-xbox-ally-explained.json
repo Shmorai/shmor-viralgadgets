@@ -1,0 +1,66 @@
+{
+  "slug": "blog/rog-xbox-ally-explained",
+  "type": "post",
+  "date": "2026-10-14",
+  "updated": "2026-10-14",
+  "eyebrow": "Gaming",
+  "title": "ROG Xbox Ally Explained: Which Model Should You Get?",
+  "description": "The ROG Xbox Ally and Ally X explained in plain English: what Xbox’s first handheld does, how the two models differ, and who should buy which one.",
+  "h1": "ROG Xbox Ally explained: which model should you get?",
+  "intro": "Xbox’s first proper handheld arrived in October 2025, built with ASUS. It comes in two versions that look almost identical but are very different inside, and very different in price.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf",
+    "alt": "A wireless game controller lit by cyan and magenta neon light",
+    "credit": "Javier Martínez",
+    "creditUrl": "https://unsplash.com/@cjdante"
+  },
+  "cardText": "Xbox’s first handheld, the two models, and who should buy which.",
+  "sections": [
+    {
+      "h2": "What it is",
+      "html": "<p>The ROG Xbox Ally is a Windows 11 gaming PC shaped like a controller, with a 7-inch 1080p 120Hz screen. What makes it different from earlier Windows handhelds is the <strong>Xbox full-screen experience</strong>: it boots into a console-style Xbox interface instead of the Windows desktop, so it feels more like a games console. It plays your PC games from Xbox, Game Pass for PC, Steam and other stores.</p>"
+    },
+    {
+      "h2": "Ally vs Ally X",
+      "html": "<table><thead><tr><th></th><th>ROG Xbox Ally</th><th>ROG Xbox Ally X</th></tr></thead><tbody><tr><td>Chip</td><td>AMD Ryzen Z2 A</td><td>AMD Ryzen AI Z2 Extreme</td></tr><tr><td>Memory / storage</td><td>16GB / 512GB</td><td>24GB / 1TB</td></tr><tr><td>US launch price</td><td>$599.99</td><td>$999.99</td></tr><tr><td>Best for</td><td>Lighter games, indies, Game Pass and streaming</td><td>Demanding new PC games</td></tr></tbody></table><p>Specs and launch prices are from launch coverage by Notebookcheck and HotHardware. Prices vary by country and retailer, so check today’s price.</p>"
+    },
+    {
+      "h2": "What reviewers said",
+      "html": "<p>The Ally X was widely praised for performance and comfortable grips, with Notebookcheck noting the Xbox interface is meant to make Windows easier to use on a handheld. The common catches: it’s expensive, and battery life in demanding games is short, as on most PC handhelds. A newer OLED version, the Ally X20, has since been announced at a higher price, according to Tom’s Guide.</p>"
+    },
+    {
+      "h2": "Should you buy one?",
+      "html": "<ul><li><strong>Get the Ally X</strong> if you want to play big new PC games on the go and the budget is there.</li><li><strong>Get the standard Ally</strong> for lighter games and Game Pass, but compare it with a Steam Deck first.</li><li><strong>Get a Switch 2</strong> if you mostly want Nintendo games or a family console.</li></ul><p>Compare them all in our <a href=\"/blog/gaming-handhelds-compared/\">handheld comparison</a> or browse the <a href=\"/gaming-gadgets/\">gaming finder</a>.</p>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is the ROG Xbox Ally an Xbox console?",
+      "a": "No. It’s a Windows gaming PC with an Xbox-style interface. It plays PC games, including PC Game Pass, not Xbox console discs."
+    },
+    {
+      "q": "Can it play Steam games?",
+      "a": "Yes. Because it runs Windows, you can install Steam and other PC game stores."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Notebookcheck: Asus ROG Xbox Ally X",
+      "url": "https://www.notebookcheck.net/Asus-ROG-Xbox-Ally-X.1102117.0.html"
+    },
+    {
+      "title": "HotHardware: ROG Xbox Ally pricing",
+      "url": "https://hothardware.com/news/asus-leaks-rog-xbox-ally-price"
+    },
+    {
+      "title": "Tom’s Guide: ROG Xbox Ally X20 hands-on",
+      "url": "https://www.tomsguide.com/gaming/handheld-gaming/i-tested-the-usd1-299-rog-xbox-ally-x20-with-that-oled-display-the-usd300-price-hike-is-surprisingly-palatable"
+    }
+  ],
+  "keywords": [
+    "rog xbox ally",
+    "xbox ally x",
+    "xbox handheld",
+    "rog ally vs ally x"
+  ]
+}

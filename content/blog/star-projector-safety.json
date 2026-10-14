@@ -1,0 +1,44 @@
+{
+  "slug": "blog/star-projector-safety",
+  "type": "post",
+  "date": "2026-10-14",
+  "updated": "2026-10-14",
+  "eyebrow": "Smart home",
+  "title": "Galaxy Star Projectors: Bedroom Glow-Ups, Done Safely",
+  "description": "Galaxy star projectors made bedroom glow-ups a TikTok trend. What to look for, how laser safety labels work, and tips for using one safely around children.",
+  "h1": "Galaxy star projectors: bedroom glow-ups, done safely",
+  "intro": "A swirling galaxy on the ceiling is one of the easiest room makeovers going. Most projectors use LEDs and small lasers, so a few safety basics matter.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1628498188904-036f5e25e93e",
+    "alt": "Stars in the night sky",
+    "credit": "Olena Bohovyk",
+    "creditUrl": "https://unsplash.com/@olenkasergienko"
+  },
+  "cardText": "What to look for, laser labels explained, and using one safely around kids.",
+  "sections": [
+    {
+      "h2": "How they work",
+      "html": "<p>Most galaxy projectors combine coloured LEDs (for the nebula clouds) with a small laser and a diffraction filter (for the pin-point “stars”). Many add timers, app control and Bluetooth speakers.</p>"
+    },
+    {
+      "h2": "Laser safety labels",
+      "html": "<p>Consumer laser products should carry a laser class label. Lower classes are designed to be safe under normal use, but you should never stare into the beam or let young children look into it up close. In the US, the FDA regulates laser products; in the UK and EU, look for clear safety and conformity markings (UKCA/CE) and buy from reputable sellers.</p>"
+    },
+    {
+      "h2": "Buying tips",
+      "html": "<ul><li>Choose a known brand with a clear laser class label and instructions.</li><li>A sleep timer stops it running all night.</li><li>Check the noise: some have a rotating motor that hums.</li><li>Avoid unbranded “mystery” projectors from social ads.</li></ul><p>Find projectors and lights in our <a href=\"/smart-home-gadgets/\">smart home finder</a>.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "title": "FDA: Laser products and instruments",
+      "url": "https://www.fda.gov/radiation-emitting-products/home-business-and-entertainment-products/laser-products-and-instruments"
+    }
+  ],
+  "keywords": [
+    "galaxy projector",
+    "star projector",
+    "bedroom glow up",
+    "star projector safe"
+  ]
+}

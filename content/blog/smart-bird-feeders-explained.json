@@ -1,0 +1,48 @@
+{
+  "slug": "blog/smart-bird-feeders-explained",
+  "type": "post",
+  "date": "2026-10-14",
+  "updated": "2026-10-14",
+  "eyebrow": "Smart home",
+  "title": "Smart Bird Feeders: How Bird Buddy Went Viral",
+  "description": "How camera bird feeders like Bird Buddy work, what you get free vs with a subscription, the Wi-Fi and placement catches, and why they make a great family gift.",
+  "h1": "Smart bird feeders: how Bird Buddy and friends went viral",
+  "intro": "A bird feeder with a camera that sends “postcards” of every visitor turned garden birds into a TikTok genre. Here’s what you get, and what costs extra.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1718012934624-07822822df8c",
+    "alt": "A bird perched on a bird feeder",
+    "credit": "Andrey Larionov",
+    "creditUrl": "https://unsplash.com/@shooter__andy"
+  },
+  "cardText": "How camera bird feeders work, what’s free and what needs a subscription.",
+  "sections": [
+    {
+      "h2": "How they work",
+      "html": "<p>A camera built into the feeder wakes when a bird lands, records photos or short clips, and sends them to your phone. AI in the app suggests which species it is. Many models have solar roofs to keep the battery topped up.</p>"
+    },
+    {
+      "h2": "Free vs Premium (Bird Buddy)",
+      "html": "<p>Bird Buddy’s support pages say the feeder is fully functional without a membership: you get visitor photos and clips, live view and AI identification. Its Premium plan adds extras such as the highest video quality, more AI features, naming repeat visitors and more storage. Reviewers disagree on whether Premium is worth it; it suits keen birders who use the app a lot.</p>"
+    },
+    {
+      "h2": "Before you buy",
+      "html": "<ul><li><strong>Wi-Fi reach:</strong> the feeder needs a solid signal where you mount it.</li><li><strong>Placement:</strong> good light, away from squirrels if you can, and somewhere you can reach to refill.</li><li><strong>Patience:</strong> it can take days or weeks for birds to find a new feeder.</li></ul><p>It’s a lovely gift for grandparents and nature-loving kids. See it in our <a href=\"/gift-ideas/for-grandparents/\">gifts for grandparents</a>.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bird Buddy support: membership features",
+      "url": "https://support.mybirdbuddy.com/hc/en-us/articles/31848755922705"
+    },
+    {
+      "title": "TechRadar: Bird Buddy Smart Bird Feeder Pro review",
+      "url": "https://www.techradar.com/cameras/bird-buddy-smart-bird-feeder-pro-review"
+    }
+  ],
+  "keywords": [
+    "smart bird feeder",
+    "bird buddy",
+    "bird feeder camera",
+    "bird buddy subscription"
+  ]
+}

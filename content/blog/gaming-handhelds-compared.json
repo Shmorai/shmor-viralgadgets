@@ -1,0 +1,56 @@
+{
+  "slug": "blog/gaming-handhelds-compared",
+  "type": "post",
+  "date": "2026-10-14",
+  "updated": "2026-10-14",
+  "eyebrow": "Gaming",
+  "title": "Switch 2 vs Steam Deck vs Xbox Ally: Which Handheld?",
+  "description": "The big gaming handhelds compared in plain English: Nintendo Switch 2, Steam Deck OLED, ROG Xbox Ally and PlayStation Portal. What each plays and who it suits.",
+  "h1": "Switch 2 vs Steam Deck vs Xbox Ally vs PlayStation Portal",
+  "intro": "Handheld gaming has never had more choice. They look similar, but they play very different games. Start with what you want to play.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1665041982909-8a86864a1e49",
+    "alt": "A handheld game console and controller with figurines on a desk",
+    "credit": "Branden Skeli",
+    "creditUrl": "https://unsplash.com/@branden_skeli"
+  },
+  "cardText": "Four handhelds compared: what each plays and who it suits.",
+  "sections": [
+    {
+      "h2": "At a glance",
+      "html": "<table><thead><tr><th>Handheld</th><th>Plays</th><th>Best for</th></tr></thead><tbody><tr><td>Nintendo Switch 2</td><td>Nintendo games, most Switch 1 games</td><td>Families, Nintendo fans, TV + handheld</td></tr><tr><td>Steam Deck OLED</td><td>Your Steam (PC) library</td><td>PC gamers on a budget</td></tr><tr><td>ROG Xbox Ally / Ally X</td><td>PC games: Xbox PC, Game Pass, Steam and more</td><td>Game Pass and Windows gamers</td></tr><tr><td>PlayStation Portal</td><td>Streams games from your PS5 (and cloud streaming where offered)</td><td>PS5 owners who share the TV</td></tr></tbody></table>"
+    },
+    {
+      "h2": "The questions that matter",
+      "html": "<ul><li><strong>Where are your games?</strong> Your existing library usually decides it.</li><li><strong>Do you need it to work offline?</strong> The PlayStation Portal needs a PS5 and strong Wi-Fi.</li><li><strong>Battery:</strong> all of them drain fast in demanding games; reviewers flagged Switch 2 and PC handheld battery life in particular.</li><li><strong>Budget:</strong> the ROG Xbox Ally X is the priciest of the group.</li></ul>"
+    },
+    {
+      "h2": "Volt’s quick picks",
+      "html": "<p>For most families: <a href=\"/reviews/nintendo-switch-2/\">Switch 2</a>. For PC gamers: Steam Deck OLED. For Game Pass fans with budget: <a href=\"/blog/rog-xbox-ally-explained/\">ROG Xbox Ally X</a>. For PS5 owners: PlayStation Portal. Browse them all in the <a href=\"/gaming-gadgets/\">gaming finder</a>.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Tom’s Guide: Nintendo Switch 2 review",
+      "url": "https://www.tomsguide.com/gaming/nintendo/nintendo-switch-2-console-review"
+    },
+    {
+      "title": "Notebookcheck: Asus ROG Xbox Ally X",
+      "url": "https://www.notebookcheck.net/Asus-ROG-Xbox-Ally-X.1102117.0.html"
+    },
+    {
+      "title": "Steam Deck official site",
+      "url": "https://www.steamdeck.com/"
+    },
+    {
+      "title": "PlayStation Portal official page",
+      "url": "https://www.playstation.com/en-us/accessories/playstation-portal-remote-player/"
+    }
+  ],
+  "keywords": [
+    "best gaming handheld",
+    "switch 2 vs steam deck",
+    "xbox ally vs steam deck",
+    "playstation portal"
+  ]
+}

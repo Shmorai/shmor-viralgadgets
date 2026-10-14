@@ -1,0 +1,46 @@
+{
+  "slug": "blog/wireless-earbuds-buying-guide",
+  "type": "post",
+  "date": "2026-10-14",
+  "updated": "2026-10-14",
+  "eyebrow": "Buying guide",
+  "title": "How to Choose Wireless Earbuds in Five Questions",
+  "description": "Choosing wireless earbuds made simple: your phone, noise cancelling, fit, battery and water resistance, plus why the most hyped pair isn’t always best for you.",
+  "h1": "How to choose wireless earbuds in five questions",
+  "intro": "Earbuds are one of the most-gifted gadgets every year. Answer these five questions and the right pair gets much easier to spot.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46",
+    "alt": "Black and blue wireless earbuds",
+    "credit": "TheRegisti",
+    "creditUrl": "https://unsplash.com/@theregisti"
+  },
+  "cardText": "Phone, noise cancelling, fit, battery and water resistance, in five questions.",
+  "sections": [
+    {
+      "h2": "1. Which phone do you use?",
+      "html": "<p>AirPods work best with iPhone (instant pairing, spatial audio, Find My). Samsung’s Galaxy Buds get extra features with Galaxy phones. Brands like Sony, Bose, Nothing and JBL work well across both.</p>"
+    },
+    {
+      "h2": "2. Do you need noise cancelling?",
+      "html": "<p>For commutes, flights and open-plan offices, active noise cancellation (ANC) is worth it. If you run near traffic, look for a good transparency mode, or consider open-ear headphones that don’t block your ears at all.</p>"
+    },
+    {
+      "h2": "3. How do they fit?",
+      "html": "<p>Fit affects sound, noise cancelling and comfort more than any spec. Stem-style buds suit some ears; rounder buds with silicone tips suit others. Buy from a store with an easy return policy.</p>"
+    },
+    {
+      "h2": "4. Battery and case",
+      "html": "<p>Look at listening time per charge (with ANC on) and total time with the case. Wireless charging is a nice extra, not a must.</p>"
+    },
+    {
+      "h2": "5. Sweat and water",
+      "html": "<p>Check the IP rating if you train hard or run in the rain. IPX4 handles sweat and splashes; higher numbers handle more.</p><p>Compare earbuds in our <a href=\"/?type=audio#finder\">audio finder</a>, or read <a href=\"/reviews/\">Volt’s verdicts</a>.</p>"
+    }
+  ],
+  "keywords": [
+    "best wireless earbuds",
+    "how to choose earbuds",
+    "airpods vs galaxy buds",
+    "noise cancelling earbuds"
+  ]
+}

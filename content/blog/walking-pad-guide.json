@@ -1,0 +1,42 @@
+{
+  "slug": "blog/walking-pad-guide",
+  "type": "post",
+  "date": "2026-10-14",
+  "updated": "2026-10-14",
+  "eyebrow": "Wellness tech",
+  "title": "Walking Pads: Are Under-Desk Treadmills Worth It?",
+  "description": "The #deskwalking trend explained: what an under-desk walking pad is, who it suits, how to set one up safely, and the noise and weight limits to check first.",
+  "h1": "Walking pads: are under-desk treadmills worth it?",
+  "intro": "Walking pads turned working from home into a step-count opportunity. Here’s how to tell if one suits you, and how to use it safely.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1633394782240-f81aba3f850d",
+    "alt": "A woman on a treadmill",
+    "credit": "Mike Cox",
+    "creditUrl": "https://unsplash.com/@iprefermike"
+  },
+  "cardText": "The #deskwalking trend: who walking pads suit and how to use one safely.",
+  "sections": [
+    {
+      "h2": "What a walking pad is",
+      "html": "<p>A walking pad is a slim, folding treadmill without big handrails, designed for slow walking while you work, watch TV or take calls. Most are built for walking speeds, not running, and slide under a sofa or bed when you’re done.</p>"
+    },
+    {
+      "h2": "Who it suits",
+      "html": "<ul><li>People working from home who sit most of the day.</li><li>Anyone who wants gentle movement during calls or TV.</li><li>Not runners: if you want to run, buy a proper treadmill.</li></ul>"
+    },
+    {
+      "h2": "Setting up safely",
+      "html": "<ul><li><strong>Check the weight limit</strong> and maximum speed in the specs.</li><li><strong>Raise your desk</strong> so your elbows are at about 90 degrees; a standing desk or desk riser helps.</li><li>Start slowly and keep typing to simple tasks at first.</li><li>Use the safety clip or remote stop if it has one, and keep pets and children away while it’s running.</li><li>Put it on a firm, flat surface; a mat reduces noise and vibration.</li></ul>"
+    },
+    {
+      "h2": "The neighbour test",
+      "html": "<p>Motors hum and footsteps thud. If you live above someone, check reviews that mention noise, and use a mat. Browse options in our <a href=\"/?type=wellness#finder\">wellness finder</a>.</p>"
+    }
+  ],
+  "keywords": [
+    "walking pad",
+    "under desk treadmill",
+    "desk walking",
+    "walking pad worth it"
+  ]
+}

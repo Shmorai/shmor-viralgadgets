@@ -1,0 +1,42 @@
+{
+  "slug": "blog/record-player-buying-guide",
+  "type": "post",
+  "date": "2026-10-14",
+  "updated": "2026-10-14",
+  "eyebrow": "Buying guide",
+  "title": "Vinyl Is Back: How to Buy Your First Record Player",
+  "description": "Your first record player, explained: built-in vs separate speakers, phono preamps, Bluetooth, and which cheap players can wear out your records.",
+  "h1": "Vinyl is back: how to buy your first record player",
+  "intro": "Record collections are all over TikTok, and vinyl keeps outselling expectations. Here’s how to get started without damaging your records or your budget.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1616714109948-c74fe5029a4d",
+    "alt": "A translucent amber vinyl record spinning on a turntable",
+    "credit": "Jakob Rosen",
+    "creditUrl": "https://unsplash.com/@jakobnoahrosen"
+  },
+  "cardText": "Built-in speakers vs separates, preamps and Bluetooth, explained for beginners.",
+  "sections": [
+    {
+      "h2": "The three ways to set up",
+      "html": "<ol><li><strong>All-in-one players</strong> with built-in speakers: cheapest and simplest, but the sound is limited.</li><li><strong>Turntable + powered speakers:</strong> the sweet spot for most beginners. Many entry turntables have a built-in preamp, so you can plug straight into powered speakers.</li><li><strong>Turntable + amplifier + speakers:</strong> the classic hi-fi route, more flexible and more expensive.</li></ol>"
+    },
+    {
+      "h2": "Preamps, explained",
+      "html": "<p>A record’s signal is very quiet, so it needs a <strong>phono preamp</strong> before it reaches an amplifier or powered speakers. Many beginner turntables have one built in (often switchable). If yours doesn’t, you’ll need a separate preamp or an amp with a “phono” input.</p>"
+    },
+    {
+      "h2": "Bluetooth: handy, with a catch",
+      "html": "<p>Bluetooth turntables can stream to wireless speakers or headphones, which is convenient. Audio quality depends on the speaker, and some fans prefer a wired connection for the best sound.</p>"
+    },
+    {
+      "h2": "What to avoid",
+      "html": "<p>Very cheap suitcase-style players are cute, but many have heavy tonearms and basic cartridges that can wear records faster. If you plan to build a collection, an entry-level turntable with an adjustable counterweight is a better long-term buy. See record players in our <a href=\"/?type=audio#finder\">audio finder</a>.</p>"
+    }
+  ],
+  "keywords": [
+    "record player",
+    "turntable for beginners",
+    "vinyl record player",
+    "bluetooth turntable"
+  ]
+}

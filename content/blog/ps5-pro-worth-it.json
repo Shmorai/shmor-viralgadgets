@@ -1,0 +1,56 @@
+{
+  "slug": "blog/ps5-pro-worth-it",
+  "type": "post",
+  "date": "2026-10-14",
+  "updated": "2026-10-14",
+  "eyebrow": "Gaming",
+  "title": "Is the PS5 Pro Worth It? What Reviewers Say",
+  "description": "Is the PS5 Pro worth it over a standard PS5? What reviewers said about its upscaling and performance, the missing disc drive, and who should actually upgrade.",
+  "h1": "Is the PS5 Pro worth it? What reviewers say",
+  "intro": "Sony’s more powerful PS5 launched in November 2024 to strong graphics and a divisive price. Here’s the reviewer consensus, and who it actually suits.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1622297845775-5ff3fef71d13",
+    "alt": "A white PlayStation console and controller",
+    "credit": "Nik",
+    "creditUrl": "https://unsplash.com/@helloimnik"
+  },
+  "cardText": "Upscaling, performance and the missing disc drive: who should upgrade.",
+  "sections": [
+    {
+      "h2": "What’s different",
+      "html": "<p>The PS5 Pro has a more powerful graphics chip, a 2TB drive and PlayStation Spectral Super Resolution (PSSR), Sony’s AI upscaling. In supported games you can get sharper images and smoother frame rates at the same time.</p>"
+    },
+    {
+      "h2": "The disc drive catch",
+      "html": "<p>It launched at $699.99 in the US <strong>without a disc drive</strong>; the add-on drive and vertical stand are sold separately. If you already have a PS5 Slim drive, it works with the Pro.</p>"
+    },
+    {
+      "h2": "What reviewers said",
+      "html": "<p>Digital Trends called it a worthwhile upgrade for tech enthusiasts that most people can live without. Laptop Mag described it as Sony’s most divisive console. Reviewers agreed the gains show most on a large 4K TV, and are subtle at normal viewing distances.</p>"
+    },
+    {
+      "h2": "Who should upgrade",
+      "html": "<ul><li><strong>Yes:</strong> enthusiasts with a big 4K TV who care about image quality.</li><li><strong>No:</strong> casual players, 1080p TV owners, and anyone happy with their PS5.</li></ul><p>Compare consoles in the <a href=\"/gaming-gadgets/\">gaming finder</a>.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Digital Trends: PS5 Pro review",
+      "url": "https://digitaltrends.com/gaming/ps5-pro-review"
+    },
+    {
+      "title": "Laptop Mag: The PS5 Pro might be Sony’s most divisive console",
+      "url": "https://www.laptopmag.com/gaming/ps5-pro-review-sony-games-performance-value"
+    },
+    {
+      "title": "Press Start: PS5 Pro doesn’t come with a disc drive",
+      "url": "https://press-start.com.au/news/playstation/2024/09/11/the-ps5-pro-doesnt-come-with-a-disc-drive-but-you-can-buy-one-separately/"
+    }
+  ],
+  "keywords": [
+    "ps5 pro worth it",
+    "ps5 pro review",
+    "ps5 pro vs ps5",
+    "ps5 pro disc drive"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "blog/buying-refurbished-tech",
+  "type": "post",
+  "date": "2026-10-14",
+  "updated": "2026-10-14",
+  "eyebrow": "Buying smart",
+  "title": "Buying Refurbished Tech: How to Save Without the Risk",
+  "description": "How to buy refurbished phones, consoles and gadgets safely: grades, warranties and returns, trusted sellers, and the red flags to avoid in the US, UK and EU.",
+  "h1": "Buying refurbished tech: how to save without the risk",
+  "intro": "Last year’s viral gadget is often this year’s bargain. Refurbished tech can save a lot, as long as you know what to check.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1595303526913-c7037797ebe7",
+    "alt": "A black laptop on a white table",
+    "credit": "I'M ZION",
+    "creditUrl": "https://unsplash.com/@ziontech"
+  },
+  "cardText": "Grades, warranties, trusted sellers and red flags when buying refurbished.",
+  "sections": [
+    {
+      "h2": "Refurbished vs used",
+      "html": "<p>“Refurbished” should mean the device has been tested, repaired if needed, cleaned and resold, ideally with a warranty. “Used” or “pre-owned” usually means sold as-is. The seller and the warranty matter more than the label.</p>"
+    },
+    {
+      "h2": "Where to buy",
+      "html": "<ul><li><strong>Manufacturer refurbished</strong> (such as Apple Certified Refurbished): usually the closest to new, with a full warranty.</li><li><strong>Specialist marketplaces</strong> (such as Back Market) and retailer programmes: check who the actual seller is and their rating.</li><li><strong>Private sales:</strong> cheapest, but with the fewest protections.</li></ul>"
+    },
+    {
+      "h2": "Your checklist",
+      "html": "<ul><li>Warranty length and who honours it.</li><li>Return window (in the UK and EU, online purchases from businesses usually come with a 14-day cancellation right).</li><li>Battery health, especially for phones and laptops.</li><li>That it’s unlocked and not tied to someone else’s account (Activation Lock, Find My, Google account).</li><li>What’s in the box: charger and cable aren’t always included.</li></ul>"
+    },
+    {
+      "h2": "Red flags",
+      "html": "<p>No warranty, prices far below every other seller, stock photos only, or pressure to pay by bank transfer. Walk away. More tips in our guide to <a href=\"/blog/spot-fake-reviews-paid-posts/\">spotting fake reviews</a> and the <a href=\"/tech-deals/\">deals calendar</a>.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple Certified Refurbished",
+      "url": "https://www.apple.com/shop/refurbished"
+    },
+    {
+      "title": "GOV.UK: Your consumer rights when buying online",
+      "url": "https://www.gov.uk/consumer-protection-rights"
+    }
+  ],
+  "keywords": [
+    "refurbished phone",
+    "buying refurbished tech",
+    "refurbished vs used",
+    "is refurbished safe"
+  ]
+}

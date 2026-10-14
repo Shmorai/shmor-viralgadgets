@@ -1,0 +1,54 @@
+{
+  "slug": "blog/smart-rings-explained",
+  "type": "post",
+  "date": "2026-10-14",
+  "updated": "2026-10-14",
+  "eyebrow": "Wearables",
+  "title": "Smart Rings Explained: Oura, Galaxy Ring and More",
+  "description": "Smart rings compared in plain English: Oura vs Galaxy Ring vs RingConn and Ultrahuman, subscriptions, sizing, and why some are hard to buy in the US.",
+  "h1": "Smart rings explained: Oura, Galaxy Ring and the rest",
+  "intro": "Smart rings track sleep and recovery without a screen on your wrist. The big differences are subscriptions, phone compatibility and, lately, patent battles.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1536349788264-1b816db3cc13",
+    "alt": "A rumpled bed with striped bedding in soft morning light",
+    "credit": "Becca Schultz",
+    "creditUrl": "https://unsplash.com/@mrsbeccaschultz"
+  },
+  "cardText": "Oura vs Galaxy Ring vs the rest: subscriptions, sizing and US availability.",
+  "sections": [
+    {
+      "h2": "What a smart ring does",
+      "html": "<p>A sensor-packed ring measures heart rate, heart-rate variability, skin temperature and movement, mostly to score your sleep and recovery. With no screen, everything happens in the phone app, and battery life is usually measured in days.</p>"
+    },
+    {
+      "h2": "The main options",
+      "html": "<ul><li><strong>Oura Ring 4:</strong> the category leader with the most polished app, but most insights need a paid monthly membership.</li><li><strong>Samsung Galaxy Ring:</strong> no subscription, works best with Samsung Galaxy phones.</li><li><strong>RingConn:</strong> a lower-priced, subscription-free option, now sold in the US under a patent licence according to reports.</li><li><strong>Ultrahuman:</strong> subscription-free, but its Ring Air was hit by a US import ban after an October 2025 patent ruling in Oura’s favour. Check current availability where you live.</li></ul>"
+    },
+    {
+      "h2": "Sizing and subscriptions",
+      "html": "<p>Always use the free sizing kit: ring sizes vary between brands and fingers swell during the day. And add up the yearly membership cost before comparing prices. A cheaper ring with a subscription can cost more over two years.</p>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do smart rings work with iPhone?",
+      "a": "Oura, RingConn and Ultrahuman work with iPhone and Android. Samsung’s Galaxy Ring is designed for Android, and some features need a Samsung phone."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Tom’s Guide: Oura lawsuit bans rival Ultrahuman in the US",
+      "url": "https://www.tomsguide.com/wellness/smart-rings/oura-lawsuit-bans-rival-ultrahuman-in-the-us-what-that-means-for-your-smart-ring-and-the-best-alternatives"
+    },
+    {
+      "title": "Android Authority: Best smart rings you can still buy in the US",
+      "url": "https://www.androidauthority.com/best-smart-rings-you-can-still-buy-in-us-3590872"
+    }
+  ],
+  "keywords": [
+    "smart ring",
+    "oura vs galaxy ring",
+    "best smart ring",
+    "smart ring subscription"
+  ]
+}
