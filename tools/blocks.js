@@ -131,8 +131,9 @@ module.exports.gadgets = function gadgets(b, p, kit) {
     <div class="fz-groups">${groups}</div>
     <p class="fz-status"><span data-fz-count>${items.length} gadgets</span> <button type="button" class="fz-reset" data-fz-reset hidden>Clear filters</button></p>
   </div>
+  <div class="fz-volt" data-fz-volt hidden aria-live="polite"><img src="/assets/volt.svg" width="52" height="52" alt="Volt"><p></p></div>
   <div class="gz-grid">${items.map(card).join('\n')}</div>
-  <p class="gz-empty" data-fz-empty hidden>No gadgets match all of those filters. Try removing one, or <button type="button" data-fz-reset>clear them all</button>.</p>
+  <p class="gz-empty" data-fz-empty hidden><img src="/assets/volt.svg" width="64" height="64" alt="Volt"><br>Hmm, Volt can’t find a gadget that matches all of those filters. Try removing one, or <button type="button" data-fz-reset>clear them all</button>.</p>
   <p class="aff-note">Prices change constantly, so we never list them here: “Check today's price” opens a live retailer search. Photos are illustrative and may not show the exact model. We may earn a commission from some links, at no extra cost to you. <a href="https://shmor.ai/affiliate-disclosure/">How we make money</a>.</p>
 </div></div></section>`;
 };
@@ -148,10 +149,10 @@ module.exports.ticker = function ticker(b, p, kit) {
 /* "spotlight" block: large photo cards for the newest launches (items with "added", or "ids"), linking to their finder card. */
 module.exports.spotlight = function spotlight(b, p, kit) {
   const { esc } = kit;
-  const list = (b.ids ? b.ids.map(id => DATA.items.find(it => it.id === id)).filter(Boolean) : DATA.items.filter(it => it.added).sort((x, y) => y.added.localeCompare(x.added))).slice(0, b.limit || 4);
+  const list = (b.ids ? b.ids.map(id => DATA.items.find(it => it.id === id)).filter(Boolean) : DATA.items.filter(it => it.added).sort((x, y) => y.added.localeCompare(x.added))).slice(0, b.limit || (b.ids ? 99 : 4));
   if (!list.length) return "";
   const head = b.title ? `<div class="block-head"><h2>${esc(b.title)}</h2>${b.intro ? `<p>${b.intro}</p>` : ""}</div>` : "";
-  return `<section class="blocks blocks-spotlight"><div class="wrap">${head}<div class="spot-grid">${list.map((it, n) => `<a class="spot${n === 0 ? " spot-lead" : ""}" href="${p.slug ? "/" : ""}#g-${esc(it.id)}">${photo(it, kit, n === 0 ? 1200 : 640, n === 0 ? 0.62 : 0.75, n === 0 ? "(max-width: 900px) 100vw, 60vw" : "(max-width: 900px) 100vw, 30vw")}<span class="spot-shade"></span><span class="spot-body"><span class="spot-kind">${it.added ? "New · " : ""}${esc(DATA.types[it.type].label)}</span><h3>${esc(it.name)}</h3><p>${esc(it.blurb)}</p></span></a>`).join("")}</div></div></section>`;
+  return `<section class="blocks blocks-spotlight"><div class="wrap">${head}<div class="spot-grid">${list.map((it, n) => `<a class="spot${n === 0 ? " spot-lead" : ""}" href="${p.slug ? "/" : ""}#g-${esc(it.id)}">${photo(it, kit, n === 0 ? 1200 : 640, n === 0 ? 0.62 : 0.75, n === 0 ? "(max-width: 900px) 100vw, 60vw" : "(max-width: 900px) 100vw, 30vw")}<span class="spot-shade"></span>${(b.comments || {})[it.id] ? `<span class="spot-volt"><img src="/assets/volt.svg" width="30" height="30" alt=""><span>${esc(b.comments[it.id])}</span></span>` : ""}<span class="spot-body"><span class="spot-kind">${it.added ? "New · " : ""}${esc(DATA.types[it.type].label)}</span><h3>${esc(it.name)}</h3><p>${esc(it.blurb)}</p></span></a>`).join("")}</div></div></section>`;
 };
 
 /* ---------- Volt's verdicts (research-based reviews) ----------
@@ -192,4 +193,12 @@ module.exports.reviewList = function reviewList(b, p, kit) {
 module.exports.volt = function volt(b, p, kit) {
   const { esc } = kit;
   return `<section class="blocks blocks-volt" id="${esc(b.anchor || "meet-volt")}"><div class="wrap"><div class="vt"><img src="/assets/volt.svg" width="150" height="150" alt="Volt, the ViralGadgets robot mascot"><div><p class="vt-kicker">${esc(b.kicker || "Meet Volt")}</p><h2>${esc(b.title || "Hi, I'm Volt.")}</h2>${b.html || ""}</div></div></div></section>`;
+};
+
+/* "voltSays" block: Volt pops up between sections with a speech bubble.
+   { "type": "voltSays", "text": "…", "side": "left" | "right", "position": "top" } — keep it playful and honest
+   (opinions drawn from the gadget notes and reviews, never invented facts or numbers). */
+module.exports.voltSays = function voltSays(b, p, kit) {
+  const { esc } = kit;
+  return `<section class="blocks blocks-voltsays"><div class="wrap"><div class="vs vs-${b.side === "right" ? "right" : "left"}"><img src="/assets/volt.svg" width="72" height="72" alt="Volt, the ViralGadgets mascot"><p class="vs-bubble">${esc(b.text)}</p></div></div></section>`;
 };

@@ -36,6 +36,10 @@ Added 2026-10-14. The user asked for twice-weekly reviews of trending items by a
 - A gadget with a review shows its stars + "Volt's verdict" link on its finder card; the homepage shows the 3 latest verdicts above the finder.
 - First reviews (2026-10-14): Nintendo Switch 2 (4.5), Kindle Paperwhite (4.5), Kodak Charmera (3).
 
+## Volt on the homepage
+Added 2026-10-14 to make the site more fun (user request). Volt bobs in the hero with a speech bubble (`heroHtml` in home.json), pops up between sections with "Volt says" bubbles (`voltSays` block: `text` + `side` left/right), leaves a one-line comment on every spotlight card (`comments` map in the spotlight block; shown on hover, and on phones only on the lead card), and appears as a toast when someone hits "Surprise me" (random lines in assets/site.js) and in the finder's empty state. Comments are playful but honest: drawn from the gadgets' notes and reviews, never invented facts or numbers. **Every id in the spotlight `ids` needs a matching comment.**
+Homepage order: hero → ticker → In the spotlight (lead + 12) → Volt says → Shop by person → Browse by category → Volt says → Volt's latest verdicts → Volt says → finder → journal posts → how we pick → FAQ.
+
 ## Automation
 Scheduled task **"ViralGadgets: twice-weekly review + blog post"** (`viralgadgets-twice-weekly`), Tue + Fri ~10:20, runs while the Claude app is open: researches trends, publishes 1 Volt review + 1 journal post, adds/updates gadgets (with checked photos), links them in, adds keywords, rebuilds, syncs the master, commits, and pushes the **private** site repo only (shmor-ai is committed, not pushed).
 

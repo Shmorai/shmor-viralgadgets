@@ -47,7 +47,7 @@
       "type": "spotlight",
       "position": "top",
       "title": "In the spotlight",
-      "intro": "Nine gadgets every tech channel is talking about this season.",
+      "intro": "Thirteen gadgets every tech channel is talking about this season, with a word from Volt on each.",
       "ids": [
         "switch-2",
         "apple-watch-series-12",
@@ -57,22 +57,33 @@
         "kindle-paperwhite",
         "mini-drone",
         "ray-ban-meta",
-        "robot-vacuum"
-      ]
+        "robot-vacuum",
+        "meta-quest-3s",
+        "sony-wh-1000xm6",
+        "mini-projector",
+        "instax-mini"
+      ],
+      "comments": {
+        "switch-2": "Battery’s the catch. Pack a charger!",
+        "apple-watch-series-12": "iPhone only, remember!",
+        "airpods-5": "Noise cancelling on the basic ones now. Fancy.",
+        "iphone-18-pro": "Big jump from an old phone, small from last year’s.",
+        "jbl-flip": "Splash-proof. Unlike me.",
+        "kindle-paperwhite": "BookTok’s favourite. Pay extra to skip the ads.",
+        "mini-drone": "Check the drone rules before take-off!",
+        "ray-ban-meta": "Ask before you film people, please!",
+        "robot-vacuum": "My cousin. Mostly harmless.",
+        "meta-quest-3s": "Clear the room first. Trust me.",
+        "sony-wh-1000xm6": "Last year’s model is often on sale, and still great.",
+        "mini-projector": "“Supports 4K” isn’t native 4K. Sneaky!",
+        "instax-mini": "Budget for film. It adds up!"
+      }
     },
     {
-      "type": "reviewList",
+      "type": "voltSays",
       "position": "top",
-      "title": "Volt’s latest verdicts",
-      "intro": "New research-based reviews of trending gadgets every Tuesday and Friday, with stars, pros, cons and every source we read.",
-      "limit": 3,
-      "more": true
-    },
-    {
-      "type": "gadgets",
-      "position": "top",
-      "title": "The gadget finder",
-      "intro": "Tap the chips to mix and match: pick an age, who it’s for, a type, a price band or where it’s trending. Hit <strong>Surprise me</strong> if you can’t decide, and tap the heart to save favourites."
+      "side": "right",
+      "text": "Fun fact: I can’t actually hold any of these. No hands. Tragic. So I read what everyone who has held them says."
     },
     {
       "type": "tiles",
@@ -100,7 +111,8 @@
           "slug": "gift-ideas/for-grandparents",
           "title": "Gifts for grandparents"
         }
-      ]
+      ],
+      "position": "top"
     },
     {
       "type": "tiles",
@@ -172,7 +184,34 @@
             "creditUrl": "https://unsplash.com/@irarybcko"
           }
         }
-      ]
+      ],
+      "position": "top"
+    },
+    {
+      "type": "voltSays",
+      "position": "top",
+      "side": "left",
+      "text": "My verdicts drop every Tuesday and Friday. I take my stars very seriously."
+    },
+    {
+      "type": "reviewList",
+      "position": "top",
+      "title": "Volt’s latest verdicts",
+      "intro": "New research-based reviews of trending gadgets every Tuesday and Friday, with stars, pros, cons and every source we read.",
+      "limit": 3,
+      "more": true
+    },
+    {
+      "type": "voltSays",
+      "position": "top",
+      "side": "right",
+      "text": "Can’t decide? Smash “Surprise me” below. I dare you."
+    },
+    {
+      "type": "gadgets",
+      "position": "top",
+      "title": "The gadget finder",
+      "intro": "Tap the chips to mix and match: pick an age, who it’s for, a type, a price band or where it’s trending. Hit <strong>Surprise me</strong> if you can’t decide, and tap the heart to save favourites."
     },
     {
       "type": "steps",
@@ -227,5 +266,6 @@
     "cool gadgets",
     "tech gift ideas"
   ],
-  "updated": "2026-10-14"
+  "updated": "2026-10-14",
+  "heroHtml": "<div class=\"hero-volt\" aria-hidden=\"true\"><p class=\"hv-bubble\">Beep! I read the reviews so you don’t have to.</p><img src=\"/assets/volt.svg\" width=\"120\" height=\"120\" alt=\"\"></div>"
 }

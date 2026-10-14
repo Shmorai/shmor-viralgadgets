@@ -123,6 +123,13 @@
         cards.forEach(function (c) { c.classList.remove('zap'); });
         pick.scrollIntoView({ behavior: 'smooth', block: 'center' });
         setTimeout(function () { pick.classList.add('zap'); var d = pick.querySelector('details'); if (d) d.open = true; }, 350);
+        var toast = root.querySelector('[data-fz-volt]');
+        if (toast) {
+          var lines = ['Ooh! How about the %?', 'Volt picks… the %!', 'Beep boop: the % is calling.', 'Trust me on this one: the %.', 'Spin complete. Behold, the %!'];
+          toast.querySelector('p').textContent = lines[Math.floor(Math.random() * lines.length)].replace('%', pick.querySelector('h3').textContent);
+          toast.hidden = false; toast.classList.remove('pop'); void toast.offsetWidth; toast.classList.add('pop');
+          clearTimeout(toast._t); toast._t = setTimeout(function () { toast.hidden = true; }, 4200);
+        }
         return;
       }
       if (e.target.closest('[data-fz-saved]')) {
