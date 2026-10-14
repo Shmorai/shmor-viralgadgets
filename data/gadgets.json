@@ -2538,6 +2538,104 @@
         "credit": "Shashank Verma",
         "creditUrl": "https://unsplash.com/@heyshashank"
       }
+    },
+    {
+      "id": "apple-homeview",
+      "name": "HomeView",
+      "brand": "Apple",
+      "type": "smarthome",
+      "ages": [
+        "young",
+        "adults",
+        "seniors"
+      ],
+      "who": [
+        "him",
+        "her"
+      ],
+      "price": "premium",
+      "trend": [
+        "youtube",
+        "tiktok"
+      ],
+      "added": "2026-10",
+      "blurb": "Apple’s new smart home display: a touchscreen hub for the Home app, FaceTime, music and smart home controls, in tabletop and wall-mounted versions.",
+      "why": "Announced at Apple’s 13 October 2026 “Welcome home” launch; pre-orders are open, with availability from 13 November.",
+      "note": "Not sold in the EU at launch. The wall-mounted version needs a separately sold mount. Brand-new product: wait for full reviews.",
+      "q": "Apple HomeView",
+      "guide": "blog/apple-homeview-homepod-mini-2-apple-tv",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1650682009477-52fd77302b78",
+        "alt": "A white tablet-style screen",
+        "credit": "James Yarema",
+        "creditUrl": "https://unsplash.com/@jamesyarema"
+      }
+    },
+    {
+      "id": "homepod-mini-2",
+      "name": "HomePod mini 2",
+      "brand": "Apple",
+      "type": "audio",
+      "ages": [
+        "teens",
+        "young",
+        "adults",
+        "seniors"
+      ],
+      "who": [
+        "him",
+        "her"
+      ],
+      "price": "mid",
+      "trend": [
+        "youtube",
+        "tiktok",
+        "amazon"
+      ],
+      "added": "2026-10",
+      "blurb": "Apple’s small smart speaker gets a new chip, five colours and Sound Glow lighting that pulses with your music.",
+      "why": "Announced 13 October 2026, on sale from 30 October, and it can team up with the new Apple TV 4K for surround sound.",
+      "note": "The upgraded Siri arrives in a later software update, not at launch. It costs more than the original HomePod mini did.",
+      "q": "HomePod mini 2",
+      "guide": "blog/apple-homeview-homepod-mini-2-apple-tv",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1529359744902-86b2ab9edaea",
+        "alt": "A black Apple HomePod speaker on a table",
+        "credit": "Howard Bouchevereau",
+        "creditUrl": "https://unsplash.com/@howardbouchevereau"
+      }
+    },
+    {
+      "id": "pixel-11",
+      "name": "Pixel 11",
+      "brand": "Google",
+      "type": "phones",
+      "ages": [
+        "teens",
+        "young",
+        "adults",
+        "seniors"
+      ],
+      "who": [
+        "him",
+        "her"
+      ],
+      "price": "premium",
+      "trend": [
+        "youtube",
+        "amazon"
+      ],
+      "added": "2026-08",
+      "blurb": "Google’s mainstream Pixel, known for its cameras, bright display and on-device AI features.",
+      "why": "One of the most-reviewed phones of the season; reviewers rate it highly but question the higher price.",
+      "note": "It costs more than the Pixel 10 did at launch, and reviewers found little reason to upgrade from last year’s model.",
+      "q": "Google Pixel 11",
+      "img": {
+        "src": "https://images.unsplash.com/photo-1581993192008-63e896f4f744",
+        "alt": "A person holding a white Android smartphone",
+        "credit": "Daniel Romero",
+        "creditUrl": "https://unsplash.com/@rmrdnl"
+      }
     }
   ]
 }

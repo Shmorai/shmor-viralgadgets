@@ -1,0 +1,76 @@
+{
+  "slug": "blog/apple-homeview-homepod-mini-2-apple-tv",
+  "type": "post",
+  "date": "2026-10-14",
+  "updated": "2026-10-14",
+  "eyebrow": "Launches",
+  "title": "Apple HomeView, HomePod mini 2 & Apple TV 4K Explained",
+  "description": "Apple’s new home launch in plain English: the HomeView smart display, HomePod mini 2 and new Apple TV 4K, with prices, dates and the EU catch.",
+  "h1": "Apple HomeView, HomePod mini 2 and the new Apple TV 4K, explained",
+  "intro": "On 13 October 2026 Apple launched three home products in one go, by video and press release rather than a live event. Here’s what each one does, when you can get it, and who should wait.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1529359744902-86b2ab9edaea",
+    "alt": "A black Apple HomePod speaker on a table",
+    "credit": "Howard Bouchevereau",
+    "creditUrl": "https://unsplash.com/@howardbouchevereau"
+  },
+  "cardText": "Apple’s new smart display, speaker and TV box: prices, dates and the catches.",
+  "sections": [
+    {
+      "h2": "HomeView: Apple’s first smart home display",
+      "html": "<p>HomeView is a touchscreen hub for the Home app and your smart home devices, which also handles FaceTime calls, music and web browsing. It comes as a tabletop model or a wall-mounted model, both $299 in the US. The wall version needs a separately sold mount. Pre-orders opened on 13 October and it’s available from <strong>13 November</strong>.</p><p><strong>The catch:</strong> as of launch, Apple isn’t selling HomeView in the EU, because Siri AI isn’t available there. The UK is on the launch list.</p>"
+    },
+    {
+      "h2": "HomePod mini 2: new chip, new colours, new glow",
+      "html": "<p>The HomePod mini 2 keeps the familiar ball shape but moves to a newer S10 chip, comes in green, pink, blue, midnight and white, and adds <strong>Sound Glow</strong>, a light on top that pulses with your music. It’s $149 in the US and arrives on <strong>30 October</strong>.</p><p>Apple says the upgraded Siri AI will come to it in a <strong>future software update</strong>, so don’t buy it expecting that on day one. It also costs more than the original did at launch.</p>"
+    },
+    {
+      "h2": "Apple TV 4K (4th generation)",
+      "html": "<p>The new Apple TV 4K costs $299 in the US, gets a faster chip and hands-free Siri, and arrives on <strong>13 November</strong> in the US and many other countries. It can anchor a four-speaker surround setup with HomePod mini 2 or full-size HomePod speakers. That’s a big price jump on the previous model, so if you already have a recent Apple TV, there’s no rush.</p>"
+    },
+    {
+      "h2": "Should you buy now or wait?",
+      "html": "<ul><li><strong>Wait for reviews</strong> on HomeView: it’s a brand-new product category for Apple.</li><li><strong>HomePod mini 2</strong> is the safest buy if you want a small Apple speaker, but expect Siri AI later.</li><li><strong>Apple TV 4K:</strong> worth it mainly if your current box is old, or you want the new surround setup.</li><li>In the EU? HomeView isn’t on sale there yet.</li></ul><p>Compare smart speakers and displays in our <a href=\"/smart-home-gadgets/\">smart home finder</a>, and read Volt’s verdicts once full reviews are in.</p>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "When can I buy Apple HomeView?",
+      "a": "Pre-orders opened on 13 October 2026, and HomeView is available from 13 November 2026 in launch countries including the US and UK. It isn’t sold in the EU at launch."
+    },
+    {
+      "q": "Does HomePod mini 2 have the new Siri?",
+      "a": "Not at launch. Apple says Siri AI will arrive on HomePod mini 2 in a future software update."
+    }
+  ],
+  "sources": [
+    {
+      "title": "9to5Mac: Apple announces HomePod mini 2",
+      "url": "https://9to5mac.com/2026/10/13/apple-announces-homepod-mini-2-siri-ai-new-colors-sound-glow-more/"
+    },
+    {
+      "title": "The Mac Observer: HomeView, HomePod mini 2 and Apple TV 4K prices and release dates",
+      "url": "https://www.macobserver.com/news/homeview-homepod-mini-2-apple-tv-4k-release-dates/"
+    },
+    {
+      "title": "Tom’s Guide: Apple “Welcome home” event recap",
+      "url": "https://www.tomsguide.com/news/live/apple-homeview-event-october-13-live-updates"
+    },
+    {
+      "title": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/"
+    }
+  ],
+  "related": [
+    "smart-home-gadgets",
+    "blog/apple-september-2026-event",
+    "reviews/kindle-paperwhite"
+  ],
+  "keywords": [
+    "apple homeview",
+    "homepod mini 2",
+    "new apple tv 4k",
+    "apple home hub",
+    "homeview price"
+  ]
+}

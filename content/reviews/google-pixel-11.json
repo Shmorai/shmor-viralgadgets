@@ -1,0 +1,96 @@
+{
+  "slug": "reviews/google-pixel-11",
+  "type": "review",
+  "date": "2026-10-14",
+  "updated": "2026-10-14",
+  "eyebrow": "Volt’s verdict",
+  "search": false,
+  "image": {
+    "src": "https://images.unsplash.com/photo-1581993192008-63e896f4f744",
+    "alt": "A person holding a white Android smartphone",
+    "credit": "Daniel Romero",
+    "creditUrl": "https://unsplash.com/@rmrdnl"
+  },
+  "sourcesTitle": "The reviews behind this verdict",
+  "blocks": [
+    {
+      "type": "verdict",
+      "position": "top"
+    },
+    {
+      "type": "reviewList",
+      "title": "More of Volt’s verdicts",
+      "limit": 3,
+      "more": true
+    }
+  ],
+  "gadget": "pixel-11",
+  "rating": 4,
+  "scores": {
+    "hype": 4,
+    "value": 3,
+    "staying": 4
+  },
+  "title": "Google Pixel 11 Review Roundup: Worth the Price Rise?",
+  "description": "Volt’s research-based verdict on the Google Pixel 11: the cameras, display and AI reviewers rate, against a higher price, middling speed and battery life.",
+  "h1": "Google Pixel 11: Volt’s verdict",
+  "intro": "Google’s new mainstream Pixel is a refinement of last year’s phone with a higher price. Reviewers still rate it, with clear caveats.",
+  "verdict": "A great everyday camera phone. A strong upgrade from older Pixels, not from a Pixel 10.",
+  "pros": [
+    "Excellent cameras",
+    "Bright, high-quality display",
+    "Useful on-device AI features and clean software",
+    "Compact, comfortable design"
+  ],
+  "cons": [
+    "Costs more than the Pixel 10 did at launch",
+    "Performance trails rival flagships in benchmarks and gaming",
+    "Battery life is unremarkable",
+    "An iterative update over last year’s model"
+  ],
+  "bestFor": "Owners of a Pixel 9 or older, and anyone who prioritises cameras and AI features over raw speed.",
+  "skipIf": "You own a Pixel 10, or you play demanding games and want the longest battery life.",
+  "cardText": "A great camera phone; upgrade from older Pixels, not a Pixel 10.",
+  "sections": [
+    {
+      "h2": "What the reviews agree on",
+      "html": "<p>Engadget scored it 9.2/10, calling it one of the best smartphones available but not worth upgrading to from a Pixel 10. Tom’s Guide was the most critical, pointing to the $100 price increase, flat battery life and small performance gains. Expert Reviews called it a great phone with a mediocre processor, praising the display and cameras. T3 called it an iterative update that still makes a great daily phone, and SlashGear was the most enthusiastic of all.</p>"
+    },
+    {
+      "h2": "Volt’s take",
+      "html": "<p>The consensus is clear: cameras, screen and AI features are the reasons to buy; price, speed and battery are the reasons to pause. If your current phone is a few years old, it’s a strong pick, especially on a launch or Black Friday deal. Browse more phones in the <a href=\"/?type=phones#finder\">phones and wearables finder</a>.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Engadget: Google Pixel 11 review",
+      "url": "https://engadget.com/2240042/google-pixel-11-review"
+    },
+    {
+      "title": "Tom’s Guide: Google Pixel 11 review",
+      "url": "https://www.tomsguide.com/phones/google-pixel-phones/google-pixel-11-review"
+    },
+    {
+      "title": "Expert Reviews: Google Pixel 11 review",
+      "url": "https://www.expertreviews.co.uk/technology/phones/google-pixel-11-review"
+    },
+    {
+      "title": "T3: Google Pixel 11 review",
+      "url": "https://www.t3.com/tech/phones/google-pixel-11-review"
+    },
+    {
+      "title": "SlashGear: Google Pixel 11 review",
+      "url": "https://www.slashgear.com/2240079/google-pixel-11-review-smartphone/"
+    }
+  ],
+  "related": [
+    "tech-deals",
+    "blog/apple-september-2026-event",
+    "reviews/airpods-pro-3"
+  ],
+  "keywords": [
+    "pixel 11 review",
+    "is the pixel 11 worth it",
+    "pixel 11 vs pixel 10"
+  ]
+}
