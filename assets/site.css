@@ -700,3 +700,12 @@ section h2 { font-size: clamp(30px, 3.8vw, 46px); }
 .tk-track { flex: 1 1 auto; width: 100%; mask-image: none; -webkit-mask-image: none; }
 .tk-label { position: absolute; left: 0; top: 0; bottom: 0; z-index: 2; padding: 0 34px 0 20px; background: linear-gradient(90deg, var(--night) 78%, rgba(14,14,16,0)); }
 .tk-track::after { content: ""; position: absolute; right: 0; top: 0; bottom: 0; width: 40px; background: linear-gradient(270deg, var(--night), rgba(14,14,16,0)); pointer-events: none; }
+
+/* Menu folds into the menu button when it doesn't fit (set by site.js) */
+.nav-compact .menu { display: block; }
+.nav-compact .nav { display: none; position: absolute; left: 0; right: 0; top: 100%; flex-direction: column; gap: 0; background: var(--surface); border-bottom: 1px solid var(--line); padding: 8px 20px 16px; box-shadow: 0 12px 30px rgba(0,0,0,.18); z-index: 60; }
+.nav-compact .nav.open { display: flex; }
+.nav-compact .nav a { padding: 12px 0; border-bottom: 1px solid var(--line); }
+
+/* Let article columns shrink so wide tables scroll inside their box instead of widening the page */
+.content-grid > * { min-width: 0; }
