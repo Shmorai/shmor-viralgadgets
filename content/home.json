@@ -267,5 +267,9 @@
     "tech gift ideas"
   ],
   "updated": "2026-10-14",
-  "heroHtml": "<div class=\"hero-volt\" aria-hidden=\"true\"><p class=\"hv-bubble\">Beep! I read the reviews so you don’t have to.</p><img src=\"/assets/volt.svg\" width=\"120\" height=\"120\" alt=\"\"></div>"
+  "heroHtml": "<div class=\"hero-volt\" aria-hidden=\"true\"><p class=\"hv-bubble\">Beep! I read the reviews so you don’t have to.</p><img src=\"/assets/volt.svg\" width=\"120\" height=\"120\" alt=\"\"></div>",
+  "partners": [
+    "cj7711902-home"
+  ],
+  "partnersTitle": "Shop with our partners"
 }

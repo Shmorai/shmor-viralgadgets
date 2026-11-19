@@ -66,5 +66,9 @@ After changing `shmor-site.json`, also run `node tools/sync-network.js` in `../.
 ## Kit hook added for this site
 `tools/build.js` (kit) loads `tools/blocks.js` if a site has one: `{ typeName: (block, page, kit) => html }`. Added to the kit master and copied to every site on 2026-10-14 (no output change for sites without blocks.js).
 
+## Affiliate partners (live)
+- **AliExpress - Global** (CJ advertiser 7711902, joined; added 2026-11-19). 0–8% by category; 3-day referral period (90-day lock); no trademark bidding; programme codes only. No banners or deep links in CJ. Codes for the **ViralGadgets property (PID 101926879)**: `cj7711902-home` (global homepage), `cj7711902-electronics` (Phone & Electronics category). Skipped the dated campaign links and "up to 70/90% off" claims.
+- Placed with honest heads-ups (delivery times, seller quality, returns, charger safety marks): home card, gadgets-under-50, tech-deals, tiktok-gadgets.
+
 ## Ideas / next
 Amazon Associates (US, UK, DE) tags (note: the review-page price buttons in assets/site.js don't add tags yet; wire them to shmor-site.json retail when tags arrive) · Awin/CJ/Impact programmes for Currys, Argos, Best Buy, John Lewis · weekly "what's trending" post (scheduled task, like TravelDeals) · audio and wellness type pages · a gift quiz.
