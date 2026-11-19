@@ -73,7 +73,7 @@
   "sections": [
     {
       "h2": "Five questions before you buy a tech gift",
-      "html": "<ol><li><strong>Which phone do they use?</strong> Apple Watch, AirTag and many accessories only work with iPhone; others are Android-first.</li><li><strong>Is there a subscription?</strong> Smart rings, video doorbells, kids’ smartwatches and some photo frames work best with a paid plan.</li><li><strong>Will they need to set it up?</strong> For older relatives, set it up before you wrap it.</li><li><strong>What’s the return window?</strong> Check gift receipts and holiday return policies.</li><li><strong>Does it suit their age?</strong> Check platform age rules for VR headsets, smart speakers and social apps.</li></ol>"
+      "html": "<ol><li><strong>Which phone do they use?</strong> Apple Watch, AirTag and many accessories only work with iPhone; others are Android-first.</li><li><strong>Is there a subscription?</strong> Smart rings, video doorbells, kids’ smartwatches and some photo frames work best with a paid plan.</li><li><strong>Will they need to set it up?</strong> For older relatives, set it up before you wrap it.</li><li><strong>What’s the return window?</strong> Check gift receipts and holiday return policies.</li><li><strong>Does it suit their age?</strong> Check platform age rules for VR headsets, smart speakers and social apps.</li></ol>\n[[button:cj7889430-gifts|Browse unusual gifts at Abracadabra NYC]]"
     },
     {
       "h2": "Why we sort by “him” and “her” at all",
@@ -91,5 +91,9 @@
     "christmas tech gifts",
     "birthday gift ideas tech"
   ],
-  "updated": "2026-10-14"
+  "updated": "2026-10-14",
+  "partners": [
+    "cj7889430-gifts"
+  ],
+  "partnersTitle": "Shop with our partners"
 }
