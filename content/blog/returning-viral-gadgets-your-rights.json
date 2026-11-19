@@ -1,0 +1,87 @@
+{
+  "type": "post",
+  "slug": "blog/returning-viral-gadgets-your-rights",
+  "date": "2026-11-19",
+  "updated": "2026-11-19",
+  "eyebrow": "Buying smart",
+  "title": "Bought a Viral Gadget? Your Return Rights Explained",
+  "description": "Your return rights when a viral gadget disappoints: the 14-day online cancellation right in the UK and EU, faulty goods, marketplace sellers and gift returns.",
+  "h1": "Bought a viral gadget that disappoints? Know your return rights",
+  "intro": "The gadget looked amazing in the video, then the box arrives and it is smaller, louder or flimsier than you expected. Before you bin the packaging, here is what UK and EU buyers can usually do, and what to check if you shop elsewhere.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1595303526913-c7037797ebe7",
+    "alt": "A black laptop on a white table",
+    "credit": "I'M ZION",
+    "creditUrl": "https://unsplash.com/@ziontech"
+  },
+  "cardText": "The 14-day cancellation right, faulty goods and marketplace pitfalls.",
+  "sections": [
+    {
+      "h2": "The 14-day right to cancel an online order",
+      "html": "<p>If you buy from a business online, by phone or by mail order in the UK or EU, you can generally cancel within <strong>14 days of delivery</strong> without giving a reason. GOV.UK describes this for the UK, and the EU’s Your Europe portal describes the same 14-day right across EU countries. It is separate from your rights if something is faulty.</p><ul><li>You normally pay the cost of sending the item back, unless the seller offers to pay or failed to tell you about that cost before you bought.</li><li>Some goods are excluded in the EU, including unsealed audio, video or software, and made-to-order or clearly personalised items.</li><li>The right applies to purchases from businesses, not from private individuals.</li></ul><p>Cancellation rules can differ by country and product, so read the seller’s returns page as well as the official guidance.</p>"
+    },
+    {
+      "h2": "Faulty is different from “not what I hoped”",
+      "html": "<p>Changing your mind is covered by the cancellation window above. If a gadget is <strong>faulty</strong>, you have separate legal rights. In the EU you always have a minimum 2-year legal guarantee from receiving the goods: the seller must repair or replace faulty items for free, and if that is not possible you can get a full or partial refund. A defect that appears within a year of delivery is presumed to have been there at delivery unless the seller proves otherwise (in some countries this is two years).</p><p>For tips on telling a genuine problem from hype, see our guide to <a href=\"/blog/spot-fake-reviews-paid-posts/\">spotting fake reviews and paid posts</a>.</p>"
+    },
+    {
+      "h2": "Marketplace sellers and “fulfilled by” listings",
+      "html": "<p>Many viral gadgets are sold on marketplaces by third-party sellers. Check who actually sells the item before you pay: the EU guidance notes that goods bought from a private individual are not covered by the same rules, so confirm the seller is a business. Look at the returns policy on the listing, keep your order confirmation and take photos of the item and packaging when it arrives.</p><p>If you are shopping for gifts, our <a href=\"/blog/black-friday-tech-deals-guide/\">Black Friday tech deals guide</a> covers how to compare offers, and the <a href=\"/blog/buying-refurbished-tech/\">refurbished tech guide</a> explains warranties on second-hand devices.</p>"
+    },
+    {
+      "h2": "Holiday gifts: check the return window first",
+      "html": "<p>Retailers sometimes extend return windows for Christmas, but the extension is the seller’s own policy and it varies, so read it before you buy. If you are buying a gadget as a gift, keep the receipt separate from the packaging and tell the recipient how to return it. Browse the <a href=\"/gift-ideas/\">gift ideas</a> pages for picks sorted by age and who it is for.</p>"
+    },
+    {
+      "h2": "What if you are in the US?",
+      "html": "<p>This article draws on UK and EU official guidance. Return rules for US purchases mostly depend on the seller’s own policy and your state’s law, so check the returns page, any restocking fee and the deadline before you buy, and keep proof of purchase.</p>"
+    },
+    {
+      "h2": "A quick checklist before you click buy",
+      "html": "<ul><li>Is the seller a business, and where are they based?</li><li>Is there a clear returns policy and who pays return postage?</li><li>Is the item unsealed software or personalised (often excluded)?</li><li>Have you saved the listing, order confirmation and delivery date?</li></ul>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I return a gadget I simply do not like?",
+      "a": "If you bought online from a business in the UK or EU, you can usually cancel within 14 days of delivery without giving a reason. Some items, such as unsealed software or personalised goods, are excluded. Check the seller’s returns policy too."
+    },
+    {
+      "q": "Who pays for return postage?",
+      "a": "In the EU you normally pay unless the seller offers to pay or did not tell you about the cost before purchase. If the product is defective, the trader pays the return cost."
+    },
+    {
+      "q": "What if the gadget breaks after a few months?",
+      "a": "In the EU you have at least a 2-year legal guarantee: the seller must repair or replace faulty goods free of charge, or refund you if that is not possible. UK buyers should check GOV.UK’s consumer rights guidance."
+    }
+  ],
+  "sources": [
+    {
+      "title": "GOV.UK: Online and distance selling for businesses (right to cancel)",
+      "url": "https://www.gov.uk/online-and-distance-selling-for-businesses"
+    },
+    {
+      "title": "Your Europe: Returning goods and cancelling orders",
+      "url": "https://europa.eu/youreurope/citizens/consumers/shopping/returns/index_en.htm"
+    },
+    {
+      "title": "Your Europe: Guarantees for goods",
+      "url": "https://europa.eu/youreurope/citizens/consumers/shopping/guarantees-returns/index_en.htm"
+    }
+  ],
+  "keywords": [
+    "return viral gadget",
+    "14 day return online purchase",
+    "consumer rights online shopping",
+    "faulty gadget refund",
+    "returns tiktok made me buy it",
+    "online cancellation right uk",
+    "eu 2 year guarantee electronics",
+    "can i return amazon gadget"
+  ],
+  "related": [
+    "blog/tiktok-made-me-buy-it-gadgets",
+    "blog/spot-fake-reviews-paid-posts",
+    "blog/buying-refurbished-tech"
+  ]
+}
