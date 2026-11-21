@@ -1,0 +1,79 @@
+{
+  "eyebrow": "Safety · Buying smart",
+  "title": "Cheap Chargers and Power Banks: How to Buy Safely",
+  "description": "Viral chargers and power banks can be a bargain or a fire risk. What UK safety groups and Which? found, and a checklist to buy safer before you pay.",
+  "h1": "Cheap chargers and power banks: how to buy them safely",
+  "intro": "Chargers and power banks are among the easiest gadgets to find cheap, and the hardest to judge from a photo. UK consumer and safety groups have repeatedly found unsafe ones on online marketplaces, so here is a short checklist before you buy.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1526738549149-8e07eca6c147",
+    "alt": "A silver iPhone next to a cup and a MacBook",
+    "credit": "AltumCode",
+    "creditUrl": "https://unsplash.com/@altumcode"
+  },
+  "keywords": [
+    "unsafe chargers",
+    "fake phone charger",
+    "power bank safety",
+    "cheap power bank safe",
+    "how to spot a fake charger",
+    "unsafe electrical products online",
+    "charger fire risk",
+    "marketplace seller charger",
+    "buying chargers online"
+  ],
+  "cardText": "What testers found, plus a checklist for chargers and power banks.",
+  "sections": [
+    {
+      "h2": "Why chargers and power banks need extra care",
+      "html": "<p>Anything that handles mains electricity or a lithium battery needs to be built and tested properly. Electrical Safety First, the UK electrical safety charity, has argued that online marketplaces are not held responsible for dangerous products sold by third-party sellers on their sites, and that current law does not fully protect consumers from that risk.</p><p>Which? has also reported that more than half of the unbranded or unknown-brand power banks it tested from online marketplaces had serious electrical safety failings that could, in the worst cases, lead to fires. By contrast, the official Apple USB charger it tested passed all its electrical safety tests. These results are from past investigations, so treat them as a warning about the type of product, not a verdict on any one listing.</p>"
+    },
+    {
+      "h2": "Do not trust reviews or a viral video to prove it is safe",
+      "html": "<p>Electrical Safety First advises shoppers not to assume a product is safe because of its reviews or recommendations, since neither guarantees safety. A product can go viral for its look or price without anyone testing it. Our guide to <a href=\"/blog/spot-fake-reviews-paid-posts/\">spotting fake reviews and paid posts</a> explains why star ratings alone do not prove much.</p>"
+    },
+    {
+      "h2": "A quick checklist before you buy",
+      "html": "<ul><li><strong>Prefer a retailer you know.</strong> Electrical Safety First advises buying from a trusted high street retailer or its online equivalent, rather than an unknown third-party seller.</li><li><strong>Be wary of unknown brands.</strong> Which? advises caution with very cheap products from brands you do not recognise.</li><li><strong>Match the charger to the device.</strong> Check the voltage and current on the label are right for your device.</li><li><strong>Look for a real seller and a returns route.</strong> Keep order records, and ask the seller questions before you buy. A seller who will not answer is a warning sign.</li><li><strong>Avoid used electricals</strong> when you cannot check their history.</li></ul><p>If a price looks far lower than every other listing, ask why. Our <a href=\"/blog/buying-refurbished-tech/\">refurbished tech guide</a> covers safer ways to save.</p>"
+    },
+    {
+      "h2": "If you already own a doubtful one",
+      "html": "<p>Stop using a charger or power bank that gets unusually hot, swells, smells, or looks damaged, and do not leave it charging unattended overnight. Check the manufacturer’s or retailer’s returns route, and see our guide to <a href=\"/blog/returning-viral-gadgets-your-rights/\">returning viral gadgets: your rights</a>. Do not put a damaged battery in general waste or recycling bins, since lithium batteries should go to a proper battery recycling point. If you are travelling, <a href=\"/blog/power-banks-on-planes/\">check the airline’s power bank rules</a> too.</p>"
+    },
+    {
+      "h2": "Black Friday and Christmas: when risky bargains multiply",
+      "html": "<p>Sale season brings plenty of very cheap chargers, cables and power banks. Our <a href=\"/blog/black-friday-tech-deals-guide/\">Black Friday tech deals guide</a> and <a href=\"/tech-deals/\">tech deals page</a> show how to check a price. Price is only part of it: a safe charger from a known seller at a normal price beats an unknown one at half the price.</p>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are cheap power banks from online marketplaces safe?",
+      "a": "Not always. Which? found more than half of the unbranded or unknown-brand power banks it tested from online marketplaces had serious electrical safety failings. Buying from a trusted retailer lowers the risk."
+    },
+    {
+      "q": "Can I trust reviews to show a charger is safe?",
+      "a": "No. Electrical Safety First says reviews and recommendations do not guarantee a product is safe."
+    },
+    {
+      "q": "What should I do if my charger gets very hot?",
+      "a": "Stop using it, unplug it safely and contact the seller or manufacturer. Do not keep using a damaged or overheating charger."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Electrical Safety First: Unsafe household goods sold via online marketplaces",
+      "url": "https://www.electricalsafetyfirst.org.uk/media-centre/press-releases/2023/03/unsafe-household-goods-sold-via-online-marketplaces-present-dangerous-risks-to-consumers-looking-to-save-money"
+    },
+    {
+      "title": "Which?: Killer chargers, travel adaptors and power banks rife on online marketplaces",
+      "url": "https://www.which.co.uk/news/2019/09/killer-chargers-travel-adaptors-and-power-banks-rife-on-online-marketplaces/"
+    }
+  ],
+  "related": [
+    "blog/buying-refurbished-tech",
+    "blog/power-banks-on-planes"
+  ],
+  "type": "post",
+  "date": "2026-11-21",
+  "updated": "2026-11-21",
+  "slug": "blog/unsafe-chargers-power-banks-how-to-check"
+}
