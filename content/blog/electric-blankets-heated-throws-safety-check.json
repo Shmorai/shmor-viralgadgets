@@ -1,0 +1,80 @@
+{
+  "eyebrow": "Safety · Winter gadgets",
+  "title": "Electric Blankets and Heated Throws: Safety Check",
+  "description": "Heated blankets and throws are everywhere this winter. What UK fire safety advice says about checking, using, storing and replacing one, plus buying tips.",
+  "h1": "Electric blankets and heated throws: a safety check before you plug in",
+  "intro": "Cosy gadgets sell fast once the nights get cold, and heated blankets and throws are a perennial viral pick. They are also electrical products that live in your bed, so a few minutes of checking is worth it before you switch one on.",
+  "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Bed_in_Seattle_hotel.jpg/1920px-Bed_in_Seattle_hotel.jpg",
+    "alt": "An unmade bed with white sheets and pillows",
+    "credit": "Liz Lawley / CC BY-SA 2.0",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Bed_in_Seattle_hotel.jpg"
+  },
+  "keywords": [
+    "electric blanket safety",
+    "heated blanket safety",
+    "heated throw safe",
+    "how often replace electric blanket",
+    "electric blanket checks",
+    "are electric blankets safe overnight",
+    "buy electric blanket",
+    "winter gadgets safety",
+    "second hand electric blanket"
+  ],
+  "cardText": "What fire services say about checking, using and replacing heated blankets.",
+  "sections": [
+    {
+      "h2": "Check your electric blanket before each winter",
+      "html": "<p>London Fire Brigade advises taking a few minutes at the start of each winter to check the blanket is safe to keep using. Stop using and replace it if you see:</p><ul><li>worn or frayed fabric</li><li>scorch marks</li><li>exposed wires</li><li>a damaged cord, control or connector</li><li>buzzing, a burning smell or an overheating controller</li></ul><p>It also says to replace a blanket <strong>at least every 10 years</strong>, even if it looks fine. See the <a href=\"https://london-fire.gov.uk/safety/the-home/electrical-items/electric-blankets\" rel=\"noopener\">London Fire Brigade electric blanket page</a> for the full advice.</p>"
+    },
+    {
+      "h2": "Using a heated blanket safely overnight",
+      "html": "<p>The same guidance says to <strong>unplug the blanket before you get into bed</strong>, unless it has a thermostat that is designed for safe all-night use. Check the instructions to see which type you have. Other points from the fire brigade:</p><ul><li>Do not use a hot water bottle at the same time as an electric blanket.</li><li>Do not use one with an airflow pressure-relief mattress or with emollient creams.</li></ul><p>If you are caring for someone vulnerable, such as an older relative, check the blanket for them.</p>"
+    },
+    {
+      "h2": "How to store it between winters",
+      "html": "<p>Store the blanket flat, rolled up or loosely folded, because tight folding can damage the internal wiring. Looking it over when you take it out of storage is the easiest moment to spot damage, so combine the two jobs.</p>"
+    },
+    {
+      "h2": "Buying a new one: what to look for",
+      "html": "<p>The fire brigade’s advice is not to buy a second-hand electric blanket, as you cannot know how it has been stored or used. When shopping new:</p><ul><li><strong>Match the type to how you will use it.</strong> An over-blanket for warming the bed before you get in is different from one built for all-night use.</li><li><strong>Look for a recognised safety mark for your region</strong> and the manufacturer’s name and address on the product and in the manual.</li><li><strong>Be wary of unbranded listings</strong> from anonymous marketplace sellers. Our guide to <a href=\"/blog/unsafe-chargers-power-banks-how-to-check/\">buying chargers and power banks safely</a> covers the same checks, and the advice on <a href=\"/blog/spot-fake-reviews-paid-posts/\">spotting fake reviews</a> applies to blanket listings too.</li><li><strong>Keep your receipt</strong> and know your return rights; see <a href=\"/blog/returning-viral-gadgets-your-rights/\">returning viral gadgets</a>.</li></ul>"
+    },
+    {
+      "h2": "Heated gadgets that run on USB or batteries",
+      "html": "<p>Heated vests, gloves and seat pads that plug into a power bank are popular as well. They are not covered by the blanket advice above, so follow the maker’s instructions, use the power bank and cable it recommends and keep them away from anything that blocks heat. If a battery pack gets hot, swells or smells, stop using it. Our <a href=\"/blog/power-banks-on-planes/\">power banks on planes</a> guide explains the battery rules for travel.</p>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How often should I replace an electric blanket?",
+      "a": "London Fire Brigade advises replacing electric blankets at least every 10 years, and sooner if you see wear, scorch marks, exposed wires or damage to the cord or controls."
+    },
+    {
+      "q": "Is it safe to leave an electric blanket on all night?",
+      "a": "Only if it is designed for it. The fire brigade says to unplug the blanket before getting into bed unless it has a thermostat for safe all-night use, so check the manual for your model."
+    },
+    {
+      "q": "Can I use a hot water bottle with an electric blanket?",
+      "a": "No. London Fire Brigade advises not using a hot water bottle at the same time as an electric blanket."
+    },
+    {
+      "q": "Is it OK to buy a second-hand electric blanket?",
+      "a": "The fire brigade advises against it, because you cannot know how it has been used or stored. Buy new from a seller you can contact."
+    }
+  ],
+  "sources": [
+    {
+      "title": "London Fire Brigade: Electric blankets",
+      "url": "https://london-fire.gov.uk/safety/the-home/electrical-items/electric-blankets"
+    }
+  ],
+  "related": [
+    "blog/unsafe-chargers-power-banks-how-to-check",
+    "blog/christmas-tech-gifts-by-age",
+    "blog/returning-viral-gadgets-your-rights"
+  ],
+  "type": "post",
+  "date": "2026-11-24",
+  "updated": "2026-11-24",
+  "slug": "blog/electric-blankets-heated-throws-safety-check"
+}
