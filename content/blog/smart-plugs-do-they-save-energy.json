@@ -1,0 +1,84 @@
+{
+  "eyebrow": "Smart home · Energy",
+  "title": "Smart Plugs: Do They Really Save Energy?",
+  "description": "Do smart plugs save energy? What Which? found on standby costs, why an energy monitor is the useful bit, payback times and what to check before you buy.",
+  "h1": "Smart plugs: do they actually save energy, or just add convenience?",
+  "intro": "Smart plugs are a classic winter-gift pick and a regular on the Amazon and TikTok “home hacks” lists. The pitch is that they cut your bills by switching off power-hungry devices. The evidence is more modest. Here is what independent testing found, when a plug earns its keep and what to check before you buy.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1542681575-352258e0c854",
+    "alt": "A bedroom lit with coloured LED lights",
+    "credit": "Joshua Rawson-Harris",
+    "creditUrl": "https://unsplash.com/@joshrh19"
+  },
+  "keywords": [
+    "do smart plugs save energy",
+    "smart plug energy saving",
+    "smart plug standby power",
+    "smart plug with energy monitor",
+    "are smart plugs worth it",
+    "smart plug payback",
+    "best smart plug uk",
+    "matter smart plug",
+    "smart plug safety"
+  ],
+  "cardText": "What testing says about standby costs, payback and when a smart plug is worth buying.",
+  "sections": [
+    {
+      "h2": "Do smart plugs save energy?",
+      "html": "<p>Not much on their own. In its standby-cost investigation, Which? says smart plugs can make life more convenient, but they are <strong>not the best way to save energy</strong>, unless the plug has an integrated energy monitor. The reason is simple: a smart plug uses a little power itself, and most of the devices people plug into one use very little on standby anyway.</p><p>Which? put a number on it (page updated July 2024, based on the energy price cap at the time of its calculations): a smart plug left on standby costs about <strong>97p a year</strong> to run. Its figures for the devices you might switch off are similarly small, for example 51p a year for a TV, £2.21 for a TV streamer and £4.43 for a soundbar. Switching off every device on its list at the wall would save about £20.40 a year, which it calls “a far cry from” bigger claims in the media. Your own figure will depend on your devices and your tariff.</p>"
+    },
+    {
+      "h2": "The useful bit: the energy monitor",
+      "html": "<p>A plug with <strong>built-in energy monitoring</strong> shows how much electricity an appliance really uses, so you can decide what is worth switching off, and which old fridge, heater or dehumidifier is quietly expensive to run. Which? names the TP-Link Tapo P110 as the cheapest tested monitoring plug it was happy to recommend at the time of its article, so check that the model is still sold and still rated before you buy.</p><p>That is also a good reason to buy one plug, not a pack of six: move it around the house for a few weeks, note what you find, then decide. If you are building up a smart home, our <a href=\"/smart-home-gadgets/\">smart home gadgets</a> page has other ideas.</p>"
+    },
+    {
+      "h2": "How long does a smart plug take to pay for itself?",
+      "html": "<p>Which? worked out the payback from energy savings alone: roughly <strong>a year when the plug is paired with a smart speaker, and more than seven years for the most expensive plug</strong> it looked at. It also noted that the cheapest model it tested cost £8.99 while some cost over £40. Treat those as 2024 examples, as prices move. The takeaway: if the plug only has to turn off a TV streamer, a cheap plug can make sense, and an expensive one will not repay you in energy savings. Pay extra only for features you will use, such as schedules, voice control or monitoring.</p>"
+    },
+    {
+      "h2": "Things you should not put on a smart plug",
+      "html": "<p>Some devices are better left powered. Which? warns that switching off a <strong>wireless router</strong> overnight may look like an unstable connection to your provider and can lead to throttled speeds, and that a <strong>printer</strong> needs to stay connected so it can clean its print heads. Cutting power to those could cost you more in the long run than it saves.</p><p>Also check the plug’s rated load before you connect a heater or kettle. A cheap, unbranded plug is not the place to save money. Our guide to <a href=\"/blog/unsafe-chargers-power-banks-how-to-check/\">buying chargers and power banks safely</a> covers the same checks, such as safety marks and seller details, and our <a href=\"/blog/electric-blankets-heated-throws-safety-check/\">electric blanket safety check</a> explains why heating appliances need extra care.</p>"
+    },
+    {
+      "h2": "Matter, apps and what to check before you buy",
+      "html": "<p>Matter is a smart home standard developed by the Connectivity Standards Alliance, whose members include Amazon, Apple and Google. A Matter logo is meant to show that a device works reliably with other certified products, and the Alliance keeps the official list of certified products. If you use more than one voice assistant, check the <a href=\"https://csa-iot.org/all-solutions/matter/\">Matter information page</a> and the certified product list rather than relying on a box claim.</p><ul><li><strong>Your ecosystem:</strong> does it work with the app or assistant you already use?</li><li><strong>Energy monitoring:</strong> is it included, and does the app show history?</li><li><strong>Safety marks and rating:</strong> look for the correct marks for your country and a load rating that suits what you will plug in.</li><li><strong>Returns:</strong> know your rights if it is faulty. See our guide to <a href=\"/blog/returning-viral-gadgets-your-rights/\">returning viral gadgets</a>.</li></ul>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do smart plugs use electricity themselves?",
+      "a": "Yes. Which? calculated that a smart plug on standby costs about 97p a year to run, based on the price cap used in its 2024 article."
+    },
+    {
+      "q": "Is a smart plug with an energy monitor worth it?",
+      "a": "It is the version Which? says is useful for saving energy, because it shows what your appliances use. Which? recommended the TP-Link Tapo P110 as the cheapest tested monitoring plug it was happy with at the time. Check current availability and ratings."
+    },
+    {
+      "q": "Which devices should not be switched off with a smart plug?",
+      "a": "Which? advises against cutting power to a wireless router overnight, as it can look like an unstable connection and lead to throttled speeds, and to a printer, which needs to stay connected to clean its print heads."
+    },
+    {
+      "q": "What does Matter mean on a smart plug?",
+      "a": "Matter is a smart home standard from the Connectivity Standards Alliance. The logo is meant to show a certified device that works with other certified products. The Alliance publishes the list of certified products."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Which?: How much does it really cost you to leave your tech on standby?",
+      "url": "https://www.which.co.uk/news/article/how-much-does-it-really-cost-you-to-leave-your-tech-on-standby-a9Elw3D3HKUR"
+    },
+    {
+      "title": "Connectivity Standards Alliance: Matter",
+      "url": "https://csa-iot.org/all-solutions/matter/"
+    }
+  ],
+  "related": [
+    "smart-home-gadgets",
+    "blog/unsafe-chargers-power-banks-how-to-check",
+    "blog/returning-viral-gadgets-your-rights"
+  ],
+  "type": "post",
+  "date": "2026-11-26",
+  "updated": "2026-11-26",
+  "slug": "blog/smart-plugs-do-they-save-energy"
+}
