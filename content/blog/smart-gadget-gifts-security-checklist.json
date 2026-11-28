@@ -1,0 +1,87 @@
+{
+  "eyebrow": "Smart home · Gift safety",
+  "title": "Smart Gadget Gifts: A Security Checklist",
+  "description": "Before you buy or give a smart gadget this Christmas: what UK law says, how to check update support, and setup steps from the NCSC to keep devices safe.",
+  "h1": "Smart gadget gifts: a quick security checklist before you buy or unwrap",
+  "intro": "Smart speakers, cameras, trackers and connected toys are all over gift lists this season. They are also the kind of product that stays on your home network for years. A few minutes of checking before you buy, and a few more at setup, makes a big difference. Here is a plain-English checklist based on guidance from the UK’s National Cyber Security Centre (NCSC) and the government’s product security rules.",
+  "keywords": [
+    "smart gadget gifts security",
+    "are smart devices safe",
+    "smart device security checklist",
+    "psti act smart devices",
+    "smart device support period",
+    "change default password smart device",
+    "two step verification smart devices",
+    "connected toys safety",
+    "smart speaker privacy settings",
+    "factory reset before selling smart device",
+    "christmas tech gifts safety"
+  ],
+  "cardText": "What to check before buying a connected gadget, and the setup steps that matter most.",
+  "blocks": [],
+  "sections": [
+    {
+      "h2": "Why smart gadgets need a security check",
+      "html": "<p>A smart gadget is a small computer on your Wi-Fi. If it ships with a weak password, never gets updates or is left on factory settings, it can become the easiest way into your home network. The NCSC says to <strong>think of a device’s support date as a “use by” date</strong>: once the manufacturer stops providing security updates, the risk goes up. That is why checking support before you buy matters more than any feature on the box.</p>"
+    },
+    {
+      "h2": "What UK law now requires",
+      "html": "<p>Since 29 April 2024, the UK’s product security rules (the PSTI regime) have applied to consumer smart devices that connect to the internet or a home network. According to the NCSC, manufacturers must not supply devices with default passwords that can easily be found online, must provide a point of contact for reporting security issues, and must state the minimum length of time the device will receive important security updates. The rules also reach importers and retailers. The NCSC lists smart speakers, TVs, doorbells, security cameras, wearables and smart appliances among the products covered.</p><p>That doesn’t make every gadget perfect, and it is a UK rule. If you shop from overseas marketplaces, check what information the seller gives. For returns on a gadget that disappoints, see our guide to <a href=\"/blog/returning-viral-gadgets-your-rights/\">viral gadget return rights</a>.</p>"
+    },
+    {
+      "h2": "Before you buy: five checks",
+      "html": "<ul><li><strong>Look for the update promise.</strong> Find the stated minimum security-update period. If you can’t find one, treat that as a warning sign.</li><li><strong>Avoid devices already out of support</strong>, or close to the end of it.</li><li><strong>Read reviews of the product and the maker</strong>, as the NCSC suggests, and check the device’s minimum requirements (phone, app, Wi-Fi band).</li><li><strong>Check the app.</strong> Many gadgets need an account; see what permissions the app asks for and whether you actually need remote access.</li><li><strong>Compare with a simpler option.</strong> If a non-connected version does the same job, it has nothing to hack. Our <a href=\"/blog/smart-plugs-do-they-save-energy/\">smart plug guide</a> shows how to weigh convenience against real benefit.</li></ul>"
+    },
+    {
+      "h2": "Setup steps that matter most",
+      "html": "<ol><li><strong>Change any default password</strong> and make the new one hard to guess. The NCSC suggests combining three random words.</li><li><strong>Turn on two-step verification</strong> (2SV) on the device’s account or app if it is offered.</li><li><strong>Switch on automatic updates</strong> where available, and install updates when prompted.</li><li><strong>Switch off remote access</strong> if you only use the gadget at home.</li><li><strong>Keep the box and receipt</strong> until you are happy with the device.</li></ol><p>If you think someone has taken control of a device, the NCSC advises checking the maker’s website and resetting it using the manufacturer’s instructions.</p>"
+    },
+    {
+      "h2": "Giving or reselling a gadget",
+      "html": "<p>Before you pass on, sell or recycle a smart device, carry out a factory reset, which the NCSC says should also remove your personal data. If you are giving a gadget as a present, set the account up in the recipient’s name where you can, or tell them how to change the password and turn on updates. Gadgets bought second-hand need the same checks; see our <a href=\"/blog/buying-refurbished-tech/\">refurbished tech guide</a>.</p>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do smart devices sold in the UK have to meet security rules?",
+      "a": "Yes. Since 29 April 2024 the UK’s PSTI rules have applied to consumer smart devices. The NCSC says they ban easily discoverable default passwords and require a security contact point and a stated minimum update period."
+    },
+    {
+      "q": "How do I find out how long a gadget will get updates?",
+      "a": "Manufacturers must state the minimum period for security updates under the UK rules. Look on the product page, packaging or the maker’s support site, and avoid products that don’t say."
+    },
+    {
+      "q": "What should I do before selling a smart device?",
+      "a": "Perform a factory reset, which the NCSC says should also remove your personal data, and remove it from your account or app."
+    },
+    {
+      "q": "Is a three-random-word password really enough?",
+      "a": "The NCSC recommends combining three random words for a strong, memorable password, and adding two-step verification where the device or app offers it."
+    }
+  ],
+  "sources": [
+    {
+      "title": "NCSC: Smart devices: using them safely in your home",
+      "url": "https://www.ncsc.gov.uk/guidance/smart-devices-in-the-home"
+    },
+    {
+      "title": "NCSC: Smart devices: new law helps citizens to choose secure products",
+      "url": "https://www.ncsc.gov.uk/blog-post/smart-devices-law"
+    }
+  ],
+  "related": [
+    "smart-home-gadgets",
+    "blog/smart-plugs-do-they-save-energy",
+    "blog/christmas-tech-gifts-by-age"
+  ],
+  "type": "post",
+  "date": "2026-11-28",
+  "updated": "2026-11-28",
+  "slug": "blog/smart-gadget-gifts-security-checklist",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1542681575-352258e0c854",
+    "alt": "A bedroom lit with coloured LED lights",
+    "credit": "Joshua Rawson-Harris",
+    "creditUrl": "https://unsplash.com/@joshrh19"
+  }
+}
